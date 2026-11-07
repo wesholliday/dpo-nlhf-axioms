@@ -1,0 +1,16 @@
+\begin{table}[h!]
+\centering
+\small
+\begin{tabular}{lrrrrr}
+\hline
+Model & $n$ & Median TV & Mean TV & 90th pct. TV & Top-1 agreement \\
+\hline
+Qwen2.5 & 154 & $8.83\cdot 10^{-5}$ & $4.65\cdot 10^{-3}$ & $1.37\cdot 10^{-2}$ & 153/154 \\
+Qwen3 & 167 & $1.05\cdot 10^{-4}$ & $5.10\cdot 10^{-3}$ & $1.67\cdot 10^{-2}$ & 167/167 \\
+Mistral-Nemo-Base-2407 & 199 & $2.33\cdot 10^{-4}$ & $5.47\cdot 10^{-3}$ & $1.64\cdot 10^{-2}$ & 199/199 \\
+\hline
+\end{tabular}
+\vspace{1em}
+\caption{Summary of DPO sweeps over the $n$ profiles $\mathbf{R}$ for which $\mathrm{TV}(\mathrm{RTBT}_{0.1}(\mathbf{R},\rho),\rho)\geq 0.01$. TV denotes $\mathrm{TV}(\pi,\mathrm{RTBT}_{0.1}(\mathbf{R},\rho))$, where $\pi$ is the distribution of the DPO-trained model. Top-1 agreement occurs when $\mathrm{RTBT}_{0.1}(\mathbf{R},\rho)$ and $\pi$ assign maximum probability to the same candidate.}
+\label{dpo-numerical-summary}
+\end{table}

@@ -1,0 +1,38 @@
+[
+  {
+    "model": "nemo",
+    "documented_pairs": 85,
+    "changed_finite_empirical_pairs": 57,
+    "restored_nonfinite_empirical_pairs": 13,
+    "corrected_theory_x_values": 77,
+    "currently_predicted_positive": 83,
+    "positive_with_empirical_violation": 37,
+    "recorded_reference_predicted_positive": 83,
+    "recorded_reference_positive_with_empirical_violation": 37,
+    "max_initial_reference_difference": 0.0
+  },
+  {
+    "model": "qwen25",
+    "documented_pairs": 88,
+    "changed_finite_empirical_pairs": 0,
+    "restored_nonfinite_empirical_pairs": 0,
+    "corrected_theory_x_values": 1,
+    "currently_predicted_positive": 88,
+    "positive_with_empirical_violation": 31,
+    "recorded_reference_predicted_positive": 88,
+    "recorded_reference_positive_with_empirical_violation": 31,
+    "max_initial_reference_difference": 0.0
+  },
+  {
+    "model": "qwen3",
+    "documented_pairs": 78,
+    "changed_finite_empirical_pairs": 0,
+    "restored_nonfinite_empirical_pairs": 0,
+    "corrected_theory_x_values": 0,
+    "currently_predicted_positive": 78,
+    "positive_with_empirical_violation": 34,
+    "recorded_reference_predicted_positive": 78,
+    "recorded_reference_positive_with_empirical_violation": 34,
+    "max_initial_reference_difference": 0.0
+  }
+]

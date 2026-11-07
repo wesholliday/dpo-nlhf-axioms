@@ -1,0 +1,2621 @@
+{
+  "files": {
+    ".gitignore": {
+      "sha256": "af255f9d0e7c244f490ba291a1af6d9cc2745364cb2078ce7d4f67284781a5f8",
+      "submission_sha256": "3215196b2d0eb49a41cb6e8ce7916d3e7cc3be2008aa71ae30d7905ec8e9bec9"
+    },
+    "LICENSE": {
+      "sha256": "07084f73feba1a255cb8fd343b90e945295e14211563e4853da7270cab3e751b",
+      "submission_sha256": "ff54d3fa03d2de1304d917c97984c34246f477b9e9bac0acdc85a43ab5af0cb3"
+    },
+    "Makefile": {
+      "sha256": "77ff5ec4605e8d0308d5c13a97571287d1af6bb0e0aa4b70e9c25ed8b52a3600",
+      "submission_sha256": "bdd80aa731da884055d9cf4bd7338fcde7f54b1924123b774c4080d323e0263f"
+    },
+    "README.md": {
+      "sha256": "6fab15737bb7a9797bc71f3a7f0a55413a537eef3dd8bb4b40a371fc60d5add4",
+      "submission_sha256": "f199e3f31d18592596d776a2f635676386bc5e32a30edf343a185407c647a2db"
+    },
+    "SUPPLEMENT_MANIFEST.md": {
+      "sha256": "4aaae969cb1de95ce90cb959a583b07e1adf34383ec814af0e56cd2ccd71b1bd",
+      "submission_sha256": "1bb6bd13b81a5915fa8cbed5896cccdbcda1ccd0628d294b89810e4f850589d1"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "sha256": "564899d09f97a461c5cb52038874bfc981bbaaf86377c19880e7e034d959faee"
+    },
+    "artifact_instructions.txt": {
+      "sha256": "6915e4d42423abacc1b14c3254a8d1ab7386fdc3a76831ac64ea02a4803da299",
+      "submission_sha256": "6e622731fe6bc116bc27700f35ee8bf00e9fb11cbbbde0fb2fe438eb2dcbf289"
+    },
+    "code_versions/completion_2026_11_01/SOURCE_MANIFEST.json": {
+      "sha256": "0b3c3fff272a2104806f61b1e6f6651996dae5f58df6833498a6ca0ddaf18a12"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu0.case_keys.txt": {
+      "sha256": "e79a187705dcd29aac7782793b1651db65fbe3d383f7119aa42d38bc3f4f16a7"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu1.case_keys.txt": {
+      "sha256": "5348d6ceae9e025f9de2f233fb21870b0cfdf86872019555259f1224a93964bf"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu2.case_keys.txt": {
+      "sha256": "73a46613e5aa2f825ac3cbe80bede548cd0c7def6b56c1b86225c672c45a5936"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu3.case_keys.txt": {
+      "sha256": "830951365c1b9588bf82505f2fe68dcad01ffc94eea7fe7558a909bfa52830ab"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu4.case_keys.txt": {
+      "sha256": "bc9e73a2eb4593bb880bd84b036f670180143fd3036d0ba26671ffc462fda0df"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu5.case_keys.txt": {
+      "sha256": "7cd2e5b227585b4dfc79f4e7161806d4121d5887fa2755f6f875b79110aa5ca1"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu6.case_keys.txt": {
+      "sha256": "1873c245efcdb91c8600ea626745923ae79db82dd46c045f7e7bdcadb5fb9ada"
+    },
+    "code_versions/completion_2026_11_01/batches/gpu7.case_keys.txt": {
+      "sha256": "e4f95ddc6e6aa8ea99e55d9863aebdd44669c2077e5d848a30a6c8a873835bbf"
+    },
+    "code_versions/completion_2026_11_01/batches/mps.case_keys.txt": {
+      "sha256": "4720149f768ff24c31b4c946f6621997bf07c8f86b1a59d61d1f216afe244a60"
+    },
+    "code_versions/completion_2026_11_01/scripts/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/completion_2026_11_01/scripts/coval/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/completion_2026_11_01/scripts/coval/profiles.py": {
+      "sha256": "1e33c867893c20554e5a694a8ec0fb5444cf57f282ca4cfe5534924903e137e9"
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/batch_profile_empirical_vs_theory.py": {
+      "sha256": "4372191544f1bb2f79020776a1eb58161599e43839f9ec59f836fa596b3527f2"
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/commutativity_presets.py": {
+      "sha256": "b4d5adf23130b7c06c2c189cdd4638ea5ddbdbafd2e23fc1328982a9533ac1fa",
+      "submission_paths": [
+        "scripts/post_training/commutativity_presets.py"
+      ]
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/experiment_provenance.py": {
+      "sha256": "2b6468c83dba335d9ec278627a0dd2c0a9c3f33e6abeeb74e2f60873c29a5374"
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/nash_md_loss.py": {
+      "sha256": "af07e79a119d128fabad73605cfe8394136d80e7f1854dbea3db8a0c1ccacb91"
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/train_coval_dpo.py": {
+      "sha256": "26071bee6d5b4e0ffbfeab217d429144ac3a7684f44f4b8c1333976505096510",
+      "submission_paths": [
+        "scripts/post_training/train_coval_dpo.py"
+      ]
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/train_coval_nash_md.py": {
+      "sha256": "ae6712cc5a6eea41e072c571aac97bbcfbe6f14c0a5844f197cf8295364735c9"
+    },
+    "code_versions/completion_2026_11_01/scripts/post_training/train_coval_nash_md_commutativity.py": {
+      "sha256": "15033c71cd90fefa3b427abf2fab5766053187fb96e9914da61fe16acd854794"
+    },
+    "code_versions/completion_2026_11_01/scripts/theory/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/completion_2026_11_01/scripts/theory/nlhf_tie_normalization.py": {
+      "sha256": "523235492f37cc49cafa58b920f0e36da23e0bef6fece27bc9378e2546347f79"
+    },
+    "code_versions/completion_2026_11_01/scripts/theory/search_strict_weak_positive_involvement.py": {
+      "sha256": "223b75c0c61f04c1f398c63230e622a3b1747bebca82af87da977c61e6986bd4"
+    },
+    "code_versions/historical/SOURCE_MANIFEST.json": {
+      "sha256": "8463188aa45f02509d3233f07d1ad064b3523ac184854fcab92ddc966ef14297"
+    },
+    "code_versions/historical/scripts/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/additional_checks/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/additional_checks/check_submission_artifact.py": {
+      "sha256": "0fcb0eb780f80eef170fcb7090ed333cba67e4039fe5e475a946b11dd52e36f8",
+      "submission_paths": [
+        "scripts/additional_checks/check_submission_artifact.py"
+      ]
+    },
+    "code_versions/historical/scripts/additional_checks/smoke_test_reproducibility.py": {
+      "sha256": "6ba23eaf0a03c369c3137b755c8b97ef9c6424993962bf9a1d509225a7084a91",
+      "submission_paths": [
+        "scripts/additional_checks/smoke_test_reproducibility.py"
+      ]
+    },
+    "code_versions/historical/scripts/additional_checks/train_coval_online_ipo.py": {
+      "sha256": "a957f3b278133bbffa002c9a74bfd7c0cfa71590ff30753f027504082d203b71"
+    },
+    "code_versions/historical/scripts/additional_checks/train_coval_online_ipo_commutativity.py": {
+      "sha256": "acf32fcb7bcd408fc5f998060459439b1bc6164968bde4c600e6e025ee7144dd"
+    },
+    "code_versions/historical/scripts/coval/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/coval/profiles.py": {
+      "sha256": "09aceee4d6fb8a2db7677abbc57ce69f6c203e73179299a3ff1e195ccce4e33d",
+      "submission_paths": [
+        "scripts/coval/profiles.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/generate_dpo_numerical_summary_table.py": {
+      "sha256": "3f9f770705656ad1f6455633a7f3b3add71f5384b013d6b2083f122552133ec0"
+    },
+    "code_versions/historical/scripts/figures/generate_frequency_data_tables.py": {
+      "sha256": "409487f52f9c9b2a53a695a102fa4e599d063f29fdf86aa622c2306712569519"
+    },
+    "code_versions/historical/scripts/figures/plot_combined_violation_frequency_panels.py": {
+      "sha256": "06838cffc28f2e0281d7ba72b02ddd625845d45f048ccfe717b7a63484d9bbaf",
+      "submission_paths": [
+        "scripts/figures/plot_combined_violation_frequency_panels.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_commutativity_violation_graphs.py": {
+      "sha256": "58859bf092ca51b9c33195816866e4cba7d2b264628e978f8d3c8657b39acfdb",
+      "submission_paths": [
+        "scripts/figures/plot_commutativity_violation_graphs.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_filtered_dpo_sweep_agreement.py": {
+      "sha256": "299077ffda5c4f240a6e403c252c59db602753b65dfbef7660b94bb25f4d3cc2",
+      "submission_paths": [
+        "scripts/figures/plot_filtered_dpo_sweep_agreement.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_nashmd_commutativity_agreement_panels.py": {
+      "sha256": "51b2ce22b6b16a953384b1e79916c4af5f3b5ba00dd0097d301d224111afd763",
+      "submission_paths": [
+        "scripts/figures/plot_nashmd_commutativity_agreement_panels.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_nontrivial_reference_update_frequency.py": {
+      "sha256": "16f366925a8b71f0d47c553fd5380735649b04b9255b681bb91e797f348a4a26"
+    },
+    "code_versions/historical/scripts/figures/plot_qwen25_bubble_agreement_panels.py": {
+      "sha256": "93a364c80e1d9b8e5f87aaa6471963429498799fbd35847ce880bb3b2e105c56",
+      "submission_paths": [
+        "scripts/figures/plot_qwen25_bubble_agreement_panels.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_qwen25_joint_dpo_bubble_agreement.py": {
+      "sha256": "91599644031fcc9b96dab5561ee49207f630e1d5f4962e6a99b0d299cc11cbc2",
+      "submission_paths": [
+        "scripts/figures/plot_qwen25_joint_dpo_bubble_agreement.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_reference_update_size_sweeps.py": {
+      "sha256": "e365f7623bebdeb2e714a2070c5092ac7d4e731b5d0085f8e7beae143f7e2b1a"
+    },
+    "code_versions/historical/scripts/figures/plot_rtbt_involvement_dpo_agreement.py": {
+      "sha256": "4fcd4d8e38347ddb3b6794a9b210ab153b26c476972c6c3eff8d6aadf9feafef",
+      "submission_paths": [
+        "scripts/figures/plot_rtbt_involvement_dpo_agreement.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_theory_change_conditioned_magnitude_boxplot.py": {
+      "sha256": "31f3c1f2738fc34d7ac74a5480b3df11f686e81dc064492319f4bcbccd401623"
+    },
+    "code_versions/historical/scripts/figures/plot_theory_change_conditioned_parameter_sweeps.py": {
+      "sha256": "7344bef69037abdd44e47cdb22041f7a6c92252fc329e9c1d7175e4bf2e11da5"
+    },
+    "code_versions/historical/scripts/figures/plot_theory_change_conditioned_profile_frequencies.py": {
+      "sha256": "363512b606e55f905742866881426e49061f7c9c9935c1bcd1e58c684c4db648",
+      "submission_paths": [
+        "scripts/figures/plot_theory_change_conditioned_profile_frequencies.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_unconditioned_violation_frequency_panels.py": {
+      "sha256": "9c55219d74c905acf086d6598ccb4d8833f340eba13a30570ad4ed1009f28e87",
+      "submission_paths": [
+        "scripts/figures/plot_unconditioned_violation_frequency_panels.py"
+      ]
+    },
+    "code_versions/historical/scripts/figures/plot_violation_magnitude_boxplot.py": {
+      "sha256": "7070e944764a9c33bc1d61ef4515eeec4263a165ea02e4ed7cf7d0097404a7a4",
+      "submission_paths": [
+        "scripts/figures/plot_violation_magnitude_boxplot.py"
+      ]
+    },
+    "code_versions/historical/scripts/orchestration/__init__.py": {
+      "sha256": "de47db0dedeeb0065905cb989395622d9194eeba12574221dd5854c80fc65bb3",
+      "submission_paths": [
+        "scripts/orchestration/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/post_training/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/post_training/batch_profile_empirical_vs_theory.py": {
+      "sha256": "189a84f59d9139b88e16a240b8f5d9a2efd78b96979262a3db37bb890c27e487"
+    },
+    "code_versions/historical/scripts/post_training/commutativity_presets.py": {
+      "sha256": "b4d5adf23130b7c06c2c189cdd4638ea5ddbdbafd2e23fc1328982a9533ac1fa",
+      "submission_paths": [
+        "scripts/post_training/commutativity_presets.py"
+      ]
+    },
+    "code_versions/historical/scripts/post_training/monitor_empirical_vs_theory_run.py": {
+      "sha256": "59b830160731b95b3b4c42d4790562aa0c792f769ce6b23772db5fbd39d8db6b",
+      "submission_paths": [
+        "scripts/post_training/monitor_empirical_vs_theory_run.py"
+      ]
+    },
+    "code_versions/historical/scripts/post_training/orchestrate_empirical_vs_theory_chunked.py": {
+      "sha256": "c3380e16371a873d8d3d6f1a90a141ebc820f10d904258202c919741f70a0375"
+    },
+    "code_versions/historical/scripts/post_training/summarize_empirical_jsonl.py": {
+      "sha256": "ef649fdaeabf55fe12fe34f683a7d241e398f93ee452a1f58ba8308b2b1f84dd",
+      "submission_paths": [
+        "scripts/post_training/summarize_empirical_jsonl.py"
+      ]
+    },
+    "code_versions/historical/scripts/post_training/summarize_empirical_vs_theory_run.py": {
+      "sha256": "e0c4db0c7c8c0e23f8195d44de4b112a78a798fb5eac595efd0e8302f4d43aff",
+      "submission_paths": [
+        "scripts/post_training/summarize_empirical_vs_theory_run.py"
+      ]
+    },
+    "code_versions/historical/scripts/post_training/train_coval_dpo.py": {
+      "sha256": "1ec89af5cea107e7ba4ac0c0a2a1b787ee8f26e9499bd5520ab3adfd4444707a"
+    },
+    "code_versions/historical/scripts/post_training/train_coval_dpo_multi_profile.py": {
+      "sha256": "ca9cc4e8e9aeb32226d06c05e1d76d44a1fe9aa2dc1c7e44df419a582285ae6c",
+      "submission_paths": [
+        "scripts/post_training/train_coval_dpo_multi_profile.py"
+      ]
+    },
+    "code_versions/historical/scripts/post_training/train_coval_nash_md.py": {
+      "sha256": "7492f2d470643e76d03d230a76ae03efbe2d201a79debf68497d7c33dfbe6843"
+    },
+    "code_versions/historical/scripts/post_training/train_coval_nash_md_commutativity.py": {
+      "sha256": "572b6ead8f57b14990c95d777f795cf4bb59dcf2945399e410850873124c9581"
+    },
+    "code_versions/historical/scripts/reference_distributions/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/reference_distributions/derive_reference_ablation_caches.py": {
+      "sha256": "5cc754b1891c3b028d41d50514caf677055421a864da38f7042ec664c15054a2"
+    },
+    "code_versions/historical/scripts/reference_distributions/extract_model_reference_pytorch.py": {
+      "sha256": "53e259730412cf76170eaf0ed2cb54e8d3ad299c19b69744cf3f061419101abe",
+      "submission_paths": [
+        "scripts/reference_distributions/extract_model_reference_pytorch.py"
+      ]
+    },
+    "code_versions/historical/scripts/theory/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/historical/scripts/theory/analyze_coval_lb_vs_pb.py": {
+      "sha256": "660c1c20960abb78f571ff5c32a26455d19fa766a5e02953e8b7ae04fd7efa76"
+    },
+    "code_versions/historical/scripts/theory/cache_nlhf_tie_threshold_effects.py": {
+      "sha256": "b7312af4595b6463812d3cceccdd75dc619af5e2607706bfc8056739aaf0cf59",
+      "submission_paths": [
+        "scripts/theory/cache_nlhf_tie_threshold_effects.py"
+      ]
+    },
+    "code_versions/historical/scripts/theory/count_rtbt_domain_profiles.py": {
+      "sha256": "9954272b9362e2cee554852185f0876479627b5e69f228191eae21c43a7fb055",
+      "submission_paths": [
+        "scripts/theory/count_rtbt_domain_profiles.py"
+      ]
+    },
+    "code_versions/historical/scripts/theory/nlhf_solver.py": {
+      "sha256": "49610b8e324ef8a6a46e46480d131391d99503aa1435122c606b0c650c479074",
+      "submission_paths": [
+        "scripts/theory/nlhf_solver.py"
+      ]
+    },
+    "code_versions/historical/scripts/theory/nlhf_tie_normalization.py": {
+      "sha256": "126f29c8f3aa674618b6c381a223d4846c4ae30a469669c532b247d9b207834c",
+      "submission_paths": [
+        "scripts/theory/nlhf_tie_normalization.py"
+      ]
+    },
+    "code_versions/historical/scripts/theory/search_coval_nlhf_reverse_monotonicity.py": {
+      "sha256": "257200355f223637df757ee1bad1de64f11b96afb82bc98ce2de4f96078fce6c"
+    },
+    "code_versions/historical/scripts/theory/search_coval_violation_counts.py": {
+      "sha256": "91ebfcf0155d78a85d1de8451eb147f19de28e7980f9a933977f5c5afd893601"
+    },
+    "code_versions/historical/scripts/theory/search_model_reference_commutativity.py": {
+      "sha256": "1abac410244f64a5d9f8b058fd42466b2f580cce0f23d9329e3968d95f8da7ff"
+    },
+    "code_versions/historical/scripts/theory/search_model_reference_examples.py": {
+      "sha256": "710e6e27461f23b392bc135efcb44ac72bd4f8d372375e6d1a34f95a3fafcc43"
+    },
+    "code_versions/historical/scripts/theory/search_model_reference_violation_counts.py": {
+      "sha256": "f74f523c9e8d2de60939397fc72d8945e39680ff1aa1b63b08727cd550d8936f"
+    },
+    "code_versions/historical/scripts/theory/search_new_nlhf_tie_normalization_examples.py": {
+      "sha256": "f4235650b23fbfe26233d2fcd31cb71f2f3b10fb076453435e1a20c43816ac9e"
+    },
+    "code_versions/historical/scripts/theory/search_nlhf_tie_normalization_examples.py": {
+      "sha256": "9f01cbfa30583d9e0f16725fff1666bd0789cd400302c861b14b133648daee84",
+      "submission_paths": [
+        "scripts/theory/search_nlhf_tie_normalization_examples.py"
+      ]
+    },
+    "code_versions/historical/scripts/theory/search_strict_weak_positive_involvement.py": {
+      "sha256": "3af1db45ba47c204330f72a6f9faad98f65d6429adb675032b422c7d725f8075"
+    },
+    "code_versions/historical/scripts/theory/select_theory_change_case_keys.py": {
+      "sha256": "82ab416c8e2ef0195a5f4835e55ef834dc6031a479dcafe7124fb3b7d42019d9"
+    },
+    "code_versions/historical/scripts/theory/summarize_theory_change_conditioned_frequencies.py": {
+      "sha256": "c4def25c3e76e91d1b1696acb41da33185a5ae21a2ca011fbfeddcadddb08e70"
+    },
+    "code_versions/historical/scripts/theory/sweep_new_nlhf_tie_normalization_parameters.py": {
+      "sha256": "073ec3f161eca0a60a37bb3f550f480e44d5ac14be3124d5a6a924e09bae9f38"
+    },
+    "code_versions/historical/scripts/theory/sweep_nlhf_tie_normalization_parameters.py": {
+      "sha256": "f9bf0a735cf228008354ac46891aed541a914039e654b9c15fc2731a87338eb1",
+      "submission_paths": [
+        "scripts/theory/sweep_nlhf_tie_normalization_parameters.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/SOURCE_MANIFEST.json": {
+      "sha256": "4335df046898c45d578be52a524b3a9530da83657e92054dc2796123822f5a95"
+    },
+    "code_versions/initial_theory_audit/scripts/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/additional_checks/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/additional_checks/audit_commutativity.py": {
+      "sha256": "d55742133dc9a1847318b2a952e51ef1b3b9cde33206b83de45ff7ac16b43859"
+    },
+    "code_versions/initial_theory_audit/scripts/additional_checks/audit_numerical_release.py": {
+      "sha256": "3d5ace54f7a485d09526a3208f924ad85c5fb557f503d5e7a0d944ca35ec3d3d"
+    },
+    "code_versions/initial_theory_audit/scripts/additional_checks/nlhf_batch_audit.py": {
+      "sha256": "e009f2213b2fc12e22fffa51ebdfd3b957bb7a647e381a92b569a5b0a66d94d8"
+    },
+    "code_versions/initial_theory_audit/scripts/coval/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/coval/profiles.py": {
+      "sha256": "1e33c867893c20554e5a694a8ec0fb5444cf57f282ca4cfe5534924903e137e9"
+    },
+    "code_versions/initial_theory_audit/scripts/theory/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/cache_nlhf_tie_threshold_effects.py": {
+      "sha256": "b7312af4595b6463812d3cceccdd75dc619af5e2607706bfc8056739aaf0cf59",
+      "submission_paths": [
+        "scripts/theory/cache_nlhf_tie_threshold_effects.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/count_rtbt_domain_profiles.py": {
+      "sha256": "9954272b9362e2cee554852185f0876479627b5e69f228191eae21c43a7fb055",
+      "submission_paths": [
+        "scripts/theory/count_rtbt_domain_profiles.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/nlhf_solver.py": {
+      "sha256": "49610b8e324ef8a6a46e46480d131391d99503aa1435122c606b0c650c479074",
+      "submission_paths": [
+        "scripts/theory/nlhf_solver.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/nlhf_tie_normalization.py": {
+      "sha256": "523235492f37cc49cafa58b920f0e36da23e0bef6fece27bc9378e2546347f79"
+    },
+    "code_versions/initial_theory_audit/scripts/theory/search_coval_nlhf_reverse_monotonicity.py": {
+      "sha256": "c46001c6052d115199b4aacbb81f9140c7f9fc3525e9654f800e2338efbad3dc",
+      "submission_paths": [
+        "scripts/theory/search_coval_nlhf_reverse_monotonicity.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/search_coval_violation_counts.py": {
+      "sha256": "b41ef65e04f49af517488910bd729fe9b46bd9312f0f18ca4abb18b20e054aed"
+    },
+    "code_versions/initial_theory_audit/scripts/theory/search_model_reference_commutativity.py": {
+      "sha256": "6b11178b19f425c1bf9c71900f99cf1fa3d5ad9eb93c5a15502dc9775257f96f",
+      "submission_paths": [
+        "scripts/theory/search_model_reference_commutativity.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/search_model_reference_examples.py": {
+      "sha256": "5d46853bb9350a51ca1270e57ac5e513b0cc45eeef8a317f3f159c367b053260",
+      "submission_paths": [
+        "scripts/theory/search_model_reference_examples.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/search_model_reference_violation_counts.py": {
+      "sha256": "15da2ebdc6e094bcecdb67a2155552d2138389e9c29ed54240c66f6ae35924cc"
+    },
+    "code_versions/initial_theory_audit/scripts/theory/search_nlhf_tie_normalization_examples.py": {
+      "sha256": "01eecfe6d2842ca4097f5c0eedda67cf909c1b06a0b82b0daccd4a07af461af8"
+    },
+    "code_versions/initial_theory_audit/scripts/theory/search_strict_weak_positive_involvement.py": {
+      "sha256": "963eda36edb2b3660e1a92493c603dac77b08bcd609f305a42be77f1526d3a76"
+    },
+    "code_versions/initial_theory_audit/scripts/theory/select_theory_change_case_keys.py": {
+      "sha256": "48bcf3739bcade411acf7e5fde3c54290977f8fa7eaaeec8ceb42457c661a06d",
+      "submission_paths": [
+        "scripts/theory/select_theory_change_case_keys.py"
+      ]
+    },
+    "code_versions/initial_theory_audit/scripts/theory/summarize_theory_change_conditioned_frequencies.py": {
+      "sha256": "f04d5d2745f23324929d3d8d3af34b18511984c01391e374bf40c5315198ff0f"
+    },
+    "code_versions/initial_theory_audit/scripts/theory/sweep_nlhf_tie_normalization_parameters.py": {
+      "sha256": "f9bf0a735cf228008354ac46891aed541a914039e654b9c15fc2731a87338eb1",
+      "submission_paths": [
+        "scripts/theory/sweep_nlhf_tie_normalization_parameters.py"
+      ]
+    },
+    "data/coval_comparisons.jsonl": {
+      "sha256": "e107b7d233baedbc8c1b9c3f9aef9739592b93f6f202b9e4503b9cd3ca00d759",
+      "submission_paths": [
+        "data/coval_comparisons.jsonl"
+      ],
+      "submission_sha256": "e107b7d233baedbc8c1b9c3f9aef9739592b93f6f202b9e4503b9cd3ca00d759"
+    },
+    "docs/CODE_AND_RESULT_PROVENANCE.md": {
+      "sha256": "1f107be57266eb7b6a81baf2c5bd50dfa7736a202ec7926c2f6a7b3969ea4d85"
+    },
+    "docs/FIGURES.md": {
+      "sha256": "430e18af6c0672e57fa9a4faa7e8167c12f04c3e6fd2397bb3301c6be5083c6c",
+      "submission_sha256": "2d664271f47373169296332735d00190dc9c8f959813907b026895ab7627bab6"
+    },
+    "docs/FIGURE_CHECKS.json": {
+      "sha256": "3a5820b048413ff2aa86decb6eb115c07a697b4db8775c62b753b52a879cefbf"
+    },
+    "docs/MODELS.md": {
+      "sha256": "e07991d81fcf3f9b85545e1d7b3de7880cf10242ed19e1714af31168882a8d0f",
+      "submission_sha256": "d8d99c98ca85cb336347f2ea027863f448d752e8df892c4d073d3e757c282ba2"
+    },
+    "docs/REPRODUCIBILITY.md": {
+      "sha256": "1d91e62734e238d9796e14a98489e53c2ceb89bead928eee82683d875047c17b",
+      "submission_sha256": "633b51c887debca86caf70382e9f975d1ae5b02183260c3d2332e85ca63d31ff"
+    },
+    "docs/RESULTS_MANIFEST.md": {
+      "sha256": "4c25a944c75a3c53ccdccd807f1d3a4255ace727daf931ad21d46d335ce14e62",
+      "submission_sha256": "baed6958f7eb2a0c084203759936415b55d42f592b49b6632404383bc32aa651"
+    },
+    "docs/SOURCE_COMPARISON.json": {
+      "sha256": "ba97a87b5833b60e12f186d815a95b10173edaf444ea753876a8d3950266f3df"
+    },
+    "docs/SUPPLEMENT_PACKAGING.md": {
+      "sha256": "2400abfbec4bf1c5e376cda8e7e01b090124c009745a3cf7ec8cc72d1046173e",
+      "submission_sha256": "04d657f7467bc404c6594e1439d8667e1bbbbbe2f8652741d45813105fa9f02f"
+    },
+    "docs/TRAINING_REPRODUCTION.md": {
+      "sha256": "c416ee64bdfc55619bc54ae3081a76c40acc9a1851c9b9152698143c25e5e1e7"
+    },
+    "docs/VERIFICATION_REPORT.md": {
+      "sha256": "a83e45b669044bb575a79f6db52ef0d8126334b7bacb4ef6995cc084fcb681e6"
+    },
+    "formalization/ASSUMPTION_SUMMARY.md": {
+      "sha256": "84710228316a3a8785d33775a18a56995ad626ee571fc8ebe5a130d2cab9f3b1",
+      "submission_sha256": "532abf9b0f9734713482a13e2110b7df7d44ea9b6a305e650f94b9dec02fdc94"
+    },
+    "formalization/CITATION_AND_PROVENANCE.md": {
+      "sha256": "a13e32f28a69c1132e6df85c22ab732d59dea55d68247cea867e4e50f56f06b9",
+      "submission_sha256": "0771128faec2f56e176d1c7796803b0f95db08ead55b9f5a866f92a279be0a88"
+    },
+    "formalization/FORMALIZATION_COVERAGE.md": {
+      "sha256": "075b43134c09fdff391a3ba61b3c50e4cb7c823f333ded4e58b7fac80db1197b",
+      "submission_sha256": "b67adbfdfa9b451c63b0ffccbb47800d5b58dcb530149b731f9aa6f65272d8e0"
+    },
+    "formalization/FORMALIZATION_INDEX.md": {
+      "sha256": "cf0136123a506ed2387a11dcb13e8e7756923ed831d81aa3c03ccb4c980e3c19",
+      "submission_sha256": "9e244b1f37dc44d273ac49c5b0e0255e217103e69f07809db7254efc768fb4d3"
+    },
+    "formalization/FORMALIZATION_STATUS.md": {
+      "sha256": "ab50c84a1530e5ceb760861150e2fcb3fdc1b4c24027369550d7359d8bd460d6",
+      "submission_sha256": "0684b7d4a40f566b4e1e2508dab713f7bd275c99b332b9301854d978c5ffb021"
+    },
+    "formalization/LEAN_DOCKER_NOTES.md": {
+      "sha256": "ff347d1a78cbe6f8110d21d8e53a958fe1be52951181b35675c2f6d382c57d36",
+      "submission_sha256": "933f17133066774512ac63361006b5f6e9371c03233741f631425aea50b08225"
+    },
+    "formalization/PROOF_FAITHFULNESS.md": {
+      "sha256": "026726494f0c158eb779dafc461f514684d950bf75d65cbf49ea0c6eecb69130",
+      "submission_sha256": "eb316e2f82848a53209692ddfd30fda5352029db9fe28e4d9aa9ea942c846b58"
+    },
+    "formalization/PaperFormalization/AndersonRanking.lean": {
+      "sha256": "3aa5b317a654bcc96cd17b71ff482104b6c3a596f02acf2f3512e3545c1c4af4"
+    },
+    "formalization/PaperFormalization/AssumptionAudit.lean": {
+      "sha256": "1bb0722994739d9a815fe96abc4209503f2ee3ab5fbe0452572668b08ebeb79b",
+      "submission_sha256": "fff7ffb34f82bca301335d5c92bc4668639528061d1e126d5db672eba0f19427"
+    },
+    "formalization/PaperFormalization/Axioms.lean": {
+      "sha256": "f685178181146051794136dceaabadea4023f95e7e171e59d60d3ae34e9f8c68",
+      "submission_sha256": "5646bbab9cd92beb844317d4e3dbd6e537ed02b480c565db367429a7dfb9f370"
+    },
+    "formalization/PaperFormalization/BordaIPO.lean": {
+      "sha256": "61ac1b03f093fc60597a46bb6bcfd24fba522e2960aea7566f039e6a33d59a15"
+    },
+    "formalization/PaperFormalization/Commutativity.lean": {
+      "sha256": "07031c440cc6a49d26b7643d2d4eb2dc88590a1730fdac5b90e109c730ac87e9",
+      "submission_paths": [
+        "formalization/PaperFormalization/Commutativity.lean"
+      ],
+      "submission_sha256": "07031c440cc6a49d26b7643d2d4eb2dc88590a1730fdac5b90e109c730ac87e9"
+    },
+    "formalization/PaperFormalization/CommutativityDomain.lean": {
+      "sha256": "a6b684127bc1fc00c4df9da6f8599aa4b2d0289cceeb6f5422ea8f9f9421568a"
+    },
+    "formalization/PaperFormalization/Core.lean": {
+      "sha256": "b7609a7e7ec8c2ead7cade684efc2c8471d10f86932c2f39ddacc5c6ab165051",
+      "submission_sha256": "f1cf8ae1df226e93f38ea54679d10cf125442f1efed5f126cfe4ca359c7f21b2"
+    },
+    "formalization/PaperFormalization/DPO.lean": {
+      "sha256": "70973a1a1b36795ac8b6977f8dae8a4758713a3197fd97a7c90ce982ea087d11",
+      "submission_paths": [
+        "formalization/PaperFormalization/DPO.lean"
+      ],
+      "submission_sha256": "70973a1a1b36795ac8b6977f8dae8a4758713a3197fd97a7c90ce982ea087d11"
+    },
+    "formalization/PaperFormalization/FordZermelo.lean": {
+      "sha256": "0f72ab43f3381a74d89e681d714d35af789f3141e614c5cc748d2922b9b25a6c",
+      "submission_sha256": "1af5cfa785c8c9db0f1e3560e68bef84bc680c068b6eb3c8976506bb9e1becba"
+    },
+    "formalization/PaperFormalization/Involvement.lean": {
+      "sha256": "68fb76dfcfb632f13e5b302d821ffc69f80a4f4fd685614062a40b2c7582f80b",
+      "submission_paths": [
+        "formalization/PaperFormalization/Involvement.lean"
+      ],
+      "submission_sha256": "68fb76dfcfb632f13e5b302d821ffc69f80a4f4fd685614062a40b2c7582f80b"
+    },
+    "formalization/PaperFormalization/MaximalLotteryLimit.lean": {
+      "sha256": "2b6b154cbd314730be2bf4d7fdb34fd507e9afac33927259e9c0bc5026e49678",
+      "submission_sha256": "dc5c2672e149edade077dfcf354c151e6b1d9e7c7c2d0c88badd3674a5e9dcd5"
+    },
+    "formalization/PaperFormalization/Multiplicative.lean": {
+      "sha256": "3b36bf0eece54c8d5041dd7c34c6343b928d75fbdd25ff300e03248c0f31110a",
+      "submission_paths": [
+        "formalization/PaperFormalization/Multiplicative.lean"
+      ],
+      "submission_sha256": "3b36bf0eece54c8d5041dd7c34c6343b928d75fbdd25ff300e03248c0f31110a"
+    },
+    "formalization/PaperFormalization/NLHFBasic.lean": {
+      "sha256": "33df6697aa2a6a1947cb7eaa896428e945984b0e56a4ddaa27798381c02702de",
+      "submission_paths": [
+        "formalization/PaperFormalization/NLHFBasic.lean"
+      ],
+      "submission_sha256": "33df6697aa2a6a1947cb7eaa896428e945984b0e56a4ddaa27798381c02702de"
+    },
+    "formalization/PaperFormalization/NLHFCommutativity.lean": {
+      "sha256": "c31a88c18c8f478c747cca03103ca94e4a3437b428bc3d50b006fa3fe45a2598",
+      "submission_paths": [
+        "formalization/PaperFormalization/NLHFCommutativity.lean"
+      ],
+      "submission_sha256": "c31a88c18c8f478c747cca03103ca94e4a3437b428bc3d50b006fa3fe45a2598"
+    },
+    "formalization/PaperFormalization/NLHFExistence.lean": {
+      "sha256": "f96b66fe6886acec16231e609929dcf037af60e57681f85179235b43c62dc306",
+      "submission_sha256": "601464129d8173bf29eb28f0d71139e8fc444fd5139bc2ef4d1d52eefb21618b"
+    },
+    "formalization/PaperFormalization/NLHFGammaForm.lean": {
+      "sha256": "435e43110b7c06e1742616a16cb8f98e73ac27c222f739f24ed72300cd5631bf"
+    },
+    "formalization/PaperFormalization/NLHFInvolvement.lean": {
+      "sha256": "9f9c97cd5d20c9f745689de54229fc1418de4ff44fa65592732e4af7f265a708",
+      "submission_sha256": "ffc93057dc5b92d4fdacde9c7d97f86041800b99a40c3eede655895ba9180ae8"
+    },
+    "formalization/PaperFormalization/NLHFMonotonicity.lean": {
+      "sha256": "248e9067646e0e435feade82ef666a21bd386483c2dc3479989e1010603db8f2",
+      "submission_paths": [
+        "formalization/PaperFormalization/NLHFMonotonicity.lean"
+      ],
+      "submission_sha256": "248e9067646e0e435feade82ef666a21bd386483c2dc3479989e1010603db8f2"
+    },
+    "formalization/PaperFormalization/NLHFMonotonicityFinite.lean": {
+      "sha256": "8d2fc623e049d0187f1e3c2ac6fbdea2acb63a97da1db70c88466dfc2749e592",
+      "submission_sha256": "08116bea3d1860c60230d422a23ca134628eb97d1ac0bf5b7bb70bb9c5ffdc65"
+    },
+    "formalization/PaperFormalization/NLHFMonotonicityThreshold.lean": {
+      "sha256": "9715eacbcac1a2cf18ee14618f42ba33279c8d6d4235caeac7a078cef7d12828",
+      "submission_sha256": "7c20c76f6aa9826ffbb7e85c4c0b650bd75be10ae3a6f8a89ce7dadbbd884373"
+    },
+    "formalization/PaperFormalization/NLHFScoreImprovementChaining.lean": {
+      "sha256": "c4b11af83766b91f03b9700a2b3e855a3667e336d60b7efd1879f064e409f18d"
+    },
+    "formalization/PaperFormalization/NLHFScoreImprovementProfiles.lean": {
+      "sha256": "86a49ea7e02b6752f5968ebae277f844db59045161d9562ce4b5a81de121cc11"
+    },
+    "formalization/PaperFormalization/NLHFSelectedCommutativity.lean": {
+      "sha256": "c9375cc3ac4926f16bba41d553ffc53f831b834291914b2f106dd0f7e153d91d",
+      "submission_sha256": "95de189268e1823de1d379e2f57134afae48a1701363c229a6fe43945e3a98df"
+    },
+    "formalization/PaperFormalization/NLHFSelectedInvolvement.lean": {
+      "sha256": "4c52146124eaba924a14acaccae336068d7c80b7774b1afb7484e02a13928287",
+      "submission_sha256": "0209c4a2a1b4d70762aefad4936d2ce6d22fbcd843f5b1a9f2189a0698a98768"
+    },
+    "formalization/PaperFormalization/NLHFSelectedMonotonicity.lean": {
+      "sha256": "460a7524d8d93ddb1d373c2c6f00a8ee1eda4866e8392fdef1a61bdd600e18f4",
+      "submission_sha256": "7195c61e11fb74e9449507207c6ad446194c661e098afd83ff42920f2a65db31"
+    },
+    "formalization/PaperFormalization/NLHFWeakProfileMonotonicity.lean": {
+      "sha256": "607bbff1d53cac7ec4bed6e9c8f4e6047887afc4b7c02c7c9eccba9ae4fbd6b9"
+    },
+    "formalization/PaperFormalization/OfflineIPO.lean": {
+      "sha256": "45f9b4ff32399037063dfbe598e7bfe058491f093543123a8dd48118b055787a"
+    },
+    "formalization/PaperFormalization/PaperStatementShapeAudit.lean": {
+      "sha256": "f1678bfee280c360d50530ca008de135b91b78193c22a718372653f0d172e2c6",
+      "submission_sha256": "9d47842cfb423cc06a8c28279674c8facc65779dea2c51e2389d4bd8de565ba6"
+    },
+    "formalization/PaperFormalization/PaperStatements.lean": {
+      "sha256": "6cc5cd43cbe9fe7b4584e520bc9cfec238c033d29f91f6caf40ea9d29c25d14b",
+      "submission_sha256": "b54b9deb6334825a6c09dfa292642db151357f40ee3c194737ff0f017158644b"
+    },
+    "formalization/PaperFormalization/ProfileBorda.lean": {
+      "sha256": "928ed4396bb95a9cf5511a214152597f6f73d92cc654f994d3bd15110194017e",
+      "submission_sha256": "81f1895ed531eda8e04b94e2f7969a4db9c6e9e28ebdcbb640056964b7e861c0"
+    },
+    "formalization/PaperFormalization/ProfileFord.lean": {
+      "sha256": "6763852fe18994f0f6f6962ebfdb519dc91602aeb8d921e1efc2328e1e51296e",
+      "submission_paths": [
+        "formalization/PaperFormalization/ProfileFord.lean"
+      ],
+      "submission_sha256": "6763852fe18994f0f6f6962ebfdb519dc91602aeb8d921e1efc2328e1e51296e"
+    },
+    "formalization/PaperFormalization/ProfileNLHF.lean": {
+      "sha256": "761a5fe2962895772656d6f8d400c97f614bb969d807a04ce34e7bf7415da02e",
+      "submission_sha256": "6c8bfd7f733e457e61d084520fd3ede995b7999588b2d6ded502fe2cc72dde22"
+    },
+    "formalization/PaperFormalization/ProfileNLHFCommutativity.lean": {
+      "sha256": "7cc5e04a87a7da5f245e455c0b9b04b4d8ba739ee3dfcd31de9113d7acb5468a"
+    },
+    "formalization/PaperFormalization/ProfileRTBT.lean": {
+      "sha256": "be39d829e0c0e492de032e18237ceeb7d21a11d8662b7c5bf8909c4c2e839fc3",
+      "submission_sha256": "fd270a34a0798cc40f0c897404dfde653b623672e5bf3f56c758d2517bd54117"
+    },
+    "formalization/PaperFormalization/ProportionalBorda.lean": {
+      "sha256": "eb7d76a3c673c8b38d992bc05de2ae07fbe834abb07acdf34a7e2d28af2a7411",
+      "submission_sha256": "778126118d16451b691d1872da798f488b20ff1e33276912c83c419e5a8e6540"
+    },
+    "formalization/PaperFormalization/RTBT.lean": {
+      "sha256": "5a2c3c26f1704faa54adeb93ce90def16f490827206e3978b187caf214cfc2c9",
+      "submission_sha256": "1d5ec91663e7a831523eab998c9bdd74a99db988e7c7268211867d9120d8169c"
+    },
+    "formalization/PaperFormalization/RTBTCountMonotonicity.lean": {
+      "sha256": "f1dc9e2752f022baf20400637fc10411aee0866ac92b79369deadd21427a1db3"
+    },
+    "formalization/PaperFormalization/RTBTExtension.lean": {
+      "sha256": "6ef0a4e08e9281d5f4a2d241e768609522444aa2b35ab5271fe924e41ed10366"
+    },
+    "formalization/PaperFormalization/RTBTInvolvement.lean": {
+      "sha256": "23c40628f4b3becf28f1a992cce3cc6c797599f4b0e0bcb91c89626a7552d924",
+      "submission_sha256": "66b431ea4605dfc76c14a7ddb2986636a61b390fcd4ca495eca53fa7c62ece63"
+    },
+    "formalization/PaperFormalization/RTBTPairMonotonicity.lean": {
+      "sha256": "3096b28f773ad0c7d8d6be122bfc17bf75dc07dd303db44ef8eb648fe5b8d9ad",
+      "submission_sha256": "ec93bc82d88fb8d04db088111eb28c54a2b1f05453176ee4e2a533ca32cfae84"
+    },
+    "formalization/PaperFormalization/SelectedMaxLottLimit.lean": {
+      "sha256": "efd82f9ba59f81067951be418e9e820f5859ae51a5b1e0d79924d26a098923b2"
+    },
+    "formalization/PaperFormalization/WeakOrderScoreRepresentation.lean": {
+      "sha256": "7a2ca3829a4aaa3ae9eeaeec8d9cf4a1a4fcbdfe8ba6f5011511d9140a6e3d83"
+    },
+    "formalization/PaperFormalization/WeakProfileBorda.lean": {
+      "sha256": "6213a38c66084f04eeaeb2bf494459cd1de7cdd2378f11e13928464388c76b61"
+    },
+    "formalization/PaperFormalization/WeakProfileMargin.lean": {
+      "sha256": "c16eec25d9fa793cee9c5ca47ee66f591e08dd2075b581e92db9b7e3c8f88040"
+    },
+    "formalization/PaperFormalization/WeakProfileNLHF.lean": {
+      "sha256": "b5acc146e6c954768beb23437c6058dc67fe054213fb68a43c4ff21acb494f9a"
+    },
+    "formalization/PaperFormalization.lean": {
+      "sha256": "3a3da440265e1de42213f0995d1e2283cb835c0e6b9b4e0b17602aab55fab525",
+      "submission_sha256": "f581ddd44ac43304c15b07ac28c63cfc1101b3b2e2e73ea8c78804ecb3eb3ff6"
+    },
+    "formalization/audits/verification-2026-11-03-comment-fix/lean-artifact-audit.log": {
+      "sha256": "76e3113a0bafce003a51d33c1243340a00e818eac7ce144d6b7bc95e16e731a2"
+    },
+    "formalization/audits/verification-2026-11-03-comment-fix/verification.json": {
+      "sha256": "cfd3056345e9d1880bc34c0d9bee7d1ff18dd4b390064ac9c8ded33e63f2238b"
+    },
+    "formalization/docker/lean-check.Dockerfile": {
+      "sha256": "d66d8111e2e3361a19d6e948f083051e18893f9c1e668c39107917480bf6280a",
+      "submission_sha256": "1e6fe18668251992bdb56f3b9c0addbdc7566c2fb6f588f8099ff6bc0bc7bb9b"
+    },
+    "formalization/lake-manifest.json": {
+      "sha256": "4d4589d8ab377147bcd7c2a3eca0778f2b74b439986c7c8ba454338f90c99f6b",
+      "submission_sha256": "af0437dc8844b765b4d7d3e2e6eb2f189e3aeade07afb4ee08e81b4cefbf4cb3"
+    },
+    "formalization/lakefile.lean": {
+      "sha256": "d4be5e6401e919087afa85ed3ead7d98092967b60fdb588783ea3f929e38fd04",
+      "submission_sha256": "3b8a03f24b05b465e019bc1d574509679478ec05b3a1f123f0caa068e57ea9ed"
+    },
+    "formalization/lean-toolchain": {
+      "sha256": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+      "submission_sha256": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315"
+    },
+    "formalization/scripts/check_artifact.sh": {
+      "sha256": "f065c6970355d534717182c4dd19135d4bb9004804db3a103eb604d9620158e9",
+      "submission_sha256": "3015a3faeee7a3b06c2e992f2c171d369f0983daa33a849b4d3f175a2691fa80"
+    },
+    "paper/figures/commutativity_magnitude_tau0p01_min_effect_0p01_boxplot.pdf": {
+      "sha256": "83c0dfa693b8e16f03b6f37c0f4d7bdd94bd32db2f71cf62cb42ec93285c9c0b",
+      "submission_sha256": "65c54cd0272cc1e8ae7e6517e83e4c08788143a2f4c345370bdfacff5f5c0ab5"
+    },
+    "paper/figures/effect_size_conditional_ge_0p01_and_theory_change_ge_0p01_boxplot.pdf": {
+      "sha256": "4ca216afbf36c411c253c91f0b06496e8a7e06bbdbbba8c7ccbe0d619a2f3502",
+      "submission_sha256": "18665dc84447da0942c9229a2657ae3bdf492c72f6db913fbe1ab3498b969ae8"
+    },
+    "paper/figures/filtered_nemo_dpo_bubble_agreement.pdf": {
+      "sha256": "b30c0180ff9a431974b20c95c5bb7625a045e292ab33a103ccd465335b581bac",
+      "submission_sha256": "3f46cc1e469b4558e3caf0f785f9c5cba9569e277601a97e8cddda7dc44492ad"
+    },
+    "paper/figures/filtered_nemo_nlhf_bubble_agreement.pdf": {
+      "sha256": "fd000a260cb1e9932d039fb278c84064d99716462abbe1fd175736d8b8d418fe",
+      "submission_sha256": "87f451af264bc6dc58c94aaf51e0e123e28d3dfd8782a729c112e53680237ab6"
+    },
+    "paper/figures/filtered_qwen25_dpo_bubble_agreement.pdf": {
+      "sha256": "bc38a03c7c3c9bca00faf31d9e1c41cee8a7160710322d559c6c22e0def6abd3",
+      "submission_sha256": "8683579bc360ebb757ca0dfa079ae4258d43ea5582fe4ce1be6c4531099d42b1"
+    },
+    "paper/figures/filtered_qwen25_nlhf_bubble_agreement.pdf": {
+      "sha256": "f99edb1660de5fb5118ce8100febfdb5ea4c6f031d5bd53869cbeaa2de1e911d",
+      "submission_sha256": "4c9636d2ef9a6b8f52811d6e5dd8096b56f368c7ff4b735873cc8843c4e725cd"
+    },
+    "paper/figures/filtered_qwen3_dpo_bubble_agreement.pdf": {
+      "sha256": "cc1d44a4ac24061851e09d84f3794ba5d6a3c7ecc8ec36322ab0006c6202d4f2",
+      "submission_sha256": "7de87cf7efe7a6f83d5490c7b0d205fa3f6c3187e42cf2cfbc146f881f118c83"
+    },
+    "paper/figures/filtered_qwen3_nlhf_bubble_agreement.pdf": {
+      "sha256": "6d6d5ccc7162402f290dc943f8a4fadc97b5b229374f32da55c66b0cb1fe3f35",
+      "submission_sha256": "eff0e0eae139075ab01716b70d25dd5c0af6b990b73d273cb9326c64716f4ee3"
+    },
+    "paper/figures/joint_qwen25_dpo_bubble_agreement.pdf": {
+      "sha256": "8023244c6b9fea186ae598e5504f965e395956ace5b402600fc074ac66deca9e",
+      "submission_sha256": "7c77f756497c7f48dfbd688743635292a6609461c5f280f6b6f610422340eeab"
+    },
+    "paper/figures/nlhf_commutativity_single_profile_nashmd_agreement.pdf": {
+      "sha256": "9d71a7666091cd07255acf654f2958eb1678eb48dd7fd1d2d06d1391138315f9",
+      "submission_sha256": "4196a96f1314ed2b42bc20f1ab54da6d9f2a19218222f2c9e9e18a9290d6fb61"
+    },
+    "paper/figures/nontrivial_reference_update_frequency.pdf": {
+      "sha256": "7bea0404fd95b6c529d4e2922c6377b27e0bea03189e8a43fac50d4941b41175",
+      "submission_sha256": "64f9b24cef3ab10839debdfa251c85c45e891316258bafc181b4774c5d424ef5"
+    },
+    "paper/figures/rtbt_involvement_single_profile_dpo_agreement.pdf": {
+      "sha256": "8b2886ebd5b5094fc3e9518f3302a59e8a6ebb6964faceb40de18ccd1efd86d8",
+      "submission_sha256": "f221fdeca54e169c015e138c7e203ca57111ec6d56ce4a1a0165c566e12f9e66"
+    },
+    "paper/figures/temperature_2_commutativity_magnitude_tau0p01_min_effect_0p01_boxplot.pdf": {
+      "sha256": "380f0140c4cb2b29b23f45d85aa75dc2e30bac2185e33e6f341c28f72cbf487b",
+      "submission_sha256": "1bb39b288c9bbf522ce84936faac3e1728014ba60ce3cb51b191856ee12d6e5d"
+    },
+    "paper/figures/temperature_2_effect_size_conditional_ge_0p01_and_theory_change_ge_0p01_boxplot.pdf": {
+      "sha256": "8105e1cc0f166372b44e0bf6ae6b8d9404594bdb9d3763269c375ae3ba54f30d",
+      "submission_sha256": "0de40b8b0842b23883f82be6e14d0b6f0f277c544d95e73ba8be4f0e4008e7fe"
+    },
+    "paper/figures/temperature_2_violation_frequency_four_panel_min_effect_0p01.pdf": {
+      "sha256": "29fcb57c4e1d1dfc0943a9a2838a5f4ee57abb0fccc1fc7eb3c04dcf6b407ef4",
+      "submission_sha256": "19bb5c3b440e8a87961eaa3c1bc0ae1871ca91bf64ba0662410b8b787ec16396"
+    },
+    "paper/figures/violation_frequency_four_panel_min_effect_0p01.pdf": {
+      "sha256": "1b978d22aa6bdcae3038a5a0cd6dd202c0c918601823462940573043d37b00ed",
+      "submission_sha256": "29661da233f282f16bd812b4d08b34d0bb48720ef3dc954f8154a6dd1467232f"
+    },
+    "paper/figures/violation_frequency_unconditioned_three_panel_min_effect_0p01.pdf": {
+      "sha256": "c7840b3a5207d3ace48047640c63a92029c273aa1ae56ce68b962cef0eb3a4aa",
+      "submission_sha256": "c0fe543c8b03879aa094798924164381c1b3802ce688d3ccf76addb9964987df"
+    },
+    "requirements-cpu.txt": {
+      "sha256": "888f0dc57cc133d405237816e3741f46e483836c065c5ec9b6fdfc8c77d1902a",
+      "submission_paths": [
+        "requirements-cpu.txt"
+      ],
+      "submission_sha256": "888f0dc57cc133d405237816e3741f46e483836c065c5ec9b6fdfc8c77d1902a"
+    },
+    "requirements.txt": {
+      "sha256": "25727b26cff7d50f967124cd8e6d6c048dd7e69b4b44c37775b6b5c03a088c1e",
+      "submission_paths": [
+        "requirements.txt"
+      ],
+      "submission_sha256": "25727b26cff7d50f967124cd8e6d6c048dd7e69b4b44c37775b6b5c03a088c1e"
+    },
+    "results/README.md": {
+      "sha256": "8b702625159dfac3fd790e058bd52a68251f7a53fc9550e4b67dad3b4f83cc4c",
+      "submission_sha256": "a984a5bbb9e0115e7f8fa786a633f5a077509a31320d31a449d86c9e5a39cdc2"
+    },
+    "results/audits/commutativity-batched-2026-10-28/metadata.json": {
+      "sha256": "dcea39f0ee5cd7c242e42f9a29cef8fbcd986af5d6c02916da77e200396d4469"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.0005_T1.jsonl.gz": {
+      "sha256": "e6bef8d0f42dd8fbade947eb9e5cac0ca6567e3fc697a5c06ef08bf00480b2f2"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.0005_T2.jsonl.gz": {
+      "sha256": "b7fbe0904f67eb4ebb46f214762d4859aaccff1d8db596a8667a0646d0aead26"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.001_T1.jsonl.gz": {
+      "sha256": "6c20911b27ea43d82b054975e87e30ad333eb28ff38b30f4019083be49771554"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.001_T2.jsonl.gz": {
+      "sha256": "c95161f6a56f0b384494dc0644924a71045308018fc70475727770261d4f09a4"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.002_T1.jsonl.gz": {
+      "sha256": "d4305102d79692b77c4ea2ff93b5402e579819088624571b5416709ee55c0e93"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.002_T2.jsonl.gz": {
+      "sha256": "b3a3e0dfade086e08d2919f1d6d50752a3973a25d8f54cc228de276c86d3a686"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.005_T1.jsonl.gz": {
+      "sha256": "4381a3ad129fe8d9dbf3f5f0ffbb95bf920013456d0a19eaec086b4f7b16d1f3"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.005_T2.jsonl.gz": {
+      "sha256": "d6b3601824610b9b21ad110a9986e1d16100a8e842ffe850b7c3351a8305611b"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.01_T1.jsonl.gz": {
+      "sha256": "7aaafddc5777be65dbe11b2010843a5959584df3e31042b14e9c3307cef5cc15"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.01_T2.jsonl.gz": {
+      "sha256": "10ce6a494608f7dc59d21a9eadbaae3d45ce65d1fa272c30c28bee345dba00f0"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.02_T1.jsonl.gz": {
+      "sha256": "fb955dedca6f75a4144161e1917d10d5e84b764985ed93d7548aa4bc4bbfacf2"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.02_T2.jsonl.gz": {
+      "sha256": "34e1d73396a565fee0cb372c295c6098fafc0c2e5333636354395c7f659e7350"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.05_T1.jsonl.gz": {
+      "sha256": "296043cf1db7d9d54639b8f7de53db8e82a42144169fe0a585bd4053112c944e"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.05_T2.jsonl.gz": {
+      "sha256": "e985597ba131f8440156a3046bca777e78be758129a9250b02ccf8f4bfe4b843"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.1_T1.jsonl.gz": {
+      "sha256": "616f9af0a36d48bec4b32081105af4d6d8df80434be0d583549a1d4e1d4cfe42"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.1_T2.jsonl.gz": {
+      "sha256": "78a4e415317cb002e5a393d41686340fbb2480edce4588632c8b8e9293e18052"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.2_T1.jsonl.gz": {
+      "sha256": "e8de495d5740a90eeb307addd32292b7bc55d2d8429da4569d4fa0ccb5390de3"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.2_T2.jsonl.gz": {
+      "sha256": "008a9288e95a301dccec46161af56c01d57c0a0ad28e34d2128c3b5bfcc51553"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.5_T1.jsonl.gz": {
+      "sha256": "62d438fa1c122662cea5251f668c7b79f020de2b29367fc355cfe555a6c84da3"
+    },
+    "results/audits/commutativity-batched-2026-10-28/nemo_tau0.5_T2.jsonl.gz": {
+      "sha256": "d11c5049d3977461fc556b0c0fd61cd5b79990986fd8779d66cdb693f46fcbd2"
+    },
+    "results/audits/commutativity-batched-2026-10-28/numerical_repair.json": {
+      "sha256": "598d5aa56d1dde66a8e10d833e15102429f9c0c0f9c7034b26cdb2e33904219a"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.0005_T1.jsonl.gz": {
+      "sha256": "d8c8bb7964c3631dd0395457330384499a65b0d2b518f5b280a2609235d9a3e9"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.0005_T2.jsonl.gz": {
+      "sha256": "4b018b3d67a8d5d6e76afb13c7bacaf29c203141b3e13e5dd9edb8157f20bba1"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.001_T1.jsonl.gz": {
+      "sha256": "17f16f3d0fed78e0f2480c9356d144549eb1072a1bc44edf31f2b8ebbc847a18"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.001_T2.jsonl.gz": {
+      "sha256": "a1443e9ce2f2c3b66fd070d9b3889bdb6a05f9cc4a9ec8cbcc4f6297c29d3c8e"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.002_T1.jsonl.gz": {
+      "sha256": "27dbdadce03521f888f39c88ca3b9957e9a3b3b13402c636ed5aa8177c983522"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.002_T2.jsonl.gz": {
+      "sha256": "7ea214c43b122d0fec9844af954f8a5c3bb964f4d08fe9b4b5342262071b2433"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.005_T1.jsonl.gz": {
+      "sha256": "f4f539f7cf45dfba4c745cd4ee0bc0ead4699803df7e43d7fdc9748c95e979c8"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.005_T2.jsonl.gz": {
+      "sha256": "5d4fd2aa181a01f0aaa873521b1991f9a89e00ccd489d2d354e19ae0c64e44a1"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.01_T1.jsonl.gz": {
+      "sha256": "dace6977097716021630e194107cd1da1b0edb20e662cd19a4d0c03d2a99f738"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.01_T2.jsonl.gz": {
+      "sha256": "deb852c57b38a26e3cd4f3fc4581a436e88e14a98d64f257a958c2aed841e363"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.02_T1.jsonl.gz": {
+      "sha256": "621818876c4a823261f283b49ddb54252c195512162ff729a324670b2d3ead88"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.02_T2.jsonl.gz": {
+      "sha256": "41e2fdee7fd72a11e9b2522b7ac7f9db47bea7b735448a769ed3f2b2c244e8d0"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.05_T1.jsonl.gz": {
+      "sha256": "1489b61382ae250fe976dcfc3315baf08bbd4129144e2aecbf6c1cde1d535045"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.05_T2.jsonl.gz": {
+      "sha256": "1e26d971b49240dd7c24b05b9313550f1532de25140a7fb27fd4a1afcce0dd5e"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.1_T1.jsonl.gz": {
+      "sha256": "db2a5d3b2a9318e4e631e9a4ee6ac64e87294b8acc893d1be06f74c2043ee529"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.1_T2.jsonl.gz": {
+      "sha256": "bcc5bd900f22f7acf2268b1e7dcc6b76b1afaf3dace4bdd4f7e351c430ab92ec"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.2_T1.jsonl.gz": {
+      "sha256": "9889127d2afc55a431945eadef3a38cf999151f6eaced7e615c723f653f9294a"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.2_T2.jsonl.gz": {
+      "sha256": "d0ec490d4eb675daf5837df3027201d9748b7db472a9671583fa297932d392b6"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.5_T1.jsonl.gz": {
+      "sha256": "394a4d9e7430d82eeb5cc47b139368e654dddee8c9f4986b222dd0f267235358"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen25_tau0.5_T2.jsonl.gz": {
+      "sha256": "ae3d171e81d0cdcb9302c20d2bed806ebc3a9acb0e6980d39fa9f71e2686a71b"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.0005_T1.jsonl.gz": {
+      "sha256": "ae9d32e96e5859cd668eb11ab8ff876ec003b116f9799340fff817713bed3e99"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.0005_T2.jsonl.gz": {
+      "sha256": "6cfc8c2a830d0c4613b7c3afc9d308899e72070f8659e652c14f864190dd43f0"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.001_T1.jsonl.gz": {
+      "sha256": "a9010d3f1e379d327380aab3de7f44275ae78ce88a431177fc501ae6346e5462"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.001_T2.jsonl.gz": {
+      "sha256": "5e4076f0c955d6154dfde9376081b0c085c75bbe917cd05da6aa89a870bbcb7a"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.002_T1.jsonl.gz": {
+      "sha256": "b7109b6c761f2e31a7af79caeebf1ebac42535578818aeeb9669bdef334d310f"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.002_T2.jsonl.gz": {
+      "sha256": "301ba041d44afd70c1741b580bf0e412fa3794dda1007779ffe95eda6036793b"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.005_T1.jsonl.gz": {
+      "sha256": "d081c8c14a2ccb7ec8ef178e239a7d87115a70a37b7bcf860ba85357e019fa8d"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.005_T2.jsonl.gz": {
+      "sha256": "bf38b6cff87b138cd9f934e2bc53ad34ef7288eeb1ded6d23e60f93610df1f9c"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.01_T1.jsonl.gz": {
+      "sha256": "e11a9fd0b06c95cfb06d604632adcf7d2601982ade3b8f17c3a76ccd54cfd396"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.01_T2.jsonl.gz": {
+      "sha256": "228c6c89269142f8242f40ae50a3168e7a0966cc391bb40bfaa8cd97719c0187"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.02_T1.jsonl.gz": {
+      "sha256": "85a0f17a5bd993bd03fa5976eefc9c5b45c7efcf899e61529c718167680c46a0"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.02_T2.jsonl.gz": {
+      "sha256": "edd298078abcc29d39034ad21f34f714ef00bed2c6d8f024373074d4e6d46953"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.05_T1.jsonl.gz": {
+      "sha256": "f2989270336c034507f79b29ef4f204fade20ac5cb150d5c91c3f4ca769a642a"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.05_T2.jsonl.gz": {
+      "sha256": "54743c475abc76b641b529ad9e23df7c4b27a0ddb90b2094447b7fc74eeab7fc"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.1_T1.jsonl.gz": {
+      "sha256": "cd2f0458f22ec0110f136ca3059533f762a131ecdfcc148549b9196e3385e3e1"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.1_T2.jsonl.gz": {
+      "sha256": "24b4436d8470ff382785dfa8c66732df65577fe6c715a86bbfabefade47a2629"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.2_T1.jsonl.gz": {
+      "sha256": "7a075622e70b30dabcf30b0a65ba18fc39beac4840f15fddb2875bf5eb3fdd50"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.2_T2.jsonl.gz": {
+      "sha256": "19cf4a0e8ff6224991ef534324e9b72e5b07dfe80aaa789cecf6deb7017ff02f"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.5_T1.jsonl.gz": {
+      "sha256": "8e98e5995c2491254f9b50a7d91bd78546a09ee81ef6f0349095be1d052dea39"
+    },
+    "results/audits/commutativity-batched-2026-10-28/qwen3_tau0.5_T2.jsonl.gz": {
+      "sha256": "8b64270169f9c5535b2971a020433d8256aa05b2c34f54c46c35138e81ab987f"
+    },
+    "results/audits/commutativity-batched-2026-10-28/summary.csv": {
+      "sha256": "c4f35e9cc1133cd1cad0347eeed21127f50cd51ac3ce307b75aa46bbf31bb0f7"
+    },
+    "results/audits/commutativity-training-2026-10-28/all_current_documented_runs.jsonl.gz": {
+      "sha256": "b92700e9754e95153377a15ae8ccef66f566a3c1a55fa0e7cfdf58960492a05f"
+    },
+    "results/audits/commutativity-training-2026-10-28/pairs.json": {
+      "sha256": "1ba9c1bbdd9c3c3006b74778cd15f9ed289184a0e05f4cb9cb6ed81483faa717"
+    },
+    "results/audits/commutativity-training-2026-10-28/reconstructed_comparison.csv": {
+      "sha256": "bc6d452931d0dc28f64694353e4786c378559fb9f86a2ab4eac7415fc8c825db"
+    },
+    "results/audits/commutativity-training-2026-10-28/reconstruction_summary.json": {
+      "sha256": "e4d41d09ff00731b85d5fa1dcdc8e2847816e40db21cbafbfb66055f7be2f34f"
+    },
+    "results/audits/commutativity-training-2026-10-28/stages.json": {
+      "sha256": "b3596e8b04ce63f444bb950628bb27d9d0176e01098e24c7591ea60e632b378e"
+    },
+    "results/audits/commutativity-training-2026-10-28/summary.json": {
+      "sha256": "feb00deedf534348ac8cd78fba20bb5282842407f108c3e6a4f560a1d7708828"
+    },
+    "results/audits/numerical-2026-10-28/metadata.json": {
+      "sha256": "1f16b1a47144bfb372e36babe8478502f8d4adf92d7557015764794ab34cd9d3"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.0005_T1.jsonl.gz": {
+      "sha256": "f4c578e3f7cd6db939ed251f16b580145e5d62b82d19c3d37b18a5ed4f2a97f2"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.0005_T2.jsonl.gz": {
+      "sha256": "525d89caea37eecf3d121e2a6d997670350b89bde8e2c68e5c6adedf57716a9b"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.001_T1.jsonl.gz": {
+      "sha256": "af12fa447d9464c7227d25dca23a25da936f051cc4cdd3c0c1391fa199b5a63e"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.001_T2.jsonl.gz": {
+      "sha256": "e79bf13e3be1e6667ca9286f215e5d8d9cf6d7eb2de9b854fdce6d9f21b625f9"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.002_T1.jsonl.gz": {
+      "sha256": "08876a3fa6d4a6855c90c5166e5f660aa54ce972e072337a06577c55755377c1"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.002_T2.jsonl.gz": {
+      "sha256": "c1b7938fa9a6da23d437c627d22789f9bbb0fa6a8e6318a474772a33a283f2eb"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.005_T1.jsonl.gz": {
+      "sha256": "7cebbf5d6bf9bf552c896f82643f76c4a4ff46c4e7a92ec0710df25e4769dcbd"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.005_T2.jsonl.gz": {
+      "sha256": "5a4eaabc33b23e3fd0dc16a0c0fa412e7186c147059fa3a11e46d7c8a59eae88"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.01_T1.jsonl.gz": {
+      "sha256": "de9f1d874c88f12f598f8bb17340e9b7422eb04033f35ad6e53c5697e21c2167"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.01_T2.jsonl.gz": {
+      "sha256": "da7e51d6b0f54376aaf07ff8a5284674c243fceb14208542faa89d0739595261"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.02_T1.jsonl.gz": {
+      "sha256": "f401cac89614360591bc9f49a803c4009bdf3588793a38bdcd19806a5ee06905"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.02_T2.jsonl.gz": {
+      "sha256": "4ffcf5fcd29ffa724f64783f689954b93931f18eb78d2e793f4d7febee72e9ce"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.05_T1.jsonl.gz": {
+      "sha256": "9d40796c141ecbfef66a68ff088007a49be67626976000cbbc07d28c84aa8c02"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.05_T2.jsonl.gz": {
+      "sha256": "f14ba2973c472874408148907ff59df95f149775d7e03f93f34353493c8d0d6d"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.1_T1.jsonl.gz": {
+      "sha256": "5281b80047c13005fb964f1ec11aa5a8b02bc28b49def495862aefd2f61eff70"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.1_T2.jsonl.gz": {
+      "sha256": "914089d10b1bf3696bcbde1034856bfe43306498a9e42c29b279ff01ca842835"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.2_T1.jsonl.gz": {
+      "sha256": "dc89a5b4c780a678f0a58cc8f80f6bb0f413bf441422df0170ea13875dced42a"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.2_T2.jsonl.gz": {
+      "sha256": "16089e4679868d6b8f7c5d49e0991d5888521b8ada9d5f853a845ed856e23b56"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.5_T1.jsonl.gz": {
+      "sha256": "e89c45b5028e25773a1b773a365630eb388bee93dc5ead94285d3c056bec4501"
+    },
+    "results/audits/numerical-2026-10-28/nemo_nlhf_0.5_T2.jsonl.gz": {
+      "sha256": "21ecb8e830dd755607794b3aab0808867e9e89cf8ba9bafa9994298f26807441"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.005_T1.jsonl.gz": {
+      "sha256": "01f89f603059e0420064c280fcea6e8b9d63970945f4e4df4f9d49388407ed96"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.005_T2.jsonl.gz": {
+      "sha256": "2271c038b756d65e5d20e689a7d8494f941e0a8412606dc81d6f672b54c5c75a"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.01_T1.jsonl.gz": {
+      "sha256": "097674fe228e04acd5a1a2b3589eff8362ee18128947282ce3c8039715898b5d"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.01_T2.jsonl.gz": {
+      "sha256": "5c517b1615956b8c3ca56e0a4452d683d370ebaf88a508c87c601b291100f752"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.02_T1.jsonl.gz": {
+      "sha256": "d93a7fb459394601d763d4c25cccf18b5efb9a9743291e5241fe1a1b386b6461"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.02_T2.jsonl.gz": {
+      "sha256": "7c9e37ab0b5574fb475032f1d89a50c8ef919e44e9a0a90abf4d552353575c42"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.05_T1.jsonl.gz": {
+      "sha256": "288be49303744adf70ba727ba848d3972e21bea8a34eb8ef5ff9233d32cee0f8"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.05_T2.jsonl.gz": {
+      "sha256": "3340b9296ce3fab74c28964cc763e7b64b0b8500fd7fe7ec9ec6a0f7d8d0316b"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.1_T1.jsonl.gz": {
+      "sha256": "b7da69551b66f921dd57eaa8a060ffc7e9d4440612768a9cd4feeb95c0d7f4a4"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.1_T2.jsonl.gz": {
+      "sha256": "f3d96d03df71576821ff24f17fc3d5960ba825d93c3f57f9a927e48f6c27190b"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.2_T1.jsonl.gz": {
+      "sha256": "6f29e8dbb1349b58af10b6fe38074280b80d6ebd8ffc81c33947c2b5e0693c84"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.2_T2.jsonl.gz": {
+      "sha256": "d527a640a51f23331cae02acb5eab8ca27e065436f82b69cd3061dae295c2867"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.5_T1.jsonl.gz": {
+      "sha256": "65eac66f999ec413a9563580ec3b2cbda536abf039ccf9c98911f22e4887fe7a"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_0.5_T2.jsonl.gz": {
+      "sha256": "c62a582c2d4dc95ab8cef4d1fec33e2d511c51f2bdba72dc0bd6a1082accb730"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_1_T1.jsonl.gz": {
+      "sha256": "db9159fe1e0242e6eeda2a6a9e68fad49d9bfcc84ce16ccc10877eb3ef47f0ec"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_1_T2.jsonl.gz": {
+      "sha256": "6cdf2094f89bf98d222a29e96690e1c1796c9fef09ee650ff769301b4c27ca36"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_2_T1.jsonl.gz": {
+      "sha256": "84d135b4d2bdd5818049a1222e6c616fe04037bb445c390845598586ebb07974"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_2_T2.jsonl.gz": {
+      "sha256": "389b125111f89c6b6cd9e50f4d65cff0624db17eac9edcde03f57121f408e802"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_5_T1.jsonl.gz": {
+      "sha256": "faf5bc9ebfd839f9575ae95250e1dafb738964cae90d43cf698955bcc02c8055"
+    },
+    "results/audits/numerical-2026-10-28/nemo_rtbt_5_T2.jsonl.gz": {
+      "sha256": "d7f71ef21699608c13dd8a588844377b376473d37b90e7e8b4aa330cfc4d5719"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.0005_T1.jsonl.gz": {
+      "sha256": "886dc088e0ee0dc2f8eb87a9fbef8932883f02f52ee7673b929ff48733d226b0"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.0005_T2.jsonl.gz": {
+      "sha256": "19b226d746aec2f5113fbe186058db25503dd78826c47556909a3f50f4328814"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.001_T1.jsonl.gz": {
+      "sha256": "7131c8b363c954f3ce1b7f1c5f55253f1cf6069f3903c4554da6513e59613817"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.001_T2.jsonl.gz": {
+      "sha256": "23c648576f0fdc990ee4e6d1f2a8effd2b52e21542ff9619f14e7d4f04658c75"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.002_T1.jsonl.gz": {
+      "sha256": "42bf5b7714b701a557fdb234899480cdee3b74181c62fca4529b08040f2273f6"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.002_T2.jsonl.gz": {
+      "sha256": "944ddb80193da74d6176db6a4ba6b610d230c45603966e462aeb8ea7e8a3d401"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.005_T1.jsonl.gz": {
+      "sha256": "3bd35085509b44625dc7e796265c3854a7ed5fc6d4a630b8f52c8a92ecbef39d"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.005_T2.jsonl.gz": {
+      "sha256": "dda354c78f17a2aaa6835d5513e1781ff1adde2a15ab924320af721744379180"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.01_T1.jsonl.gz": {
+      "sha256": "636c44bb178fdfe99a3ea1a24a83a0af274aa445f78b19ab385095a45339d1a4"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.01_T2.jsonl.gz": {
+      "sha256": "c574ebaaf8ca47f8b04d252cfc48b2f95109d041e6cafd070a70446c13ac3a32"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.02_T1.jsonl.gz": {
+      "sha256": "92d3a6e6ae28d8544166546d48a199163e5b78909dd081b536bedbae5ef1c988"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.02_T2.jsonl.gz": {
+      "sha256": "106c049955677d5200383d1c585f802be41dac6d28790609686423038cedf3fc"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.05_T1.jsonl.gz": {
+      "sha256": "c4c6e47e6aa22af8419883ea0335ccd8a31f03323d6635336454808aaf0f7810"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.05_T2.jsonl.gz": {
+      "sha256": "81c76fc9c5f1177a8474eac2d3797b5efac72a6879b319fb411c584e3c32825b"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.1_T1.jsonl.gz": {
+      "sha256": "f2a95b3f2a10b9d7151fb5cd65f6ca633f719713f123f15458061d257fcbbc0c"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.1_T2.jsonl.gz": {
+      "sha256": "5ff44b8e117e563db1a4dbaec45ed7d46bee3460a2208f786d25479fc9a48054"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.2_T1.jsonl.gz": {
+      "sha256": "f082d2c6f6e19184b91b06e05e008169b7c8ffb24276b79c060706b4146135a2"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.2_T2.jsonl.gz": {
+      "sha256": "619aef6fa6f0da632451856a18244b42458e2ec652fd4ea4435ddf5467427bca"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.5_T1.jsonl.gz": {
+      "sha256": "881ad1cb2a87d268a99968cf2e91ea54883c28a90a756e8ae32ed693bcca554d"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_nlhf_0.5_T2.jsonl.gz": {
+      "sha256": "b212b714dc379fa9257b7904329c07f63f43e9a048a78c24ba57ea18c1b72673"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.005_T1.jsonl.gz": {
+      "sha256": "baef1e6ec88ca97d57426dcec5ec5945524dc650e2beb713f5e9d92ded121567"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.005_T2.jsonl.gz": {
+      "sha256": "efc7247760f784ae8d4365f3f770dbbe59dbc61c3cda571e1c051577cae199f9"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.01_T1.jsonl.gz": {
+      "sha256": "8834fc6e9b23b5c0262eeb68971899fc98149382d89b8af51ec552c2ec448309"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.01_T2.jsonl.gz": {
+      "sha256": "4ccdd8363aaa5900319f95db6f231a69eaddbe1fec0d727cc7ad51b7726b746b"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.02_T1.jsonl.gz": {
+      "sha256": "3dfd1fc5f0275554471568126cbf3f98a32f1426afab2bc4309bf8fbec693507"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.02_T2.jsonl.gz": {
+      "sha256": "d3658a07e291934469f1e55906ad5da771f70154a40ad7729655aefd177e1866"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.05_T1.jsonl.gz": {
+      "sha256": "00c33ade035e7614095d8c08ad3c9d231ccda233d7c2736f31d3e32662e71bd6"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.05_T2.jsonl.gz": {
+      "sha256": "278bea866f37613aa8418690e9d4d32d391fc43333923be810049900fe7a25e0"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.1_T1.jsonl.gz": {
+      "sha256": "06959163874ef745f853155b2d1cd78591cb0804eb7e4cf55415be0ea8f836eb"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.1_T2.jsonl.gz": {
+      "sha256": "293b70de0a8d55a9f6d9c8b63fd53182e2fe6ff05729bebb312e0845817bd9dc"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.2_T1.jsonl.gz": {
+      "sha256": "5eb71b86b3757980c4c3e213ac1cd0ac73fcd4c018b54970d5b009c7d24044a4"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.2_T2.jsonl.gz": {
+      "sha256": "66f8f72c08ce0a910d6a537047da7a8d6e4df2041007715f6c606143af7ea85e"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.5_T1.jsonl.gz": {
+      "sha256": "8803122b6133ee786ac7ebcb2ceaea38fb62a90cdf3c4f33e31c6d866035ef01"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_0.5_T2.jsonl.gz": {
+      "sha256": "874ae78c65486fe88d2fa65aafb5b04fcc9572ed526562a2a4748e1e5c012426"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_1_T1.jsonl.gz": {
+      "sha256": "bc66f04feb9cf930501bb0b42b8e90043c006ad52f69af480071477682992758"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_1_T2.jsonl.gz": {
+      "sha256": "2c127da6a52f41be25a43803123ab14e01c6ebacd5e7b4aecb1eebf18568c427"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_2_T1.jsonl.gz": {
+      "sha256": "32f7eecae579e7c0c0371473dd64331e038ad3f2d61fb4870d3b84036a381267"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_2_T2.jsonl.gz": {
+      "sha256": "765ff362a562e529bd67bed1d724546d34505aa6cf4497d140c1e301f4358f32"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_5_T1.jsonl.gz": {
+      "sha256": "66b1463ae37e9fd885269f1cffb15768b26e130981c0e6eda5c4949155a02c2c"
+    },
+    "results/audits/numerical-2026-10-28/qwen25_rtbt_5_T2.jsonl.gz": {
+      "sha256": "d7916748785b8ca85c984adf0f58d8d7188bce556a5da145bce3820995025a26"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.0005_T1.jsonl.gz": {
+      "sha256": "395369c77d7f925e7bde8d918d542394c0de4e985d02012f943b9e795818dfc4"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.0005_T2.jsonl.gz": {
+      "sha256": "fc4be38d80e4a43469bd99b826aff54279b0a8bc8dfbb874742dfe76f24ec6ac"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.001_T1.jsonl.gz": {
+      "sha256": "902221f10a25991f40489515f565dac1cc90e41d32362470079a67e99b689944"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.001_T2.jsonl.gz": {
+      "sha256": "52fb6134b82ab04ee1a7bcb33732041b86bc0fec8337fd733984924ccdc7a10d"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.002_T1.jsonl.gz": {
+      "sha256": "5134f77b4ae444ebf765026e016e636969d4fdab6a9ff7db80ef6d68f2293f97"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.002_T2.jsonl.gz": {
+      "sha256": "230f7df046f4a44ea1613964503791a3fd95f63f3b3565fb121684dccc154048"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.005_T1.jsonl.gz": {
+      "sha256": "e68b523b40f6e9530f5eacf95b7256cac8f94cf1176e0729bcc931d07d580eae"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.005_T2.jsonl.gz": {
+      "sha256": "2e07e9080e98132ef7a7de9f725c101900bcbcd584e1638835a90103bf52eec3"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.01_T1.jsonl.gz": {
+      "sha256": "7ffd3a1ac91b2ce5b971f5dc527ebcdd77ead4ce295f922efdd9e95e03c38b32"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.01_T2.jsonl.gz": {
+      "sha256": "8d9a562528bb671e2622bdc0e0617cf85197f6abffd473730f46d6ffdd1fba8c"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.02_T1.jsonl.gz": {
+      "sha256": "0dff1fd7012a183fdb3b0096dfa4a6551d4166ba67279f8531adcdd06f4c1184"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.02_T2.jsonl.gz": {
+      "sha256": "b8095568c01528df1e5d8073ae4b1e47ff9f3b7a2474c70270264c7c27f119ca"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.05_T1.jsonl.gz": {
+      "sha256": "49094ea9fee5aa7a57687fabc402e8ad1a5911cac5a56cacf5648069c530147c"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.05_T2.jsonl.gz": {
+      "sha256": "7e8a62159b6290d826bd65ff7db65fb7ee9105944de984bbce157c4660e6719c"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.1_T1.jsonl.gz": {
+      "sha256": "d4344967ae9e7258965a1378cb870ff77ca8e7f3e385cd89a7c57fa446f67c27"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.1_T2.jsonl.gz": {
+      "sha256": "12bf66062c2cfeeeb5e823738ea369b2fd1336465512519117dd272c29656da9"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.2_T1.jsonl.gz": {
+      "sha256": "3e0aa50c71c777b2fe25b7fdfd10aa00f498fd5b7be7d36daa77eede57af0530"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.2_T2.jsonl.gz": {
+      "sha256": "eb89e26063cf4812f3bfe75f63d3589683c8d4a40c557d1aa1a4d73d5b6e71c2"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.5_T1.jsonl.gz": {
+      "sha256": "fad30060e20933826786c4f6b98f0709c09843575e4caaece967a6a5cf76c711"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_nlhf_0.5_T2.jsonl.gz": {
+      "sha256": "b564d0b93dd38e55d0a732b82c9fa797ea78ca94818d77335cc67bec2196d2b9"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.005_T1.jsonl.gz": {
+      "sha256": "5ceee4bba369cd69868283e52f094470971c7a6751732ebb045e10385b821e20"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.005_T2.jsonl.gz": {
+      "sha256": "7b9b5833d0a4950cb1a19f08d11e7eab76bf83049c6e2b82038d7826cacfe4e4"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.01_T1.jsonl.gz": {
+      "sha256": "bfa8a31fe79dcad24baa1c613555e950c455e57ba24a78233d2ad6960d2dbad8"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.01_T2.jsonl.gz": {
+      "sha256": "43a073de5f7681abe27f326e485ab3e69a5ab6eab62f46000cba9ef0c67ac905"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.02_T1.jsonl.gz": {
+      "sha256": "4a18717ac83a075093cb812dcd0b89f349cb6d8019105fbeb4ff183c23a2d914"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.02_T2.jsonl.gz": {
+      "sha256": "48b0af8751644710a307a0d45ed9f64af339347881b8940454dbee5d6ada93cd"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.05_T1.jsonl.gz": {
+      "sha256": "7e6d07ac7a8e915c3a402e8b8b7bda42d63f202260eefce78f671a4c56645e3f"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.05_T2.jsonl.gz": {
+      "sha256": "f7fc6687018bfdb9738f46e99f66ca2a1b6042245020e9a388e765130f7d9f22"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.1_T1.jsonl.gz": {
+      "sha256": "60991462c522929cc05e0f1cb9c760f1c93440b2739d318f9d9e5e433f770a8c"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.1_T2.jsonl.gz": {
+      "sha256": "54edf4c3958c916c5dd1b06340c46746fee37f77bcfeeabf7b37ae861a7df468"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.2_T1.jsonl.gz": {
+      "sha256": "72e50e1d3593d5bb830e99ed26daaa1f863ba654b4b254730e46e6be45ea51b8"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.2_T2.jsonl.gz": {
+      "sha256": "82cc62f9826680622f3138ea4a9fdc0d28b2ab1aef1bd1cd528f255416d80c09"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.5_T1.jsonl.gz": {
+      "sha256": "a51f130490358e12a7b3f3c6430eac7f72efa2978aff877addcbe1810e4abbbd"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_0.5_T2.jsonl.gz": {
+      "sha256": "b57ec7d72f01057bc78e7cebf3451c425aa737dfe0e3ee74e5d6e0c0920cd080"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_1_T1.jsonl.gz": {
+      "sha256": "6c6b903344aa222cbb4a608e4ccd095ebe61f6b92034e374659a7aba85f39db8"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_1_T2.jsonl.gz": {
+      "sha256": "803af2171aae76fdbd34774d26106aa807c2a8d2eaa7ebdad3d6f9010968b15e"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_2_T1.jsonl.gz": {
+      "sha256": "f66e738880f26bac78facbab8fdae1fdb19e6decdf8d91e1c6af11b2e0504bb0"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_2_T2.jsonl.gz": {
+      "sha256": "06b4c469cc73fc41de7edbd217dd94a0f4a9f42f7f8fd5f9327f59b46a26e09a"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_5_T1.jsonl.gz": {
+      "sha256": "a42ebee87d1363f921b471f8a4d438126fb7f217488967d7bf3c72e728f1c8a2"
+    },
+    "results/audits/numerical-2026-10-28/qwen3_rtbt_5_T2.jsonl.gz": {
+      "sha256": "1149395fe98911ccabd1b8ccb8c9079bf239a2a56b2df95881fa193b932052a1"
+    },
+    "results/audits/numerical-2026-10-28/summary.csv": {
+      "sha256": "0b2a93e88106de9868796645de4dff37aeea92c5993ec5316499275244f237fc"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/commutativity_frequencies.csv": {
+      "sha256": "0cad0572f1e227169c027544c28714b30bf55bdbbda4c1fbf3c5d0cf7e5e1db2"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/commutativity_magnitudes.csv": {
+      "sha256": "2166011311b166b24bbe5397edd59b466f1dae75b12b747bb9422c8ab0019408"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/conditioned_frequencies.csv": {
+      "sha256": "49a0d0aa51310cceab05013ab8adb5c7b5bcf1a2d6d38746ab3e19eda7f33e80"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/four_panel_plot_data.csv": {
+      "sha256": "69b7a5a8e6d288b97b87fa355ff35eea88dc32ba405376bc310177b93b1c0486"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/nlhf_conditioned_table.tex": {
+      "sha256": "2630310cbbded1e842af55a7c30a84e31ac5f55071ffcab493ca728304bd357b"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/nlhf_unconditioned_table.tex": {
+      "sha256": "4b4d721e57444fe6a52b8c6dbb6d486d06f6d7880da6c8ffdadc48c45bda2b7a"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/profile_conditioned_on_theory_change.csv": {
+      "sha256": "97d67dd38f25c75cca0749875f7716fd49343623eb21cf68737acb1f814ec8d6"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/rtbt_conditioned_table.tex": {
+      "sha256": "fc7c3d2f55fe9cc671d338eb4affebf2f7cabcf42f66c6c75cbec56618b2d331"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/rtbt_unconditioned_table.tex": {
+      "sha256": "72211e2695000874ae4e5480865db4921ff16531d15adcc0ce5a490a60c9ddde"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/single_voter_magnitudes.csv": {
+      "sha256": "f8ee9ef548295cfcd048cf2c7097bc5850af5ab674911fad0640091c260abf42"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/unconditioned_plot_data.csv": {
+      "sha256": "6ccb18b267de6d8758ed29db705e4a03600bc1f79c65a97c0931d81dedcd18b6"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T1/unconditioned_summary.csv": {
+      "sha256": "05e48f07b9e3532e7d441a68e9c3e027477247945eda3b1b6b7bedf91a5e3ca1"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/commutativity_frequencies.csv": {
+      "sha256": "3c43a75d9c71b08366f8e7a9d594937ab476f57fdab45e85255de94f2e2725f0"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/commutativity_magnitudes.csv": {
+      "sha256": "a25ef4a651504e582779ea2711f0d2c9b05532aad184522d11bcba669acfb0ae"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/conditioned_frequencies.csv": {
+      "sha256": "a80aaa7240702c05ffca8b49d1a0098fd8b81d67e00d110680cd3e59cf0adb5e"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/four_panel_plot_data.csv": {
+      "sha256": "58a5860f0e5d333c2e1e2145bf24c3c528eba8ff5dfb13d1ea6574147ddbf48a"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/profile_conditioned_on_theory_change.csv": {
+      "sha256": "2e07fa7e9266b9a182390c0d6276af6a7640b89d347d2a5414821dd331fe1c96"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/single_voter_magnitudes.csv": {
+      "sha256": "a206c1dc66bbbb98052deba9476ee802457ef0b90aa020ea88def0c8991f87af"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/unconditioned_plot_data.csv": {
+      "sha256": "65c8c1c0602b428afd963dd29fed183cc8f81c4d092eb9f13b82e9c8baab1096"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/T2/unconditioned_summary.csv": {
+      "sha256": "d0a6e36d66c03d428934284c2bba5866aeed1f380b353e68192a55eb7b6156a7"
+    },
+    "results/audits/replacement-figure-data-2026-10-28/nontrivial_reference_update_frequency.csv": {
+      "sha256": "dbb2fbb32ff6ead9f454c78bea7861e584ed35c7294c3e8b5f69a2775144a3e8"
+    },
+    "results/audits/training-2026-10-28/nemo_nlhf_eligible.case_keys.txt": {
+      "sha256": "d841e2f2045320988bd27f5437bc5d1c7e8fda5cb22d59612fbbdf845730a4ed"
+    },
+    "results/audits/training-2026-10-28/qwen25_nlhf_eligible.case_keys.txt": {
+      "sha256": "9640758afc205c62fba8d39a0132b28b975467bd4fd754a9b526abe4c7f5181b"
+    },
+    "results/audits/training-2026-10-28/qwen3_nlhf_eligible.case_keys.txt": {
+      "sha256": "ca7de07980c2cf7329c35e0e481449e4a4f51d2938c3f08a088cefad8b7806a8"
+    },
+    "results/case_keys/nemo_dpo.case_keys.txt": {
+      "sha256": "802208242714b549cc42673d4c84e267b1e07ac51b349dfbb3403e2add1e9070"
+    },
+    "results/case_keys/nemo_nlhf.case_keys.txt": {
+      "sha256": "d841e2f2045320988bd27f5437bc5d1c7e8fda5cb22d59612fbbdf845730a4ed"
+    },
+    "results/case_keys/qwen25_dpo.case_keys.txt": {
+      "sha256": "3d9712230f63c9d7f90cb1c75a80e263628e8b1c30ac87c8778bf061a310cb24"
+    },
+    "results/case_keys/qwen25_nlhf.case_keys.txt": {
+      "sha256": "9640758afc205c62fba8d39a0132b28b975467bd4fd754a9b526abe4c7f5181b"
+    },
+    "results/case_keys/qwen3_dpo.case_keys.txt": {
+      "sha256": "f55d32f4042e4b4fe5c77602b25d59c96aeec6cb60b847ea506be1bb41b161ac"
+    },
+    "results/case_keys/qwen3_nlhf.case_keys.txt": {
+      "sha256": "ca7de07980c2cf7329c35e0e481449e4a4f51d2938c3f08a088cefad8b7806a8"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/dpo_numerical_summary_table.tex": {
+      "sha256": "0e6123d34811ac03f58c80fcb7480b6bda024c133dc980d4f2795bd2f5660ad3",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/dpo_numerical_summary_table.tex"
+      ],
+      "submission_sha256": "0e6123d34811ac03f58c80fcb7480b6bda024c133dc980d4f2795bd2f5660ad3"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo.jsonl": {
+      "sha256": "2080486d833a5409dceb7f04633c3edd4cd52f25de8c69f4707524ea044eb059",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo.jsonl"
+      ],
+      "submission_sha256": "2080486d833a5409dceb7f04633c3edd4cd52f25de8c69f4707524ea044eb059"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo_meta.json": {
+      "sha256": "cb5c84b7cdb70a8092190a6d8ada2bbd4ad6193a051b884188426842faf3dbd9",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo_meta.json"
+      ],
+      "submission_sha256": "cb5c84b7cdb70a8092190a6d8ada2bbd4ad6193a051b884188426842faf3dbd9"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo_summary.csv": {
+      "sha256": "07c957eaeec17398eab462c6943438de17ab826c1d3c18339dad91a296af4627",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo_summary.csv"
+      ],
+      "submission_sha256": "07c957eaeec17398eab462c6943438de17ab826c1d3c18339dad91a296af4627"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25.jsonl": {
+      "sha256": "1ef44f65ffea1665dfa31ade42af88391caed38b48e1996a12cd39a5313f1f10",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25.jsonl"
+      ],
+      "submission_sha256": "1ef44f65ffea1665dfa31ade42af88391caed38b48e1996a12cd39a5313f1f10"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25_meta.json": {
+      "sha256": "b08f08ef7c29da140a19569f515c8164dd30dc9e9265b97eef0eaba805250c9f",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25_meta.json"
+      ],
+      "submission_sha256": "b08f08ef7c29da140a19569f515c8164dd30dc9e9265b97eef0eaba805250c9f"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25_summary.csv": {
+      "sha256": "c438709103d2c99fdb63a279385096da36fa01c6c7d8362ee82b472677f86015",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25_summary.csv"
+      ],
+      "submission_sha256": "c438709103d2c99fdb63a279385096da36fa01c6c7d8362ee82b472677f86015"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3.jsonl": {
+      "sha256": "ffb2d2f9a955af3cc9beb8b034c5f28fece537cf3cf819bf598a7183a857e31c",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3.jsonl"
+      ],
+      "submission_sha256": "ffb2d2f9a955af3cc9beb8b034c5f28fece537cf3cf819bf598a7183a857e31c"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3_meta.json": {
+      "sha256": "383f85379ba3671d25b815ae1d698b3be7adc45bf82cb58df53cb488621922ad",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3_meta.json"
+      ],
+      "submission_sha256": "383f85379ba3671d25b815ae1d698b3be7adc45bf82cb58df53cb488621922ad"
+    },
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3_summary.csv": {
+      "sha256": "0cdda47cfd204a52561782f6e0d89e7000e649eab6bf3b4a3207a6fe4a447dc2",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3_summary.csv"
+      ],
+      "submission_sha256": "0cdda47cfd204a52561782f6e0d89e7000e649eab6bf3b4a3207a6fe4a447dc2"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/nemo/planned_runs.csv": {
+      "sha256": "13fa2051ab7ae8000686698a9ed161e022e12710c063bb6eed98889b0dccc69c",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/nemo/planned_runs.csv"
+      ],
+      "submission_sha256": "13fa2051ab7ae8000686698a9ed161e022e12710c063bb6eed98889b0dccc69c"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/nemo/selected_witnesses.jsonl": {
+      "sha256": "1bb655169875287ed73c437307e99ab28d844ff9af2cd93e3d9ed21f27e2eae9",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/nemo/selected_witnesses.jsonl"
+      ],
+      "submission_sha256": "1bb655169875287ed73c437307e99ab28d844ff9af2cd93e3d9ed21f27e2eae9"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/nemo/summary.csv": {
+      "sha256": "e68cc8fb9a6774e5bf8afc1a783d3df09d570912dee039c15335a8756d521eee",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/nemo/summary.csv"
+      ],
+      "submission_sha256": "e68cc8fb9a6774e5bf8afc1a783d3df09d570912dee039c15335a8756d521eee"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/planned_runs.csv": {
+      "sha256": "630198c90e612e5defed0f928dd5c77837d073a5724621ec47f4a7409f3cd6b0",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/planned_runs.csv"
+      ],
+      "submission_sha256": "630198c90e612e5defed0f928dd5c77837d073a5724621ec47f4a7409f3cd6b0"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/selected_witnesses.jsonl": {
+      "sha256": "513880a06386b56b4bdd392d2850fd51c99b8aad85322258a308af51c2f090f9",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/selected_witnesses.jsonl"
+      ],
+      "submission_sha256": "513880a06386b56b4bdd392d2850fd51c99b8aad85322258a308af51c2f090f9"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/summary.csv": {
+      "sha256": "74191b1782f945acefd884510b44d2036a371b20e96ce58aba3cd6f5b4a80e3a",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/summary.csv"
+      ],
+      "submission_sha256": "74191b1782f945acefd884510b44d2036a371b20e96ce58aba3cd6f5b4a80e3a"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/planned_runs.csv": {
+      "sha256": "ad3a1441bfe056e727afc161ab90f8f62da5a221cb6ae942f201ead05ed6212b",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/planned_runs.csv"
+      ],
+      "submission_sha256": "ad3a1441bfe056e727afc161ab90f8f62da5a221cb6ae942f201ead05ed6212b"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/selected_witnesses.jsonl": {
+      "sha256": "4ea1a3d86eb7182458f538c97b0ed35d7b1fb9e4affb7fd1ccc9f75590db1b90",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/selected_witnesses.jsonl"
+      ],
+      "submission_sha256": "4ea1a3d86eb7182458f538c97b0ed35d7b1fb9e4affb7fd1ccc9f75590db1b90"
+    },
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/summary.csv": {
+      "sha256": "15a2ffdb1b085816c62f737de7eb673ebc18665b4f36fe22e7094af52fc761be",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/summary.csv"
+      ],
+      "submission_sha256": "15a2ffdb1b085816c62f737de7eb673ebc18665b4f36fe22e7094af52fc761be"
+    },
+    "results/empirical/dpo_rtbt/joint_qwen25/aggregate.csv": {
+      "sha256": "3c8f1d58831499d6e89217bae0a466608a29b8e8d9b88261f7907594c132b7a3",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/joint_qwen25/aggregate.csv"
+      ],
+      "submission_sha256": "3c8f1d58831499d6e89217bae0a466608a29b8e8d9b88261f7907594c132b7a3"
+    },
+    "results/empirical/dpo_rtbt/joint_qwen25/run.json": {
+      "sha256": "24dff09e7320d71a13091a2e609df5e0a242e790c67c22422f16417fcd864516",
+      "submission_paths": [
+        "results/empirical/dpo_rtbt/joint_qwen25/run.json"
+      ],
+      "submission_sha256": "24dff09e7320d71a13091a2e609df5e0a242e790c67c22422f16417fcd864516"
+    },
+    "results/empirical/nlhf_nashmd/commutativity_witnesses/nemo_summary.csv": {
+      "sha256": "1903be87ec9ea85cf9da81357fd287f57a7310d4ed6abd79a7a563a66731e876",
+      "submission_sha256": "34eb2f0b0eb52eea7b13369affcb477108a2a16321b32118eb9f402312a3a6e2"
+    },
+    "results/empirical/nlhf_nashmd/commutativity_witnesses/qwen25_summary.csv": {
+      "sha256": "7f80772a80deed9f8a7c49b81c60d3cd34b27cd3a8d0b00e75e40800128d5637",
+      "submission_sha256": "2f8c219900b9a98e2c4b110e300ead90107b7c5d7f1645d4ef531ae213d2cd68"
+    },
+    "results/empirical/nlhf_nashmd/commutativity_witnesses/qwen3_summary.csv": {
+      "sha256": "30fcd80dd0e83e20c10c769aef3ce893632e110102662a3849263b423a7da8e8",
+      "submission_sha256": "d95a53db0fa962c5c1bbb81994047c301c7bcf9d3d693f2dea468b8fba068628"
+    },
+    "results/empirical/nlhf_nashmd/completion85.jsonl": {
+      "sha256": "d7a9b7ebdb772ffeed4c287e241d1730a333a6a58f4f97e47b008198353a82c0"
+    },
+    "results/empirical/nlhf_nashmd/completion_batches.json": {
+      "sha256": "e88a92d4872b4f167d87bc46d9cd0946b8924e7cd9daa613f1678083a6cf9bd2"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/nemo.jsonl": {
+      "sha256": "1ff8048b7925c1293181e545520178c9d370be92271b2b5e8aa5175e88eaee09",
+      "submission_sha256": "6996d52ba417bc13988b139b0ee60d01f4d2ce6c43aca0ae115340a7c0e2401a"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/nemo_meta.json": {
+      "sha256": "a95e24e78435013b9f2d2519761440dc2bd5807d143536f9f552c1f1cbdb8e64",
+      "submission_sha256": "8b2e50bfc6a37688c89f0b982bb6165d990886a00fb8890c754670e7ff15e840"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/nemo_summary.csv": {
+      "sha256": "441617dbf75519b385dc1d167bfa381b90cd2b9375b4eb679cdb49c9e2bbd1d9",
+      "submission_sha256": "01c7e01081a3360561a70664eff8e7cadef690f7b60e19e33352a917b24582d6"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen25.jsonl": {
+      "sha256": "9162337f3ecd891d3904ecbeda265f01dfdf4364b95ba1d84e30e748814b29a6",
+      "submission_sha256": "cd46e3b6799292e3690b514c84b8edfcf62a98945354459b9fef2e8d2ec4a121"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen25_meta.json": {
+      "sha256": "db732dfda9484b7c5601093fd03c48aee5a0076703e599f4c5eb060697971afc",
+      "submission_sha256": "6895765c36ada29613d839dfe2ab04f3d7adb5310249067901ed80fb092a6010"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen25_summary.csv": {
+      "sha256": "6d1be6e96cfed3c17428f1ecb65d0c93d05f66eecc82da42aa0b08ef1e952915",
+      "submission_sha256": "0b8b696cf10853ed1c18bf2a4630caaaa3b3391d3ae71b1d9f6c5816de4d7d3a"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen3.jsonl": {
+      "sha256": "4e1cc01d31b12ce53964e460f74342e059d6231c736416b145ba00eb8f629ef8",
+      "submission_sha256": "a6cfc0c0be3cd354d7f5083ee22fae256e24ccc3793cd36fe460582eed3b19f6"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen3_meta.json": {
+      "sha256": "c9196acb8b972f5825f5aa231857fe08b68efb9c7027d61d274b7796ed9e5d81",
+      "submission_sha256": "bc71af4cc960d5093f8d38251adbbe2cf32b0c0046e4bba2d8c30a795f6e57f3"
+    },
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen3_summary.csv": {
+      "sha256": "ab61116df8d5b2c1512d3eac589fe5e94dbab949fcd23ced0aab05afe48ea432",
+      "submission_sha256": "8e6a2931764af6a34faf4ac3de3517f63f52c694e476ebb14a8e7aaa98a501b5"
+    },
+    "results/empirical/nlhf_nashmd/recovered_qwen3.jsonl": {
+      "sha256": "dcec66925865e08f097794c94a0553a56bda10c69260c8be13f7f11dca905a1a"
+    },
+    "results/empirical/nlhf_nashmd/recovered_qwen3_meta.json": {
+      "sha256": "ca7f601231d8a368a759b6b6ae18ee1a64d9ee84690918b92a7205a0d62c126c"
+    },
+    "results/figure_plot_data/FINAL_FIGURE_HASHES.json": {
+      "sha256": "1d179d047dd7a7defd071724f0b32b9d1e7710ebbe7d2ffb438a9bfa0f7ee8b1"
+    },
+    "results/figure_plot_data/nlhf_commutativity_single_profile_nashmd_agreement_plot_data.csv": {
+      "sha256": "da8399bc350de8c2409c24a394d969d5fe71b3f5912bde1c2d8c5307ea439536",
+      "submission_sha256": "139878c346ba509899f2e9632d0789a53f2098d3dc19611d71f8a3a78a54612b"
+    },
+    "results/reference_distributions/nemo_pytorch_rho_strip_identity_float32.jsonl": {
+      "sha256": "87cd9ba2fe40b36c9c4d2b081779985cc53df72a0c2d716554f130ddd36fd733",
+      "submission_paths": [
+        "results/reference_distributions/nemo_pytorch_rho_strip_identity_float32.jsonl"
+      ],
+      "submission_sha256": "87cd9ba2fe40b36c9c4d2b081779985cc53df72a0c2d716554f130ddd36fd733"
+    },
+    "results/reference_distributions/nemo_pytorch_rho_strip_identity_float32.meta.json": {
+      "sha256": "73d84c8be780c35ad26c2192bd267c01096bb1814a6724cbf581a8c66d25fbff",
+      "submission_paths": [
+        "results/reference_distributions/nemo_pytorch_rho_strip_identity_float32.meta.json"
+      ],
+      "submission_sha256": "73d84c8be780c35ad26c2192bd267c01096bb1814a6724cbf581a8c66d25fbff"
+    },
+    "results/reference_distributions/qwen25_pytorch_rho_strip_identity.jsonl": {
+      "sha256": "aa13efa38db5ae83093e22de3b5f444c34cd9c489712bd1355f355da1987e9fa",
+      "submission_paths": [
+        "results/reference_distributions/qwen25_pytorch_rho_strip_identity.jsonl"
+      ],
+      "submission_sha256": "aa13efa38db5ae83093e22de3b5f444c34cd9c489712bd1355f355da1987e9fa"
+    },
+    "results/reference_distributions/qwen25_pytorch_rho_strip_identity.meta.json": {
+      "sha256": "65d09c62c2e3b29e6e667eac66420254e142c226f40cd90c4460e451550e408f",
+      "submission_paths": [
+        "results/reference_distributions/qwen25_pytorch_rho_strip_identity.meta.json"
+      ],
+      "submission_sha256": "65d09c62c2e3b29e6e667eac66420254e142c226f40cd90c4460e451550e408f"
+    },
+    "results/reference_distributions/qwen3_pytorch_rho_strip_identity.jsonl": {
+      "sha256": "f77dcc7ceadcb272786772a24e47cd3cccbc11ffb47a2dbb60c20c9327f0c78e",
+      "submission_paths": [
+        "results/reference_distributions/qwen3_pytorch_rho_strip_identity.jsonl"
+      ],
+      "submission_sha256": "f77dcc7ceadcb272786772a24e47cd3cccbc11ffb47a2dbb60c20c9327f0c78e"
+    },
+    "results/reference_distributions/qwen3_pytorch_rho_strip_identity.meta.json": {
+      "sha256": "fa500b3aaa1c74e4d2a06c99931b3bbd9f4de3276d29de5718e6392766dd6b39",
+      "submission_paths": [
+        "results/reference_distributions/qwen3_pytorch_rho_strip_identity.meta.json"
+      ],
+      "submission_sha256": "fa500b3aaa1c74e4d2a06c99931b3bbd9f4de3276d29de5718e6392766dd6b39"
+    },
+    "results/reference_distributions/robustness/nemo_pytorch_rho_strip_identity_float32_temperature_2.jsonl": {
+      "sha256": "dddb3a9c654601c629bb41b873eac6316d90bc5e7aa484f7878a41738e976534",
+      "submission_paths": [
+        "results/reference_distributions/robustness/nemo_pytorch_rho_strip_identity_float32_temperature_2.jsonl"
+      ],
+      "submission_sha256": "dddb3a9c654601c629bb41b873eac6316d90bc5e7aa484f7878a41738e976534"
+    },
+    "results/reference_distributions/robustness/qwen25_pytorch_rho_strip_identity_temperature_2.jsonl": {
+      "sha256": "dc754f2559721e4c65edf0938ea364e14c202abd1bed948b382630974ef26b50",
+      "submission_paths": [
+        "results/reference_distributions/robustness/qwen25_pytorch_rho_strip_identity_temperature_2.jsonl"
+      ],
+      "submission_sha256": "dc754f2559721e4c65edf0938ea364e14c202abd1bed948b382630974ef26b50"
+    },
+    "results/reference_distributions/robustness/qwen3_pytorch_rho_strip_identity_temperature_2.jsonl": {
+      "sha256": "06ef145643e31659dfdc3fd319ed39ef76563055db5bc8fbdf05091de960a9c0",
+      "submission_paths": [
+        "results/reference_distributions/robustness/qwen3_pytorch_rho_strip_identity_temperature_2.jsonl"
+      ],
+      "submission_sha256": "06ef145643e31659dfdc3fd319ed39ef76563055db5bc8fbdf05091de960a9c0"
+    },
+    "results/reference_distributions/worked_examples/nemo_pytorch_rho_strip_identity.jsonl": {
+      "sha256": "0d43fb26fca5781878d90abc5d3b292689adad10bf5ea846f0fb0ca021c1de1b"
+    },
+    "results/reference_distributions/worked_examples/nemo_pytorch_rho_strip_identity.meta.json": {
+      "sha256": "5fafe10f4b70a24d7b437413f15ab895a5c351a365cbe5b857de2dbb99c9e7b9"
+    },
+    "scripts/README.md": {
+      "sha256": "20384c17bcdd8ee9bc315fde1e8c35e65ef7b829cbf7f2d0199ab41a049a8c06",
+      "submission_sha256": "f73f942239270ad0108e0dbae9aec08eb8a3f1fb4b63a42be43cc52e4e8f98f2"
+    },
+    "scripts/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ],
+      "submission_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/additional_checks/README.md": {
+      "sha256": "1183bf5d0db9305c663a99cc87ad58741788b3012d072f95abd4ff3fe7c9b83b",
+      "submission_paths": [
+        "scripts/additional_checks/README.md"
+      ],
+      "submission_sha256": "1183bf5d0db9305c663a99cc87ad58741788b3012d072f95abd4ff3fe7c9b83b"
+    },
+    "scripts/additional_checks/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ],
+      "submission_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/additional_checks/audit_commutativity.py": {
+      "sha256": "d55742133dc9a1847318b2a952e51ef1b3b9cde33206b83de45ff7ac16b43859"
+    },
+    "scripts/additional_checks/audit_dpo_witnesses.py": {
+      "sha256": "8536d87e500b692458359a135a38eec7d12d4b5c2def7c406ffd5158068581e8"
+    },
+    "scripts/additional_checks/audit_joint_dpo.py": {
+      "sha256": "6f726c2ff81b832c2cbdfe335b5b63ef2a9561d599430e6d603eeedf96bd5cdc"
+    },
+    "scripts/additional_checks/audit_numerical_release.py": {
+      "sha256": "3d5ace54f7a485d09526a3208f924ad85c5fb557f503d5e7a0d944ca35ec3d3d"
+    },
+    "scripts/additional_checks/check_submission_artifact.py": {
+      "sha256": "454587df555c0c05a6060f3cf000fee94825dbeed7d7616bbfc5ac236009e2a7",
+      "submission_sha256": "0fcb0eb780f80eef170fcb7090ed333cba67e4039fe5e475a946b11dd52e36f8"
+    },
+    "scripts/additional_checks/nlhf_batch_audit.py": {
+      "sha256": "9f95327f1e49306b4c4d095b4f87d9253d997818427d1034bad5f1683c93453f"
+    },
+    "scripts/additional_checks/prepare_audited_figures.py": {
+      "sha256": "63bc588a95332baa032f773f2a4fd4467a437752841113cb0f7705af17b49e0f"
+    },
+    "scripts/additional_checks/recover_commutativity_inputs.py": {
+      "sha256": "86e406c0ba99a552cadc03f12b0db61903f67c643d0ab35c59bd1a4c721f2959"
+    },
+    "scripts/additional_checks/smoke_test_reproducibility.py": {
+      "sha256": "6ba23eaf0a03c369c3137b755c8b97ef9c6424993962bf9a1d509225a7084a91",
+      "submission_paths": [
+        "scripts/additional_checks/smoke_test_reproducibility.py"
+      ],
+      "submission_sha256": "6ba23eaf0a03c369c3137b755c8b97ef9c6424993962bf9a1d509225a7084a91"
+    },
+    "scripts/check_supplement.sh": {
+      "sha256": "e0154282a1d35e458751788c89712edba73ff78661804a086a2c715cf40d90bb",
+      "submission_sha256": "1bf925f69e0756736c5b043a705fb459a357626da6fad59202581fd6a95f2646"
+    },
+    "scripts/coval/README.md": {
+      "sha256": "a8f974b3b1bd0c972e433c4b5a87b782c10bfbfd73ba9e958bff5c3a438c2072",
+      "submission_paths": [
+        "scripts/coval/README.md"
+      ],
+      "submission_sha256": "a8f974b3b1bd0c972e433c4b5a87b782c10bfbfd73ba9e958bff5c3a438c2072"
+    },
+    "scripts/coval/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ],
+      "submission_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/coval/profiles.py": {
+      "sha256": "1e33c867893c20554e5a694a8ec0fb5444cf57f282ca4cfe5534924903e137e9",
+      "submission_sha256": "09aceee4d6fb8a2db7677abbc57ce69f6c203e73179299a3ff1e195ccce4e33d"
+    },
+    "scripts/figures/README.md": {
+      "sha256": "4fdb62fa7835d0b9ebd19180c9d641583d005d3776029c3ff55a6a9dcf5888d9",
+      "submission_paths": [
+        "scripts/figures/README.md"
+      ],
+      "submission_sha256": "4fdb62fa7835d0b9ebd19180c9d641583d005d3776029c3ff55a6a9dcf5888d9"
+    },
+    "scripts/figures/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ],
+      "submission_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/figures/generate_dpo_numerical_summary_table.py": {
+      "sha256": "9f5861017891badfdab05a94e59d5b3316f8387fa77b5dcd88877f3a90281891",
+      "submission_paths": [
+        "scripts/figures/generate_dpo_numerical_summary_table.py"
+      ],
+      "submission_sha256": "9f5861017891badfdab05a94e59d5b3316f8387fa77b5dcd88877f3a90281891"
+    },
+    "scripts/figures/generate_frequency_data_tables.py": {
+      "sha256": "c0591369fec35f2c55359ae8670f85e0dec9db1de9c87a22e88207b4e319e838",
+      "submission_paths": [
+        "scripts/figures/generate_frequency_data_tables.py"
+      ],
+      "submission_sha256": "c0591369fec35f2c55359ae8670f85e0dec9db1de9c87a22e88207b4e319e838"
+    },
+    "scripts/figures/plot_combined_violation_frequency_panels.py": {
+      "sha256": "41d9aa615697a1a484869996230c85b3d2358806e1b1c8710a0734c55d912689",
+      "submission_sha256": "06838cffc28f2e0281d7ba72b02ddd625845d45f048ccfe717b7a63484d9bbaf"
+    },
+    "scripts/figures/plot_commutativity_violation_graphs.py": {
+      "sha256": "58859bf092ca51b9c33195816866e4cba7d2b264628e978f8d3c8657b39acfdb",
+      "submission_paths": [
+        "scripts/figures/plot_commutativity_violation_graphs.py"
+      ],
+      "submission_sha256": "58859bf092ca51b9c33195816866e4cba7d2b264628e978f8d3c8657b39acfdb"
+    },
+    "scripts/figures/plot_filtered_dpo_sweep_agreement.py": {
+      "sha256": "299077ffda5c4f240a6e403c252c59db602753b65dfbef7660b94bb25f4d3cc2",
+      "submission_paths": [
+        "scripts/figures/plot_filtered_dpo_sweep_agreement.py"
+      ],
+      "submission_sha256": "299077ffda5c4f240a6e403c252c59db602753b65dfbef7660b94bb25f4d3cc2"
+    },
+    "scripts/figures/plot_nashmd_commutativity_agreement_panels.py": {
+      "sha256": "6c29c198b7d86096e8b042919d472a8432a350e45579d548de3f23fc821c773c",
+      "submission_sha256": "51b2ce22b6b16a953384b1e79916c4af5f3b5ba00dd0097d301d224111afd763"
+    },
+    "scripts/figures/plot_nontrivial_reference_update_frequency.py": {
+      "sha256": "494da437ddb7cbe952e23e42febd0ee0d3fb7266d445ea3674bb7f4fa1a07609",
+      "submission_sha256": "145dadf396b77cdbe340c2be99db054d944e43db65ab8f52a281948e048082e9"
+    },
+    "scripts/figures/plot_qwen25_bubble_agreement_panels.py": {
+      "sha256": "719aab2f91c0e50a3918e8235d0a26b2a1c7af4a3e393cdb3367cb568f153676",
+      "submission_sha256": "93a364c80e1d9b8e5f87aaa6471963429498799fbd35847ce880bb3b2e105c56"
+    },
+    "scripts/figures/plot_qwen25_joint_dpo_bubble_agreement.py": {
+      "sha256": "91599644031fcc9b96dab5561ee49207f630e1d5f4962e6a99b0d299cc11cbc2",
+      "submission_paths": [
+        "scripts/figures/plot_qwen25_joint_dpo_bubble_agreement.py"
+      ],
+      "submission_sha256": "91599644031fcc9b96dab5561ee49207f630e1d5f4962e6a99b0d299cc11cbc2"
+    },
+    "scripts/figures/plot_reference_update_size_sweeps.py": {
+      "sha256": "f8c24cd1680071aa1b00be4dc22abf2d4121778f579ad69b375681689fb07a22",
+      "submission_paths": [
+        "scripts/figures/plot_reference_update_size_sweeps.py"
+      ],
+      "submission_sha256": "f8c24cd1680071aa1b00be4dc22abf2d4121778f579ad69b375681689fb07a22"
+    },
+    "scripts/figures/plot_rtbt_involvement_dpo_agreement.py": {
+      "sha256": "b19151f0a87cd8c041c1e86a0a145f6a56c7eeef2ec4786975392cdf2d1633b2",
+      "submission_sha256": "4fcd4d8e38347ddb3b6794a9b210ab153b26c476972c6c3eff8d6aadf9feafef"
+    },
+    "scripts/figures/plot_theory_change_conditioned_magnitude_boxplot.py": {
+      "sha256": "d9dbcc7e7d8ff9f0743e9709955503868deb676cddf563ee1779c197d7849919",
+      "submission_sha256": "cc695744894d65bf1c5b5b0756cc33e206d864a649362d749199ea08c4c20882"
+    },
+    "scripts/figures/plot_theory_change_conditioned_parameter_sweeps.py": {
+      "sha256": "0949f6dee6c7bdf4c5fc24fb6b3cca33a59aede5203dea9c81fd4222109473b7",
+      "submission_sha256": "1ad8c40df08dae2e580288d04ac34e14d4c585baa49eafda1a160b1a73271eb7"
+    },
+    "scripts/figures/plot_theory_change_conditioned_profile_frequencies.py": {
+      "sha256": "4f28667aa9b9285f10816f9f200c481879f15baf296c6da48795dd17956c712f",
+      "submission_sha256": "363512b606e55f905742866881426e49061f7c9c9935c1bcd1e58c684c4db648"
+    },
+    "scripts/figures/plot_unconditioned_violation_frequency_panels.py": {
+      "sha256": "389a06ac927ece061ba411e397329617842297849f154edfecb561084f156158",
+      "submission_sha256": "9c55219d74c905acf086d6598ccb4d8833f340eba13a30570ad4ed1009f28e87"
+    },
+    "scripts/figures/plot_violation_magnitude_boxplot.py": {
+      "sha256": "7070e944764a9c33bc1d61ef4515eeec4263a165ea02e4ed7cf7d0097404a7a4",
+      "submission_paths": [
+        "scripts/figures/plot_violation_magnitude_boxplot.py"
+      ],
+      "submission_sha256": "7070e944764a9c33bc1d61ef4515eeec4263a165ea02e4ed7cf7d0097404a7a4"
+    },
+    "scripts/figures/rebuild_camera_ready.py": {
+      "sha256": "72f702b04e6895ae40ab7562906b826a376c5fda439c4272a7d6bb522b2d4183"
+    },
+    "scripts/orchestration/__init__.py": {
+      "sha256": "de47db0dedeeb0065905cb989395622d9194eeba12574221dd5854c80fc65bb3",
+      "submission_paths": [
+        "scripts/orchestration/__init__.py"
+      ],
+      "submission_sha256": "de47db0dedeeb0065905cb989395622d9194eeba12574221dd5854c80fc65bb3"
+    },
+    "scripts/orchestration/run_with_caffeinate.sh": {
+      "sha256": "95bc940a8836111bccc1f521e86286b7f6649c300d0572b76385db7c3480cfaa",
+      "submission_paths": [
+        "scripts/orchestration/run_with_caffeinate.sh"
+      ],
+      "submission_sha256": "95bc940a8836111bccc1f521e86286b7f6649c300d0572b76385db7c3480cfaa"
+    },
+    "scripts/post_training/README.md": {
+      "sha256": "9e59064ba89723c3bf5bcee812d5e889d55760f871265a6fda8ea2f0c4361b8b",
+      "submission_paths": [
+        "scripts/post_training/README.md"
+      ],
+      "submission_sha256": "9e59064ba89723c3bf5bcee812d5e889d55760f871265a6fda8ea2f0c4361b8b"
+    },
+    "scripts/post_training/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ],
+      "submission_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/post_training/batch_profile_empirical_vs_theory.py": {
+      "sha256": "8d7e8dbf57d8d2d72dd9a78c6e13dbac9c7ed6c780eac4476cd26a9bd9a17373",
+      "submission_paths": [
+        "scripts/post_training/batch_profile_empirical_vs_theory.py"
+      ],
+      "submission_sha256": "8d7e8dbf57d8d2d72dd9a78c6e13dbac9c7ed6c780eac4476cd26a9bd9a17373"
+    },
+    "scripts/post_training/commutativity_presets.py": {
+      "sha256": "b4d5adf23130b7c06c2c189cdd4638ea5ddbdbafd2e23fc1328982a9533ac1fa",
+      "submission_paths": [
+        "scripts/post_training/commutativity_presets.py"
+      ],
+      "submission_sha256": "b4d5adf23130b7c06c2c189cdd4638ea5ddbdbafd2e23fc1328982a9533ac1fa"
+    },
+    "scripts/post_training/monitor_empirical_vs_theory_run.py": {
+      "sha256": "59b830160731b95b3b4c42d4790562aa0c792f769ce6b23772db5fbd39d8db6b",
+      "submission_paths": [
+        "scripts/post_training/monitor_empirical_vs_theory_run.py"
+      ],
+      "submission_sha256": "59b830160731b95b3b4c42d4790562aa0c792f769ce6b23772db5fbd39d8db6b"
+    },
+    "scripts/post_training/orchestrate_empirical_vs_theory_chunked.py": {
+      "sha256": "bb4343193c279f5c6a281c0300df812bc94274e5225eaf5d8f84dd4a16380003",
+      "submission_paths": [
+        "scripts/post_training/orchestrate_empirical_vs_theory_chunked.py"
+      ],
+      "submission_sha256": "bb4343193c279f5c6a281c0300df812bc94274e5225eaf5d8f84dd4a16380003"
+    },
+    "scripts/post_training/summarize_empirical_jsonl.py": {
+      "sha256": "ef649fdaeabf55fe12fe34f683a7d241e398f93ee452a1f58ba8308b2b1f84dd",
+      "submission_paths": [
+        "scripts/post_training/summarize_empirical_jsonl.py"
+      ],
+      "submission_sha256": "ef649fdaeabf55fe12fe34f683a7d241e398f93ee452a1f58ba8308b2b1f84dd"
+    },
+    "scripts/post_training/summarize_empirical_vs_theory_run.py": {
+      "sha256": "e0c4db0c7c8c0e23f8195d44de4b112a78a798fb5eac595efd0e8302f4d43aff",
+      "submission_paths": [
+        "scripts/post_training/summarize_empirical_vs_theory_run.py"
+      ],
+      "submission_sha256": "e0c4db0c7c8c0e23f8195d44de4b112a78a798fb5eac595efd0e8302f4d43aff"
+    },
+    "scripts/post_training/train_coval_dpo.py": {
+      "sha256": "26071bee6d5b4e0ffbfeab217d429144ac3a7684f44f4b8c1333976505096510",
+      "submission_paths": [
+        "scripts/post_training/train_coval_dpo.py"
+      ],
+      "submission_sha256": "26071bee6d5b4e0ffbfeab217d429144ac3a7684f44f4b8c1333976505096510"
+    },
+    "scripts/post_training/train_coval_dpo_multi_profile.py": {
+      "sha256": "ca9cc4e8e9aeb32226d06c05e1d76d44a1fe9aa2dc1c7e44df419a582285ae6c",
+      "submission_paths": [
+        "scripts/post_training/train_coval_dpo_multi_profile.py"
+      ],
+      "submission_sha256": "ca9cc4e8e9aeb32226d06c05e1d76d44a1fe9aa2dc1c7e44df419a582285ae6c"
+    },
+    "scripts/post_training/train_coval_nash_md.py": {
+      "sha256": "531c0427d6340f0947f19d068a4acb8049786e1c7ce8c9fa4d68c5a8765eb666",
+      "submission_paths": [
+        "scripts/post_training/train_coval_nash_md.py"
+      ],
+      "submission_sha256": "531c0427d6340f0947f19d068a4acb8049786e1c7ce8c9fa4d68c5a8765eb666"
+    },
+    "scripts/post_training/train_coval_nash_md_commutativity.py": {
+      "sha256": "04a58026bd67861ebf67d0cc8c52b847f4acfa298db16882aa2965dbe1bb4911",
+      "submission_paths": [
+        "scripts/post_training/train_coval_nash_md_commutativity.py"
+      ],
+      "submission_sha256": "04a58026bd67861ebf67d0cc8c52b847f4acfa298db16882aa2965dbe1bb4911"
+    },
+    "scripts/reference_distributions/README.md": {
+      "sha256": "48832eb0ca47adc998749bc2d7b695faf1600a8fa965f443fbf00bbf343d12cc",
+      "submission_paths": [
+        "scripts/reference_distributions/README.md"
+      ],
+      "submission_sha256": "48832eb0ca47adc998749bc2d7b695faf1600a8fa965f443fbf00bbf343d12cc"
+    },
+    "scripts/reference_distributions/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ],
+      "submission_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/reference_distributions/derive_reference_ablation_caches.py": {
+      "sha256": "25f56ecc6e5d308235c3ed92934ae178f688461461a0f441c5383080b9626e0d",
+      "submission_paths": [
+        "scripts/reference_distributions/derive_reference_ablation_caches.py"
+      ],
+      "submission_sha256": "25f56ecc6e5d308235c3ed92934ae178f688461461a0f441c5383080b9626e0d"
+    },
+    "scripts/reference_distributions/extract_model_reference_pytorch.py": {
+      "sha256": "53e259730412cf76170eaf0ed2cb54e8d3ad299c19b69744cf3f061419101abe",
+      "submission_paths": [
+        "scripts/reference_distributions/extract_model_reference_pytorch.py"
+      ],
+      "submission_sha256": "53e259730412cf76170eaf0ed2cb54e8d3ad299c19b69744cf3f061419101abe"
+    },
+    "scripts/run_version.py": {
+      "sha256": "403485f47d0adcd9f60d143bd2d9c48f02bb6c81086c42c53359dd9db02d4747"
+    },
+    "scripts/theory/README.md": {
+      "sha256": "7d212ca4b934406ab1e59e170dee92a23febc036062582f1f636248242e77860",
+      "submission_paths": [
+        "scripts/theory/README.md"
+      ],
+      "submission_sha256": "7d212ca4b934406ab1e59e170dee92a23febc036062582f1f636248242e77860"
+    },
+    "scripts/theory/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "submission_paths": [
+        "scripts/__init__.py",
+        "scripts/additional_checks/__init__.py",
+        "scripts/coval/__init__.py",
+        "scripts/figures/__init__.py",
+        "scripts/post_training/__init__.py",
+        "scripts/reference_distributions/__init__.py",
+        "scripts/theory/__init__.py"
+      ],
+      "submission_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/theory/cache_nlhf_tie_threshold_effects.py": {
+      "sha256": "b7312af4595b6463812d3cceccdd75dc619af5e2607706bfc8056739aaf0cf59",
+      "submission_paths": [
+        "scripts/theory/cache_nlhf_tie_threshold_effects.py"
+      ],
+      "submission_sha256": "b7312af4595b6463812d3cceccdd75dc619af5e2607706bfc8056739aaf0cf59"
+    },
+    "scripts/theory/count_rtbt_domain_profiles.py": {
+      "sha256": "9954272b9362e2cee554852185f0876479627b5e69f228191eae21c43a7fb055",
+      "submission_paths": [
+        "scripts/theory/count_rtbt_domain_profiles.py"
+      ],
+      "submission_sha256": "9954272b9362e2cee554852185f0876479627b5e69f228191eae21c43a7fb055"
+    },
+    "scripts/theory/nlhf_solver.py": {
+      "sha256": "49610b8e324ef8a6a46e46480d131391d99503aa1435122c606b0c650c479074",
+      "submission_paths": [
+        "scripts/theory/nlhf_solver.py"
+      ],
+      "submission_sha256": "49610b8e324ef8a6a46e46480d131391d99503aa1435122c606b0c650c479074"
+    },
+    "scripts/theory/nlhf_tie_normalization.py": {
+      "sha256": "523235492f37cc49cafa58b920f0e36da23e0bef6fece27bc9378e2546347f79",
+      "submission_sha256": "126f29c8f3aa674618b6c381a223d4846c4ae30a469669c532b247d9b207834c"
+    },
+    "scripts/theory/search_coval_nlhf_reverse_monotonicity.py": {
+      "sha256": "c46001c6052d115199b4aacbb81f9140c7f9fc3525e9654f800e2338efbad3dc",
+      "submission_paths": [
+        "scripts/theory/search_coval_nlhf_reverse_monotonicity.py"
+      ],
+      "submission_sha256": "c46001c6052d115199b4aacbb81f9140c7f9fc3525e9654f800e2338efbad3dc"
+    },
+    "scripts/theory/search_coval_violation_counts.py": {
+      "sha256": "b41ef65e04f49af517488910bd729fe9b46bd9312f0f18ca4abb18b20e054aed",
+      "submission_sha256": "01269758fa33b97a2663111fc914d3495c9983081763e6a88faf939f4fec983e"
+    },
+    "scripts/theory/search_model_reference_commutativity.py": {
+      "sha256": "be25c231035711348b77edadc626297a7a3a55c0b95f86b6f05c3523dfe04ebe",
+      "submission_sha256": "6b11178b19f425c1bf9c71900f99cf1fa3d5ad9eb93c5a15502dc9775257f96f"
+    },
+    "scripts/theory/search_model_reference_examples.py": {
+      "sha256": "5d46853bb9350a51ca1270e57ac5e513b0cc45eeef8a317f3f159c367b053260",
+      "submission_paths": [
+        "scripts/theory/search_model_reference_examples.py"
+      ],
+      "submission_sha256": "5d46853bb9350a51ca1270e57ac5e513b0cc45eeef8a317f3f159c367b053260"
+    },
+    "scripts/theory/search_model_reference_violation_counts.py": {
+      "sha256": "15da2ebdc6e094bcecdb67a2155552d2138389e9c29ed54240c66f6ae35924cc",
+      "submission_sha256": "04298975ef48150c19c7c19293cf4dbb834a6a5ff589e0dfb75b7dccab9ae81b"
+    },
+    "scripts/theory/search_nlhf_tie_normalization_examples.py": {
+      "sha256": "01eecfe6d2842ca4097f5c0eedda67cf909c1b06a0b82b0daccd4a07af461af8",
+      "submission_sha256": "9f01cbfa30583d9e0f16725fff1666bd0789cd400302c861b14b133648daee84"
+    },
+    "scripts/theory/search_strict_weak_positive_involvement.py": {
+      "sha256": "223b75c0c61f04c1f398c63230e622a3b1747bebca82af87da977c61e6986bd4",
+      "submission_sha256": "e3a13117859aeca74899dfe15c7cc094c278b46dc4077b09296550643120bfec"
+    },
+    "scripts/theory/select_theory_change_case_keys.py": {
+      "sha256": "22d5ab0691b47dd97bd84c771d0f01ab202421348b1d5e01786fe1011b99ad8c",
+      "submission_sha256": "48bcf3739bcade411acf7e5fde3c54290977f8fa7eaaeec8ceb42457c661a06d"
+    },
+    "scripts/theory/summarize_theory_change_conditioned_frequencies.py": {
+      "sha256": "f04d5d2745f23324929d3d8d3af34b18511984c01391e374bf40c5315198ff0f",
+      "submission_sha256": "3fc94521a3eacbc01cff6ac470200dc76fe275d7e99e0dc2a3c19d49fc0cb53a"
+    },
+    "scripts/theory/sweep_nlhf_tie_normalization_parameters.py": {
+      "sha256": "f9bf0a735cf228008354ac46891aed541a914039e654b9c15fc2731a87338eb1",
+      "submission_paths": [
+        "scripts/theory/sweep_nlhf_tie_normalization_parameters.py"
+      ],
+      "submission_sha256": "f9bf0a735cf228008354ac46891aed541a914039e654b9c15fc2731a87338eb1"
+    },
+    "scripts/verify_camera_ready.py": {
+      "sha256": "899375c8b07b6e287f1e4a13c923a38927f50d1c9f2abcacda66ff8b18da2990"
+    }
+  },
+  "training_source_sha256": {
+    "scripts/post_training/train_coval_dpo_multi_profile.py": "ca9cc4e8e9aeb32226d06c05e1d76d44a1fe9aa2dc1c7e44df419a582285ae6c",
+    "scripts/post_training/summarize_empirical_vs_theory_run.py": "e0c4db0c7c8c0e23f8195d44de4b112a78a798fb5eac595efd0e8302f4d43aff",
+    "scripts/post_training/batch_profile_empirical_vs_theory.py": "8d7e8dbf57d8d2d72dd9a78c6e13dbac9c7ed6c780eac4476cd26a9bd9a17373",
+    "scripts/post_training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/post_training/train_coval_nash_md.py": "531c0427d6340f0947f19d068a4acb8049786e1c7ce8c9fa4d68c5a8765eb666",
+    "scripts/post_training/commutativity_presets.py": "b4d5adf23130b7c06c2c189cdd4638ea5ddbdbafd2e23fc1328982a9533ac1fa",
+    "scripts/post_training/summarize_empirical_jsonl.py": "ef649fdaeabf55fe12fe34f683a7d241e398f93ee452a1f58ba8308b2b1f84dd",
+    "scripts/post_training/train_coval_nash_md_commutativity.py": "04a58026bd67861ebf67d0cc8c52b847f4acfa298db16882aa2965dbe1bb4911",
+    "scripts/post_training/train_coval_dpo.py": "26071bee6d5b4e0ffbfeab217d429144ac3a7684f44f4b8c1333976505096510",
+    "scripts/post_training/monitor_empirical_vs_theory_run.py": "59b830160731b95b3b4c42d4790562aa0c792f769ce6b23772db5fbd39d8db6b",
+    "scripts/post_training/orchestrate_empirical_vs_theory_chunked.py": "bb4343193c279f5c6a281c0300df812bc94274e5225eaf5d8f84dd4a16380003"
+  },
+  "original_zip_sha256": "00f1e0748fe312dbb75e43a7e23e43bab942b06efae86d1be8881e1b45f74e49",
+  "original_files": {
+    ".gitignore": "3215196b2d0eb49a41cb6e8ce7916d3e7cc3be2008aa71ae30d7905ec8e9bec9",
+    "LICENSE": "ff54d3fa03d2de1304d917c97984c34246f477b9e9bac0acdc85a43ab5af0cb3",
+    "Makefile": "bdd80aa731da884055d9cf4bd7338fcde7f54b1924123b774c4080d323e0263f",
+    "README.md": "f199e3f31d18592596d776a2f635676386bc5e32a30edf343a185407c647a2db",
+    "SUPPLEMENT_MANIFEST.md": "1bb6bd13b81a5915fa8cbed5896cccdbcda1ccd0628d294b89810e4f850589d1",
+    "artifact_instructions.txt": "6e622731fe6bc116bc27700f35ee8bf00e9fb11cbbbde0fb2fe438eb2dcbf289",
+    "data/coval_comparisons.jsonl": "e107b7d233baedbc8c1b9c3f9aef9739592b93f6f202b9e4503b9cd3ca00d759",
+    "docs/FIGURES.md": "2d664271f47373169296332735d00190dc9c8f959813907b026895ab7627bab6",
+    "docs/MODELS.md": "d8d99c98ca85cb336347f2ea027863f448d752e8df892c4d073d3e757c282ba2",
+    "docs/REPRODUCIBILITY.md": "633b51c887debca86caf70382e9f975d1ae5b02183260c3d2332e85ca63d31ff",
+    "docs/RESULTS_MANIFEST.md": "baed6958f7eb2a0c084203759936415b55d42f592b49b6632404383bc32aa651",
+    "docs/SUPPLEMENT_PACKAGING.md": "04d657f7467bc404c6594e1439d8667e1bbbbbe2f8652741d45813105fa9f02f",
+    "formalization/ASSUMPTION_SUMMARY.md": "532abf9b0f9734713482a13e2110b7df7d44ea9b6a305e650f94b9dec02fdc94",
+    "formalization/CITATION_AND_PROVENANCE.md": "0771128faec2f56e176d1c7796803b0f95db08ead55b9f5a866f92a279be0a88",
+    "formalization/FORMALIZATION_COVERAGE.md": "b67adbfdfa9b451c63b0ffccbb47800d5b58dcb530149b731f9aa6f65272d8e0",
+    "formalization/FORMALIZATION_INDEX.md": "9e244b1f37dc44d273ac49c5b0e0255e217103e69f07809db7254efc768fb4d3",
+    "formalization/FORMALIZATION_STATUS.md": "0684b7d4a40f566b4e1e2508dab713f7bd275c99b332b9301854d978c5ffb021",
+    "formalization/LEAN_DOCKER_NOTES.md": "933f17133066774512ac63361006b5f6e9371c03233741f631425aea50b08225",
+    "formalization/PROOF_FAITHFULNESS.md": "eb316e2f82848a53209692ddfd30fda5352029db9fe28e4d9aa9ea942c846b58",
+    "formalization/PaperFormalization.lean": "f581ddd44ac43304c15b07ac28c63cfc1101b3b2e2e73ea8c78804ecb3eb3ff6",
+    "formalization/PaperFormalization/AssumptionAudit.lean": "fff7ffb34f82bca301335d5c92bc4668639528061d1e126d5db672eba0f19427",
+    "formalization/PaperFormalization/Axioms.lean": "5646bbab9cd92beb844317d4e3dbd6e537ed02b480c565db367429a7dfb9f370",
+    "formalization/PaperFormalization/Commutativity.lean": "07031c440cc6a49d26b7643d2d4eb2dc88590a1730fdac5b90e109c730ac87e9",
+    "formalization/PaperFormalization/Core.lean": "f1cf8ae1df226e93f38ea54679d10cf125442f1efed5f126cfe4ca359c7f21b2",
+    "formalization/PaperFormalization/DPO.lean": "70973a1a1b36795ac8b6977f8dae8a4758713a3197fd97a7c90ce982ea087d11",
+    "formalization/PaperFormalization/FiniteSimplexFixedPoint.lean": "f39304fb21e7efecdf250f1c0175e920df950e6572fd45cc1a1e7c9c88301d63",
+    "formalization/PaperFormalization/FiniteSimplexFixedPointAssumed.lean": "2c980a43187c4192cd5ca2c27563d29285fd46fe80853c557c32b12570155d8c",
+    "formalization/PaperFormalization/FordZermelo.lean": "1af5cfa785c8c9db0f1e3560e68bef84bc680c068b6eb3c8976506bb9e1becba",
+    "formalization/PaperFormalization/Involvement.lean": "68fb76dfcfb632f13e5b302d821ffc69f80a4f4fd685614062a40b2c7582f80b",
+    "formalization/PaperFormalization/MaximalLotteryLimit.lean": "dc5c2672e149edade077dfcf354c151e6b1d9e7c7c2d0c88badd3674a5e9dcd5",
+    "formalization/PaperFormalization/Multiplicative.lean": "3b36bf0eece54c8d5041dd7c34c6343b928d75fbdd25ff300e03248c0f31110a",
+    "formalization/PaperFormalization/NLHFBasic.lean": "33df6697aa2a6a1947cb7eaa896428e945984b0e56a4ddaa27798381c02702de",
+    "formalization/PaperFormalization/NLHFCommutativity.lean": "c31a88c18c8f478c747cca03103ca94e4a3437b428bc3d50b006fa3fe45a2598",
+    "formalization/PaperFormalization/NLHFExistence.lean": "601464129d8173bf29eb28f0d71139e8fc444fd5139bc2ef4d1d52eefb21618b",
+    "formalization/PaperFormalization/NLHFInvolvement.lean": "ffc93057dc5b92d4fdacde9c7d97f86041800b99a40c3eede655895ba9180ae8",
+    "formalization/PaperFormalization/NLHFMonotonicity.lean": "248e9067646e0e435feade82ef666a21bd386483c2dc3479989e1010603db8f2",
+    "formalization/PaperFormalization/NLHFMonotonicityFinite.lean": "08116bea3d1860c60230d422a23ca134628eb97d1ac0bf5b7bb70bb9c5ffdc65",
+    "formalization/PaperFormalization/NLHFMonotonicityThreshold.lean": "7c20c76f6aa9826ffbb7e85c4c0b650bd75be10ae3a6f8a89ce7dadbbd884373",
+    "formalization/PaperFormalization/NLHFSelectedCommutativity.lean": "95de189268e1823de1d379e2f57134afae48a1701363c229a6fe43945e3a98df",
+    "formalization/PaperFormalization/NLHFSelectedInvolvement.lean": "0209c4a2a1b4d70762aefad4936d2ce6d22fbcd843f5b1a9f2189a0698a98768",
+    "formalization/PaperFormalization/NLHFSelectedMonotonicity.lean": "7195c61e11fb74e9449507207c6ad446194c661e098afd83ff42920f2a65db31",
+    "formalization/PaperFormalization/PaperStatementShapeAudit.lean": "9d47842cfb423cc06a8c28279674c8facc65779dea2c51e2389d4bd8de565ba6",
+    "formalization/PaperFormalization/PaperStatements.lean": "b54b9deb6334825a6c09dfa292642db151357f40ee3c194737ff0f017158644b",
+    "formalization/PaperFormalization/ProfileBorda.lean": "81f1895ed531eda8e04b94e2f7969a4db9c6e9e28ebdcbb640056964b7e861c0",
+    "formalization/PaperFormalization/ProfileFord.lean": "6763852fe18994f0f6f6962ebfdb519dc91602aeb8d921e1efc2328e1e51296e",
+    "formalization/PaperFormalization/ProfileNLHF.lean": "6c8bfd7f733e457e61d084520fd3ede995b7999588b2d6ded502fe2cc72dde22",
+    "formalization/PaperFormalization/ProfileRTBT.lean": "fd270a34a0798cc40f0c897404dfde653b623672e5bf3f56c758d2517bd54117",
+    "formalization/PaperFormalization/ProportionalBorda.lean": "778126118d16451b691d1872da798f488b20ff1e33276912c83c419e5a8e6540",
+    "formalization/PaperFormalization/RTBT.lean": "1d5ec91663e7a831523eab998c9bdd74a99db988e7c7268211867d9120d8169c",
+    "formalization/PaperFormalization/RTBTInvolvement.lean": "66b431ea4605dfc76c14a7ddb2986636a61b390fcd4ca495eca53fa7c62ece63",
+    "formalization/PaperFormalization/RTBTPairMonotonicity.lean": "ec93bc82d88fb8d04db088111eb28c54a2b1f05453176ee4e2a533ca32cfae84",
+    "formalization/docker/lean-check.Dockerfile": "1e6fe18668251992bdb56f3b9c0addbdc7566c2fb6f588f8099ff6bc0bc7bb9b",
+    "formalization/lake-manifest.json": "af0437dc8844b765b4d7d3e2e6eb2f189e3aeade07afb4ee08e81b4cefbf4cb3",
+    "formalization/lakefile.lean": "3b8a03f24b05b465e019bc1d574509679478ec05b3a1f123f0caa068e57ea9ed",
+    "formalization/lean-toolchain": "194fcae7a59d3268baa175bd3e352dafab6954fe08a5b7caec13bedf36f80315",
+    "formalization/scripts/check_artifact.sh": "3015a3faeee7a3b06c2e992f2c171d369f0983daa33a849b4d3f175a2691fa80",
+    "paper/figures/commutativity_magnitude_tau0p01_min_effect_0p01_boxplot.pdf": "65c54cd0272cc1e8ae7e6517e83e4c08788143a2f4c345370bdfacff5f5c0ab5",
+    "paper/figures/effect_size_conditional_ge_0p01_and_theory_change_ge_0p01_boxplot.pdf": "18665dc84447da0942c9229a2657ae3bdf492c72f6db913fbe1ab3498b969ae8",
+    "paper/figures/filtered_nemo_dpo_bubble_agreement.pdf": "3f46cc1e469b4558e3caf0f785f9c5cba9569e277601a97e8cddda7dc44492ad",
+    "paper/figures/filtered_nemo_nlhf_bubble_agreement.pdf": "87f451af264bc6dc58c94aaf51e0e123e28d3dfd8782a729c112e53680237ab6",
+    "paper/figures/filtered_qwen25_dpo_bubble_agreement.pdf": "8683579bc360ebb757ca0dfa079ae4258d43ea5582fe4ce1be6c4531099d42b1",
+    "paper/figures/filtered_qwen25_nlhf_bubble_agreement.pdf": "4c9636d2ef9a6b8f52811d6e5dd8096b56f368c7ff4b735873cc8843c4e725cd",
+    "paper/figures/filtered_qwen3_dpo_bubble_agreement.pdf": "7de87cf7efe7a6f83d5490c7b0d205fa3f6c3187e42cf2cfbc146f881f118c83",
+    "paper/figures/filtered_qwen3_nlhf_bubble_agreement.pdf": "eff0e0eae139075ab01716b70d25dd5c0af6b990b73d273cb9326c64716f4ee3",
+    "paper/figures/joint_qwen25_dpo_bubble_agreement.pdf": "7c77f756497c7f48dfbd688743635292a6609461c5f280f6b6f610422340eeab",
+    "paper/figures/nlhf_commutativity_single_profile_nashmd_agreement.pdf": "4196a96f1314ed2b42bc20f1ab54da6d9f2a19218222f2c9e9e18a9290d6fb61",
+    "paper/figures/nontrivial_reference_update_frequency.pdf": "64f9b24cef3ab10839debdfa251c85c45e891316258bafc181b4774c5d424ef5",
+    "paper/figures/rtbt_involvement_single_profile_dpo_agreement.pdf": "f221fdeca54e169c015e138c7e203ca57111ec6d56ce4a1a0165c566e12f9e66",
+    "paper/figures/temperature_2_commutativity_magnitude_tau0p01_min_effect_0p01_boxplot.pdf": "1bb39b288c9bbf522ce84936faac3e1728014ba60ce3cb51b191856ee12d6e5d",
+    "paper/figures/temperature_2_effect_size_conditional_ge_0p01_and_theory_change_ge_0p01_boxplot.pdf": "0de40b8b0842b23883f82be6e14d0b6f0f277c544d95e73ba8be4f0e4008e7fe",
+    "paper/figures/temperature_2_violation_frequency_four_panel_min_effect_0p01.pdf": "19bb5c3b440e8a87961eaa3c1bc0ae1871ca91bf64ba0662410b8b787ec16396",
+    "paper/figures/violation_frequency_four_panel_min_effect_0p01.pdf": "29661da233f282f16bd812b4d08b34d0bb48720ef3dc954f8154a6dd1467232f",
+    "paper/figures/violation_frequency_unconditioned_three_panel_min_effect_0p01.pdf": "c0fe543c8b03879aa094798924164381c1b3802ce688d3ccf76addb9964987df",
+    "requirements-cpu.txt": "888f0dc57cc133d405237816e3741f46e483836c065c5ec9b6fdfc8c77d1902a",
+    "requirements.txt": "25727b26cff7d50f967124cd8e6d6c048dd7e69b4b44c37775b6b5c03a088c1e",
+    "results/README.md": "a984a5bbb9e0115e7f8fa786a633f5a077509a31320d31a449d86c9e5a39cdc2",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/dpo_numerical_summary_table.tex": "0e6123d34811ac03f58c80fcb7480b6bda024c133dc980d4f2795bd2f5660ad3",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo.jsonl": "2080486d833a5409dceb7f04633c3edd4cd52f25de8c69f4707524ea044eb059",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo_meta.json": "cb5c84b7cdb70a8092190a6d8ada2bbd4ad6193a051b884188426842faf3dbd9",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo_summary.csv": "07c957eaeec17398eab462c6943438de17ab826c1d3c18339dad91a296af4627",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25.jsonl": "1ef44f65ffea1665dfa31ade42af88391caed38b48e1996a12cd39a5313f1f10",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25_meta.json": "b08f08ef7c29da140a19569f515c8164dd30dc9e9265b97eef0eaba805250c9f",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25_summary.csv": "c438709103d2c99fdb63a279385096da36fa01c6c7d8362ee82b472677f86015",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3.jsonl": "ffb2d2f9a955af3cc9beb8b034c5f28fece537cf3cf819bf598a7183a857e31c",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3_meta.json": "383f85379ba3671d25b815ae1d698b3be7adc45bf82cb58df53cb488621922ad",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3_summary.csv": "0cdda47cfd204a52561782f6e0d89e7000e649eab6bf3b4a3207a6fe4a447dc2",
+    "results/empirical/dpo_rtbt/involvement_witnesses/nemo/planned_runs.csv": "13fa2051ab7ae8000686698a9ed161e022e12710c063bb6eed98889b0dccc69c",
+    "results/empirical/dpo_rtbt/involvement_witnesses/nemo/selected_witnesses.jsonl": "1bb655169875287ed73c437307e99ab28d844ff9af2cd93e3d9ed21f27e2eae9",
+    "results/empirical/dpo_rtbt/involvement_witnesses/nemo/summary.csv": "e68cc8fb9a6774e5bf8afc1a783d3df09d570912dee039c15335a8756d521eee",
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/planned_runs.csv": "630198c90e612e5defed0f928dd5c77837d073a5724621ec47f4a7409f3cd6b0",
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/selected_witnesses.jsonl": "513880a06386b56b4bdd392d2850fd51c99b8aad85322258a308af51c2f090f9",
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen25/summary.csv": "74191b1782f945acefd884510b44d2036a371b20e96ce58aba3cd6f5b4a80e3a",
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/planned_runs.csv": "ad3a1441bfe056e727afc161ab90f8f62da5a221cb6ae942f201ead05ed6212b",
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/selected_witnesses.jsonl": "4ea1a3d86eb7182458f538c97b0ed35d7b1fb9e4affb7fd1ccc9f75590db1b90",
+    "results/empirical/dpo_rtbt/involvement_witnesses/qwen3/summary.csv": "15a2ffdb1b085816c62f737de7eb673ebc18665b4f36fe22e7094af52fc761be",
+    "results/empirical/dpo_rtbt/joint_qwen25/aggregate.csv": "3c8f1d58831499d6e89217bae0a466608a29b8e8d9b88261f7907594c132b7a3",
+    "results/empirical/dpo_rtbt/joint_qwen25/run.json": "24dff09e7320d71a13091a2e609df5e0a242e790c67c22422f16417fcd864516",
+    "results/empirical/nlhf_nashmd/commutativity_witnesses/nemo_summary.csv": "34eb2f0b0eb52eea7b13369affcb477108a2a16321b32118eb9f402312a3a6e2",
+    "results/empirical/nlhf_nashmd/commutativity_witnesses/qwen25_summary.csv": "2f8c219900b9a98e2c4b110e300ead90107b7c5d7f1645d4ef531ae213d2cd68",
+    "results/empirical/nlhf_nashmd/commutativity_witnesses/qwen3_summary.csv": "d95a53db0fa962c5c1bbb81994047c301c7bcf9d3d693f2dea468b8fba068628",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/nemo.jsonl": "6996d52ba417bc13988b139b0ee60d01f4d2ce6c43aca0ae115340a7c0e2401a",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/nemo_meta.json": "8b2e50bfc6a37688c89f0b982bb6165d990886a00fb8890c754670e7ff15e840",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/nemo_summary.csv": "01c7e01081a3360561a70664eff8e7cadef690f7b60e19e33352a917b24582d6",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen25.jsonl": "cd46e3b6799292e3690b514c84b8edfcf62a98945354459b9fef2e8d2ec4a121",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen25_meta.json": "6895765c36ada29613d839dfe2ab04f3d7adb5310249067901ed80fb092a6010",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen25_summary.csv": "0b8b696cf10853ed1c18bf2a4630caaaa3b3391d3ae71b1d9f6c5816de4d7d3a",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen3.jsonl": "a6cfc0c0be3cd354d7f5083ee22fae256e24ccc3793cd36fe460582eed3b19f6",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen3_meta.json": "bc71af4cc960d5093f8d38251adbbe2cf32b0c0046e4bba2d8c30a795f6e57f3",
+    "results/empirical/nlhf_nashmd/filtered_profile_sweeps/qwen3_summary.csv": "8e6a2931764af6a34faf4ac3de3517f63f52c694e476ebb14a8e7aaa98a501b5",
+    "results/figure_plot_data/nlhf_commutativity_single_profile_nashmd_agreement_plot_data.csv": "139878c346ba509899f2e9632d0789a53f2098d3dc19611d71f8a3a78a54612b",
+    "results/reference_distributions/nemo_pytorch_rho_strip_identity_float32.jsonl": "87cd9ba2fe40b36c9c4d2b081779985cc53df72a0c2d716554f130ddd36fd733",
+    "results/reference_distributions/nemo_pytorch_rho_strip_identity_float32.meta.json": "73d84c8be780c35ad26c2192bd267c01096bb1814a6724cbf581a8c66d25fbff",
+    "results/reference_distributions/qwen25_pytorch_rho_strip_identity.jsonl": "aa13efa38db5ae83093e22de3b5f444c34cd9c489712bd1355f355da1987e9fa",
+    "results/reference_distributions/qwen25_pytorch_rho_strip_identity.meta.json": "65d09c62c2e3b29e6e667eac66420254e142c226f40cd90c4460e451550e408f",
+    "results/reference_distributions/qwen3_pytorch_rho_strip_identity.jsonl": "f77dcc7ceadcb272786772a24e47cd3cccbc11ffb47a2dbb60c20c9327f0c78e",
+    "results/reference_distributions/qwen3_pytorch_rho_strip_identity.meta.json": "fa500b3aaa1c74e4d2a06c99931b3bbd9f4de3276d29de5718e6392766dd6b39",
+    "results/reference_distributions/robustness/nemo_pytorch_rho_strip_identity_float32_temperature_2.jsonl": "dddb3a9c654601c629bb41b873eac6316d90bc5e7aa484f7878a41738e976534",
+    "results/reference_distributions/robustness/qwen25_pytorch_rho_strip_identity_temperature_2.jsonl": "dc754f2559721e4c65edf0938ea364e14c202abd1bed948b382630974ef26b50",
+    "results/reference_distributions/robustness/qwen3_pytorch_rho_strip_identity_temperature_2.jsonl": "06ef145643e31659dfdc3fd319ed39ef76563055db5bc8fbdf05091de960a9c0",
+    "results/theory/commutativity_figure_outputs/violation_frequency_four_panel_min_effect_0p01_plot_data.csv": "4c4f0c7acdba50812d85d13a99faedc69a4ce4c7d512220381250eb7ee59350d",
+    "results/theory/commutativity_search/nemo_base_fullprob_strip_identity_commutativity_tau_0.01.json": "cd8fc83444556b7d2865299776f4d587cbcf1b1f907ee07d52b7e0e0249d64b6",
+    "results/theory/commutativity_search/qwen25_base_fullprob_strip_identity_commutativity_tau_0.01.json": "05ada7d0cea254498bac4fdf1cba88ec893fbd745e161423f61b5ccc8b1c9ca4",
+    "results/theory/frequency_figure_data/freqfig_nlhf_frequency_table.tex": "dc6da757bc0d86c5d5245dccb57f8b9cf084202464c088e831d0f6b1efdb77a3",
+    "results/theory/frequency_figure_data/freqfig_nlhf_frequency_unconditioned_table.tex": "5ad9c222aa5464755d1550b8346fea4a70973ef1148b5dfc97fbc99ebff6c4ce",
+    "results/theory/frequency_figure_data/freqfig_rtbt_frequency_table.tex": "e98d719e9fa6f2e71c274f80b7d63d536243d95aed8fb01f94a9374c2b1fef80",
+    "results/theory/frequency_figure_data/freqfig_rtbt_frequency_unconditioned_table.tex": "03fb80b5e8b814190e02d5ab8e57bb9d158f03bc5feca1dc46d34cdff3a29d0b",
+    "results/theory/frequency_figure_data/nlhf_commutativity_frequency_min_effect_0p01.csv": "312d3ddfb745857834c52140d907185542c932f9033eca447fdba8c810ab0c88",
+    "results/theory/frequency_figure_data/profile_conditioned_summary.csv": "81d4428f94d051e666b7a3259fa61d09ac8c6f00c0d66ab1481b2ade862e1874",
+    "results/theory/frequency_figure_data/violation_frequency_conditioned_theory_change_ge_0p01_min_effect_0p01.csv": "f5e6eb07b90b5b68803b04d811df9fb516c71caeed0c9d28f38ed70f659f09b5",
+    "results/theory/frequency_figure_data/violation_frequency_unconditioned_three_panel_min_effect_0p01_plot_data.csv": "b03d15d751a0660101086564e7635203998f331ddf8bdde13c6c28b171e5fcd1",
+    "results/theory/frequency_figure_data/voter_conditioned_summary.csv": "7dea17bcce1cb2d2cc6a507090dc5b53abc1ff0d0914e49485d47c0350b2ae23",
+    "results/theory/magnitude_figure_data/nlhf_commutativity_magnitudes_tau0p01_min_effect_0p01.csv": "0dc4fc9e9788e3c37b3564608f85e479147ccb7daae0a6f1fa9a88d877a29379",
+    "results/theory/magnitude_figure_data/violation_magnitudes_conditioned_effect_ge_0p01_theory_change_ge_0p01.csv": "3760dc96909a7dfd629cab9b0dd2fdffe1c161a829975a0e7a23dffe05f9b611",
+    "results/theory/model_reference_violations/nemo_base_fullprob_strip_identity_rtbt_negative_involvement_beta_0.1.jsonl": "52fed802b843d5519964e2d754a5e080a62b511e253ba392fd44eb26749724f5",
+    "results/theory/model_reference_violations/nemo_base_fullprob_strip_identity_rtbt_negative_involvement_beta_0.1.summary.csv": "8317f9318b8d0192772dfdc729a0d181baa2371e5205784d967e951e9e1bad47",
+    "results/theory/model_reference_violations/nemo_base_fullprob_strip_identity_rtbt_negative_involvement_beta_0.1.summary.json": "585db69e0cbdd46d6747d1230c1f92820b55f004a7ba5779fd6ee5c1c7598258",
+    "results/theory/model_reference_violations/nemo_base_fullprob_strip_identity_rtbt_positive_involvement_beta_0.1.jsonl": "f8e49161b424e04f77f2a4a44eb3936887f73b6332e2d59d5457c7966ac4de8e",
+    "results/theory/model_reference_violations/nemo_base_fullprob_strip_identity_rtbt_positive_involvement_beta_0.1.summary.csv": "41819725cb9b32b73060724d444dfd72a6ec6012791ba170e9e2dbb31ef934a6",
+    "results/theory/model_reference_violations/nemo_base_fullprob_strip_identity_rtbt_positive_involvement_beta_0.1.summary.json": "c743ab50f9d503336afb2d8a505d472a510ff4877cfda54d55945200f26f6397",
+    "results/theory/model_reference_violations/qwen25_base_fullprob_strip_identity_rtbt_negative_involvement_beta_0.1.jsonl": "f3bce04fe105b82fa974dea80ab0968631cd451a6431467fdaf464481787336f",
+    "results/theory/model_reference_violations/qwen25_base_fullprob_strip_identity_rtbt_negative_involvement_beta_0.1.summary.csv": "dff85c4577c872a3d81ab025f11a2df2e638fa5689cdb38218acb7b7d75da144",
+    "results/theory/model_reference_violations/qwen25_base_fullprob_strip_identity_rtbt_negative_involvement_beta_0.1.summary.json": "3537800edc9c7c0daf2511c11969190d606baabc99cb5dc6ab00a76270eb3fb5",
+    "results/theory/model_reference_violations/qwen25_base_fullprob_strip_identity_rtbt_positive_involvement_beta_0.1.jsonl": "6ae9a5f13666aeb371b8af1a4564e4e9ac5349a17dc8a3b2003d28c2f61a28e0",
+    "results/theory/model_reference_violations/qwen25_base_fullprob_strip_identity_rtbt_positive_involvement_beta_0.1.summary.csv": "46422f7c0aa9062c3bd269305c35334d509e73911a2d3577dd391447d2001a74",
+    "results/theory/model_reference_violations/qwen25_base_fullprob_strip_identity_rtbt_positive_involvement_beta_0.1.summary.json": "1c9ef016dfb2698f06b17126b61297a1b80222a061d2daef4343b7f63d4e0b43",
+    "results/theory/nlhf_tie_normalization_cache/model_only_threshold_rows_min_effect_0p01.csv": "23f428a9fb8113900bc5998adea0cfb64c36b236d67d9554f5cb0f4096dbe29e",
+    "results/theory/nlhf_tie_normalization_cache/model_only_threshold_rows_min_effect_0p01.json": "4d219c7fd62883cf393ec351eb3d6f047bf4354373bd261c820de8520ff741db",
+    "results/theory/nlhf_tie_normalization_cache/nlhf_commutativity_violation_effects.jsonl": "d9f9d64a2769e2a693873ccf1f4f188be805119b9e401d3c4249491bbf37354f",
+    "results/theory/nlhf_tie_normalization_cache_temperature_2/model_only_threshold_rows_min_effect_0p01.csv": "e16a65b0b12ae9e76aed3dda2361ed9eb976ac7175611498fa66e28f125145f3",
+    "results/theory/nlhf_tie_normalization_cache_temperature_2/model_only_threshold_rows_min_effect_0p01.json": "64e3f4b6afaf9e859867496150718622c26b6fba191b00d8fa2da914adecf268",
+    "results/theory/nlhf_tie_normalization_cache_temperature_2/violation_effects.jsonl": "82422a669d5047c06aea8d75009165bcdab1f2071179cda4c5efcd8d33bb1e8b",
+    "results/theory/reference_robustness/temperature_2_commutativity_figure_outputs/commutativity_frequency_min_effect_0p01_plot_data.csv": "e31f8c0fdb33da1bc370725ec2103f970f26699479bf88a471a605a7695acdad",
+    "results/theory/reference_robustness/temperature_2_commutativity_figure_outputs/commutativity_magnitude_tau0p01_min_effect_0p01_plot_data.csv": "9af9c5ab32d8147a4fcddd89b1e3867361c090c7d5fce21c1d42cfff7caf2c86",
+    "results/theory/reference_robustness/temperature_2_commutativity_frequency_min_effect_0p01.csv": "b8bb8bc148f3d2bcdb1465d352d885920e8a244c1a5edb4e01d91bc26d750029",
+    "results/theory/reference_robustness/temperature_2_conditioned_frequency_for_four_panel.csv": "92895b08f421a6eadbac3630b745cb3bae392c1fa1f8c8e68fb40aa2c3931cdf",
+    "results/theory/reference_robustness/temperature_2_profile_conditioned_only.csv": "621ec8ae1bd9ebde6640edb4ee91b0cf3b8e80451388c76bd04b34892ec56e47",
+    "results/theory/reference_robustness/temperature_2_profile_conditioned_with_raw.csv": "a1244cca5dff7cb561c288bbaad1ed85db41996d5208dd1f7582da9adc476d64",
+    "results/theory/reference_robustness/temperature_2_reference_robustness_frequency_tau0p01_beta0p1_plot_data.csv": "244cb4645d03ffb7114f756cff44c295cd0c1a8384ebfde32a19e23c15438766",
+    "results/theory/reference_robustness/temperature_2_reference_robustness_magnitude_tau0p01_beta0p1_plot_data.csv": "728b2e2bf7bd70cf3984aee1960a64fab6a2e38a56b7d659174cf164b7503538",
+    "results/theory/reference_robustness/temperature_2_violation_frequency_conditioned_three_panel_min_effect_0p01_plot_data.csv": "b31d7f3f595821fafbc67d7a32f26b31b6ec64ca49110bf505493bb375e30d1c",
+    "results/theory/reference_robustness/temperature_2_violation_frequency_four_panel_min_effect_0p01_plot_data.csv": "8dc60d81b3a29ecb0752d1e4d11eabfac2e5d79a764eabd5a3783f3b97116812",
+    "results/theory/reference_robustness/temperature_2_violation_magnitudes_conditioned_effect_ge_0p01_theory_change_ge_0p01.csv": "be042ef56b20ad316a9d36cdc3c1d6132e8a047866176ce147db2f97dad6ed12",
+    "scripts/README.md": "f73f942239270ad0108e0dbae9aec08eb8a3f1fb4b63a42be43cc52e4e8f98f2",
+    "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/additional_checks/README.md": "1183bf5d0db9305c663a99cc87ad58741788b3012d072f95abd4ff3fe7c9b83b",
+    "scripts/additional_checks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/additional_checks/check_submission_artifact.py": "0fcb0eb780f80eef170fcb7090ed333cba67e4039fe5e475a946b11dd52e36f8",
+    "scripts/additional_checks/smoke_test_reproducibility.py": "6ba23eaf0a03c369c3137b755c8b97ef9c6424993962bf9a1d509225a7084a91",
+    "scripts/check_supplement.sh": "1bf925f69e0756736c5b043a705fb459a357626da6fad59202581fd6a95f2646",
+    "scripts/coval/README.md": "a8f974b3b1bd0c972e433c4b5a87b782c10bfbfd73ba9e958bff5c3a438c2072",
+    "scripts/coval/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/coval/profiles.py": "09aceee4d6fb8a2db7677abbc57ce69f6c203e73179299a3ff1e195ccce4e33d",
+    "scripts/figures/README.md": "4fdb62fa7835d0b9ebd19180c9d641583d005d3776029c3ff55a6a9dcf5888d9",
+    "scripts/figures/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/figures/generate_dpo_numerical_summary_table.py": "9f5861017891badfdab05a94e59d5b3316f8387fa77b5dcd88877f3a90281891",
+    "scripts/figures/generate_frequency_data_tables.py": "c0591369fec35f2c55359ae8670f85e0dec9db1de9c87a22e88207b4e319e838",
+    "scripts/figures/plot_combined_violation_frequency_panels.py": "06838cffc28f2e0281d7ba72b02ddd625845d45f048ccfe717b7a63484d9bbaf",
+    "scripts/figures/plot_commutativity_violation_graphs.py": "58859bf092ca51b9c33195816866e4cba7d2b264628e978f8d3c8657b39acfdb",
+    "scripts/figures/plot_filtered_dpo_sweep_agreement.py": "299077ffda5c4f240a6e403c252c59db602753b65dfbef7660b94bb25f4d3cc2",
+    "scripts/figures/plot_nashmd_commutativity_agreement_panels.py": "51b2ce22b6b16a953384b1e79916c4af5f3b5ba00dd0097d301d224111afd763",
+    "scripts/figures/plot_nontrivial_reference_update_frequency.py": "145dadf396b77cdbe340c2be99db054d944e43db65ab8f52a281948e048082e9",
+    "scripts/figures/plot_qwen25_bubble_agreement_panels.py": "93a364c80e1d9b8e5f87aaa6471963429498799fbd35847ce880bb3b2e105c56",
+    "scripts/figures/plot_qwen25_joint_dpo_bubble_agreement.py": "91599644031fcc9b96dab5561ee49207f630e1d5f4962e6a99b0d299cc11cbc2",
+    "scripts/figures/plot_reference_update_size_sweeps.py": "f8c24cd1680071aa1b00be4dc22abf2d4121778f579ad69b375681689fb07a22",
+    "scripts/figures/plot_rtbt_involvement_dpo_agreement.py": "4fcd4d8e38347ddb3b6794a9b210ab153b26c476972c6c3eff8d6aadf9feafef",
+    "scripts/figures/plot_theory_change_conditioned_magnitude_boxplot.py": "cc695744894d65bf1c5b5b0756cc33e206d864a649362d749199ea08c4c20882",
+    "scripts/figures/plot_theory_change_conditioned_parameter_sweeps.py": "1ad8c40df08dae2e580288d04ac34e14d4c585baa49eafda1a160b1a73271eb7",
+    "scripts/figures/plot_theory_change_conditioned_profile_frequencies.py": "363512b606e55f905742866881426e49061f7c9c9935c1bcd1e58c684c4db648",
+    "scripts/figures/plot_unconditioned_violation_frequency_panels.py": "9c55219d74c905acf086d6598ccb4d8833f340eba13a30570ad4ed1009f28e87",
+    "scripts/figures/plot_violation_magnitude_boxplot.py": "7070e944764a9c33bc1d61ef4515eeec4263a165ea02e4ed7cf7d0097404a7a4",
+    "scripts/orchestration/__init__.py": "de47db0dedeeb0065905cb989395622d9194eeba12574221dd5854c80fc65bb3",
+    "scripts/orchestration/run_with_caffeinate.sh": "95bc940a8836111bccc1f521e86286b7f6649c300d0572b76385db7c3480cfaa",
+    "scripts/post_training/README.md": "9e59064ba89723c3bf5bcee812d5e889d55760f871265a6fda8ea2f0c4361b8b",
+    "scripts/post_training/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/post_training/batch_profile_empirical_vs_theory.py": "8d7e8dbf57d8d2d72dd9a78c6e13dbac9c7ed6c780eac4476cd26a9bd9a17373",
+    "scripts/post_training/commutativity_presets.py": "b4d5adf23130b7c06c2c189cdd4638ea5ddbdbafd2e23fc1328982a9533ac1fa",
+    "scripts/post_training/monitor_empirical_vs_theory_run.py": "59b830160731b95b3b4c42d4790562aa0c792f769ce6b23772db5fbd39d8db6b",
+    "scripts/post_training/orchestrate_empirical_vs_theory_chunked.py": "bb4343193c279f5c6a281c0300df812bc94274e5225eaf5d8f84dd4a16380003",
+    "scripts/post_training/summarize_empirical_jsonl.py": "ef649fdaeabf55fe12fe34f683a7d241e398f93ee452a1f58ba8308b2b1f84dd",
+    "scripts/post_training/summarize_empirical_vs_theory_run.py": "e0c4db0c7c8c0e23f8195d44de4b112a78a798fb5eac595efd0e8302f4d43aff",
+    "scripts/post_training/train_coval_dpo.py": "26071bee6d5b4e0ffbfeab217d429144ac3a7684f44f4b8c1333976505096510",
+    "scripts/post_training/train_coval_dpo_multi_profile.py": "ca9cc4e8e9aeb32226d06c05e1d76d44a1fe9aa2dc1c7e44df419a582285ae6c",
+    "scripts/post_training/train_coval_nash_md.py": "531c0427d6340f0947f19d068a4acb8049786e1c7ce8c9fa4d68c5a8765eb666",
+    "scripts/post_training/train_coval_nash_md_commutativity.py": "04a58026bd67861ebf67d0cc8c52b847f4acfa298db16882aa2965dbe1bb4911",
+    "scripts/reference_distributions/README.md": "48832eb0ca47adc998749bc2d7b695faf1600a8fa965f443fbf00bbf343d12cc",
+    "scripts/reference_distributions/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/reference_distributions/derive_reference_ablation_caches.py": "25f56ecc6e5d308235c3ed92934ae178f688461461a0f441c5383080b9626e0d",
+    "scripts/reference_distributions/extract_model_reference_pytorch.py": "53e259730412cf76170eaf0ed2cb54e8d3ad299c19b69744cf3f061419101abe",
+    "scripts/theory/README.md": "7d212ca4b934406ab1e59e170dee92a23febc036062582f1f636248242e77860",
+    "scripts/theory/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/theory/cache_nlhf_tie_threshold_effects.py": "b7312af4595b6463812d3cceccdd75dc619af5e2607706bfc8056739aaf0cf59",
+    "scripts/theory/count_rtbt_domain_profiles.py": "9954272b9362e2cee554852185f0876479627b5e69f228191eae21c43a7fb055",
+    "scripts/theory/nlhf_solver.py": "49610b8e324ef8a6a46e46480d131391d99503aa1435122c606b0c650c479074",
+    "scripts/theory/nlhf_tie_normalization.py": "126f29c8f3aa674618b6c381a223d4846c4ae30a469669c532b247d9b207834c",
+    "scripts/theory/search_coval_nlhf_reverse_monotonicity.py": "c46001c6052d115199b4aacbb81f9140c7f9fc3525e9654f800e2338efbad3dc",
+    "scripts/theory/search_coval_violation_counts.py": "01269758fa33b97a2663111fc914d3495c9983081763e6a88faf939f4fec983e",
+    "scripts/theory/search_model_reference_commutativity.py": "6b11178b19f425c1bf9c71900f99cf1fa3d5ad9eb93c5a15502dc9775257f96f",
+    "scripts/theory/search_model_reference_examples.py": "5d46853bb9350a51ca1270e57ac5e513b0cc45eeef8a317f3f159c367b053260",
+    "scripts/theory/search_model_reference_violation_counts.py": "04298975ef48150c19c7c19293cf4dbb834a6a5ff589e0dfb75b7dccab9ae81b",
+    "scripts/theory/search_nlhf_tie_normalization_examples.py": "9f01cbfa30583d9e0f16725fff1666bd0789cd400302c861b14b133648daee84",
+    "scripts/theory/search_strict_weak_positive_involvement.py": "e3a13117859aeca74899dfe15c7cc094c278b46dc4077b09296550643120bfec",
+    "scripts/theory/select_theory_change_case_keys.py": "48bcf3739bcade411acf7e5fde3c54290977f8fa7eaaeec8ceb42457c661a06d",
+    "scripts/theory/summarize_theory_change_conditioned_frequencies.py": "3fc94521a3eacbc01cff6ac470200dc76fe275d7e99e0dc2a3c19d49fc0cb53a",
+    "scripts/theory/sweep_nlhf_tie_normalization_parameters.py": "f9bf0a735cf228008354ac46891aed541a914039e654b9c15fc2731a87338eb1"
+  },
+  "worked_example_reference_source": {
+    "git_commit": "02e19295517651d77b61476dc3e18322da0ab468",
+    "reference_count": 635,
+    "dtype": "float16",
+    "device": "mps",
+    "scope": "Nemo reference inputs for the five worked examples; the complete float32 reference file remains the source for aggregate frequency analyses.",
+    "paper_prompt_ids": [
+      "767383db-0f77-59cf-a466-2c3f8a9a90d7",
+      "2720d0fa-c8f8-598d-a849-e73e3ddccabb",
+      "4d3c4a47-9c32-5a90-86b6-dd10f9b609c3",
+      "f28448e2-1c89-50ff-83ed-ab8b074a577c",
+      "5397e39f-4afd-5944-b192-a6b396295aad"
+    ],
+    "files": {
+      "results/reference_distributions/worked_examples/nemo_pytorch_rho_strip_identity.jsonl": {
+        "git_path": "results/reference_distributions/nemo_pytorch_rho_strip_identity.jsonl",
+        "git_blob": "5cc84759e9e0dbfc79f519a72326d54213652444",
+        "sha256": "0d43fb26fca5781878d90abc5d3b292689adad10bf5ea846f0fb0ca021c1de1b"
+      },
+      "results/reference_distributions/worked_examples/nemo_pytorch_rho_strip_identity.meta.json": {
+        "git_path": "results/reference_distributions/nemo_pytorch_rho_strip_identity.meta.json",
+        "git_blob": "75d1ab93f1209beff28cdbf168710de4f9576c1c",
+        "sha256": "5fafe10f4b70a24d7b437413f15ab895a5c351a365cbe5b857de2dbb99c9e7b9"
+      }
+    }
+  }
+}

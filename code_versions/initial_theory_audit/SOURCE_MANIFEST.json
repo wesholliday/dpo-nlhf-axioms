@@ -1,0 +1,27 @@
+{
+  "files": {
+    "scripts/additional_checks/audit_numerical_release.py": "3d5ace54f7a485d09526a3208f924ad85c5fb557f503d5e7a0d944ca35ec3d3d",
+    "scripts/coval/profiles.py": "1e33c867893c20554e5a694a8ec0fb5444cf57f282ca4cfe5534924903e137e9",
+    "scripts/theory/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/theory/cache_nlhf_tie_threshold_effects.py": "b7312af4595b6463812d3cceccdd75dc619af5e2607706bfc8056739aaf0cf59",
+    "scripts/theory/count_rtbt_domain_profiles.py": "9954272b9362e2cee554852185f0876479627b5e69f228191eae21c43a7fb055",
+    "scripts/theory/nlhf_solver.py": "49610b8e324ef8a6a46e46480d131391d99503aa1435122c606b0c650c479074",
+    "scripts/theory/nlhf_tie_normalization.py": "523235492f37cc49cafa58b920f0e36da23e0bef6fece27bc9378e2546347f79",
+    "scripts/theory/search_coval_nlhf_reverse_monotonicity.py": "c46001c6052d115199b4aacbb81f9140c7f9fc3525e9654f800e2338efbad3dc",
+    "scripts/theory/search_coval_violation_counts.py": "b41ef65e04f49af517488910bd729fe9b46bd9312f0f18ca4abb18b20e054aed",
+    "scripts/theory/search_model_reference_commutativity.py": "6b11178b19f425c1bf9c71900f99cf1fa3d5ad9eb93c5a15502dc9775257f96f",
+    "scripts/theory/search_model_reference_examples.py": "5d46853bb9350a51ca1270e57ac5e513b0cc45eeef8a317f3f159c367b053260",
+    "scripts/theory/search_model_reference_violation_counts.py": "15da2ebdc6e094bcecdb67a2155552d2138389e9c29ed54240c66f6ae35924cc",
+    "scripts/theory/search_nlhf_tie_normalization_examples.py": "01eecfe6d2842ca4097f5c0eedda67cf909c1b06a0b82b0daccd4a07af461af8",
+    "scripts/theory/search_strict_weak_positive_involvement.py": "963eda36edb2b3660e1a92493c603dac77b08bcd609f305a42be77f1526d3a76",
+    "scripts/theory/select_theory_change_case_keys.py": "48bcf3739bcade411acf7e5fde3c54290977f8fa7eaaeec8ceb42457c661a06d",
+    "scripts/theory/summarize_theory_change_conditioned_frequencies.py": "f04d5d2745f23324929d3d8d3af34b18511984c01391e374bf40c5315198ff0f",
+    "scripts/theory/sweep_nlhf_tie_normalization_parameters.py": "f9bf0a735cf228008354ac46891aed541a914039e654b9c15fc2731a87338eb1",
+    "scripts/additional_checks/audit_commutativity.py": "d55742133dc9a1847318b2a952e51ef1b3b9cde33206b83de45ff7ac16b43859",
+    "scripts/additional_checks/nlhf_batch_audit.py": "e009f2213b2fc12e22fffa51ebdfd3b957bb7a647e381a92b569a5b0a66d94d8",
+    "scripts/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/coval/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "scripts/additional_checks/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "note": "Numerical source modules matched to the saved metadata. The root batched solver includes the finer-continuation method recorded in numerical_repair.json."
+}

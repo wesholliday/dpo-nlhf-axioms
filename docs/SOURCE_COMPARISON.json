@@ -1,0 +1,47 @@
+{
+  "completion_actual_metadata_hash_match": {
+    "modules": 9,
+    "batches": 9,
+    "successful_cases": 85
+  },
+  "historical_snapshot_commit": "cf160b84e0c3e9a11ed7b82e800f4a9f24f2a895",
+  "initial_audit_source_differences": [
+    {
+      "module": "scripts/theory/search_model_reference_commutativity.py",
+      "metadata": "numerical-2026-10-28/metadata.json",
+      "initial_sha256": "6b11178b19f425c1bf9c71900f99cf1fa3d5ad9eb93c5a15502dc9775257f96f",
+      "packaged_sha256": "be25c231035711348b77edadc626297a7a3a55c0b95f86b6f05c3523dfe04ebe",
+      "later_version_used_in_completion": false,
+      "note": "The module docstring describes the search scope.",
+      "initial_snapshot_path": "code_versions/initial_theory_audit/scripts/theory/search_model_reference_commutativity.py"
+    },
+    {
+      "module": "scripts/theory/search_strict_weak_positive_involvement.py",
+      "metadata": "numerical-2026-10-28/metadata.json",
+      "initial_sha256": "963eda36edb2b3660e1a92493c603dac77b08bcd609f305a42be77f1526d3a76",
+      "packaged_sha256": "223b75c0c61f04c1f398c63230e622a3b1747bebca82af87da977c61e6986bd4",
+      "later_version_used_in_completion": true,
+      "note": "The root module adds a log-output companion function.",
+      "initial_snapshot_path": "code_versions/initial_theory_audit/scripts/theory/search_strict_weak_positive_involvement.py"
+    },
+    {
+      "module": "scripts/theory/select_theory_change_case_keys.py",
+      "metadata": "numerical-2026-10-28/metadata.json",
+      "initial_sha256": "48bcf3739bcade411acf7e5fde3c54290977f8fa7eaaeec8ceb42457c661a06d",
+      "packaged_sha256": "22d5ab0691b47dd97bd84c771d0f01ab202421348b1d5e01786fe1011b99ad8c",
+      "later_version_used_in_completion": false,
+      "note": "The root selector checks reference coverage and solver failures.",
+      "initial_snapshot_path": "code_versions/initial_theory_audit/scripts/theory/select_theory_change_case_keys.py"
+    },
+    {
+      "module": "scripts/additional_checks/nlhf_batch_audit.py",
+      "metadata": "commutativity-batched-2026-10-28/metadata.json",
+      "initial_sha256": "e009f2213b2fc12e22fffa51ebdfd3b957bb7a647e381a92b569a5b0a66d94d8",
+      "packaged_sha256": "9f95327f1e49306b4c4d095b4f87d9253d997818427d1034bad5f1683c93453f",
+      "later_version_used_in_completion": false,
+      "note": "The root solver adds the finer-continuation method recorded in numerical_repair.json.",
+      "initial_snapshot_path": "code_versions/initial_theory_audit/scripts/additional_checks/nlhf_batch_audit.py"
+    }
+  ],
+  "all_initial_audit_source_hashes_matched": 22
+}

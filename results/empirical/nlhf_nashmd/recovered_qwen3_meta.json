@@ -1,0 +1,40 @@
+{
+  "beta": 0.1,
+  "blocks": [
+    "world",
+    "personal"
+  ],
+  "case_keys_file": "results/case_keys/qwen3_nlhf.case_keys.txt",
+  "device": "mps",
+  "dpo_batch_size": 4,
+  "dpo_full_batch": false,
+  "dpo_log_every": 0,
+  "dtype": "float32",
+  "grad_clip": 1.0,
+  "identity_mode": "strip_identity",
+  "lora": {
+    "alpha": 32,
+    "dropout": 0.0,
+    "r": 8,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "lr": 3e-06,
+  "model": "Qwen/Qwen3-8B-Base",
+  "nlhf_checkpoint_every": 50,
+  "nlhf_exploration_decay_steps": 0,
+  "nlhf_exploration_epsilon": 0.0001,
+  "nlhf_mixture_coef": 0.0,
+  "renderer": "qwen",
+  "reset_seed_per_case": false,
+  "results_path": "results/empirical/nlhf_nashmd/recovered_qwen3.jsonl",
+  "rule": "nlhf",
+  "seed": 0,
+  "steps": 300,
+  "tau": 0.01,
+  "total_cases": 1,
+  "weight_decay": 0.0,
+  "case_keys_note": "The recovery itself covered only the single ed7bcdf0\u2026:world case in recovered_qwen3.jsonl; this path lists the final full cohort."
+}

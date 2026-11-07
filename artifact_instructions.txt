@@ -1,0 +1,22 @@
+Camera-ready supplementary material — 3 November 2026
+
+Start with README.md and SUPPLEMENT_MANIFEST.md.
+Corrections and exact source versions: docs/CODE_AND_RESULT_PROVENANCE.md.
+
+Local checks (no training or numerical searches):
+  make check-supplement
+  python scripts/verify_camera_ready.py
+
+Regenerate all 17 final figures from saved inputs (requires requirements-cpu.txt
+and Ghostscript):
+  python -m scripts.figures.rebuild_camera_ready --output-dir output/camera-ready-figures
+
+Lean is checked in Docker only:
+  make check-lean-docker LEAN_DOCKER_MEMORY=32g LEAN_DOCKER_CPUS=8
+
+The saved complete audit verified 57 public declarations using only standard
+Lean axioms. The paper-facing entrypoint is
+formalization/PaperFormalization/PaperStatements.lean.
+
+Original training source snapshots are preserved. Training commands and source
+selection are in docs/TRAINING_REPRODUCTION.md; no new trainer was substituted.

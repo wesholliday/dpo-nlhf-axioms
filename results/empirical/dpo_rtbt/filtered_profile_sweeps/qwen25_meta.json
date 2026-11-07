@@ -1,0 +1,22 @@
+{
+  "beta": 0.1,
+  "blocks": [
+    "world",
+    "personal"
+  ],
+  "case_keys_file": "theory_change_case_selection_pytorch/rtbt__tvgeq_0.01__qwen25_rtbt_beta0.1.case_keys.txt",
+  "chunk_new_cases": 5,
+  "device": "mps",
+  "dtype": "float16",
+  "identity_mode": "strip_identity",
+  "lr": 5e-05,
+  "model": "/tmp/qwen25_7b_bf16",
+  "output_root": "empirical_vs_theory_filtered_by_theory_change_qwen_dpo_m2_v2",
+  "python": ".venv_mps/bin/python",
+  "renderer": "qwen",
+  "results_path": "empirical_vs_theory_filtered_by_theory_change_qwen_dpo_m2_v2/qwen25_7b_bf16/dpo/dpo__blocks-world-personal__steps100__lr5e-05__tau0.01__beta0.1__qwen25_dpo_tvgeq0.01_chunk5_m2_lr5e-5_steps100.jsonl",
+  "rule": "dpo",
+  "seed": 0,
+  "steps": 100,
+  "tau": 0.01
+}

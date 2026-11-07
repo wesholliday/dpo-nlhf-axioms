@@ -1,0 +1,42 @@
+.DS_Store
+.claude/
+__pycache__/
+*.py[cod]
+.venv/
+.venv_*/
+local_models/
+*.aux
+*.bbl
+*.blg
+*.log
+!formalization/audits/verification-2026-11-03-comment-fix/lean-artifact-audit.log
+*.out
+*.synctex.gz
+*.toc
+run_logs/
+tmp/
+
+# Local Lake package checkouts and build outputs.
+formalization/.lake/
+
+# Local-only large artifacts. These may live inside a working copy for
+# convenience, but they are not part of the submission repo.
+local_artifacts/
+large_results/
+working/
+results/raw/
+results/intermediate/
+
+*.safetensors
+adapter_model.bin
+adapter_model.safetensors
+
+local_models
+.venv_mps
+.venv_mps/
+
+# Generated figure sidecars (PDFs are tracked, SVG/PNG are not).
+paper/figures/*.svg
+paper/figures/*.png
+results/**/*.svg
+results/**/*.png

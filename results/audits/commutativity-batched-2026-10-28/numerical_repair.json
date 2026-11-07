@@ -1,0 +1,17 @@
+{
+  "reason": "One earlier unresolved partition in a profile already witnessing a violation; rechecked the entire profile with finer continuation.",
+  "original_checkpoint_sha256": "df43d90b0e889a84064991b6172f550951fb1d9f164f1c1bea7ac36e1bf4d65d",
+  "repaired_checkpoint_sha256": "b7fbe0904f67eb4ebb46f214762d4859aaccff1d8db596a8667a0646d0aead26",
+  "refined_solver_sha256": "9f95327f1e49306b4c4d095b4f87d9253d997818427d1034bad5f1683c93453f",
+  "changes": [
+    {
+      "case_key": "a28eac41-61a3-5a8b-af04-1984b65616a3:world",
+      "previous_failures": 1,
+      "new_failures": 0,
+      "old_effect": 1.0,
+      "new_effect": 1.0,
+      "old_partitions": 1025,
+      "new_partitions": 1025
+    }
+  ]
+}

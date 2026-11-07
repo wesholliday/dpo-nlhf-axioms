@@ -1,0 +1,20 @@
+{
+  "files": {
+    "scripts/coval/profiles.py": "1e33c867893c20554e5a694a8ec0fb5444cf57f282ca4cfe5534924903e137e9",
+    "scripts/post_training/batch_profile_empirical_vs_theory.py": "4372191544f1bb2f79020776a1eb58161599e43839f9ec59f836fa596b3527f2",
+    "scripts/post_training/experiment_provenance.py": "2b6468c83dba335d9ec278627a0dd2c0a9c3f33e6abeeb74e2f60873c29a5374",
+    "scripts/post_training/nash_md_loss.py": "af07e79a119d128fabad73605cfe8394136d80e7f1854dbea3db8a0c1ccacb91",
+    "scripts/post_training/train_coval_dpo.py": "26071bee6d5b4e0ffbfeab217d429144ac3a7684f44f4b8c1333976505096510",
+    "scripts/post_training/train_coval_nash_md.py": "ae6712cc5a6eea41e072c571aac97bbcfbe6f14c0a5844f197cf8295364735c9",
+    "scripts/post_training/train_coval_nash_md_commutativity.py": "15033c71cd90fefa3b427abf2fab5766053187fb96e9914da61fe16acd854794",
+    "scripts/theory/nlhf_tie_normalization.py": "523235492f37cc49cafa58b920f0e36da23e0bef6fece27bc9378e2546347f79",
+    "scripts/theory/search_strict_weak_positive_involvement.py": "223b75c0c61f04c1f398c63230e622a3b1747bebca82af87da977c61e6986bd4"
+  },
+  "matching_actual_batches": 9,
+  "matching_successful_cases": 85,
+  "dataset_sha256": "e107b7d233baedbc8c1b9c3f9aef9739592b93f6f202b9e4503b9cd3ca00d759",
+  "note": "Single-profile completion source modules matched to the recorded batch metadata. Use the historical source version for the paper's two-stage commutativity experiments.",
+  "additional_uninvoked_support_files": {
+    "scripts/post_training/commutativity_presets.py": "b4d5adf23130b7c06c2c189cdd4638ea5ddbdbafd2e23fc1328982a9533ac1fa"
+  }
+}

@@ -1,0 +1,371 @@
+No manuscript included: skipping manuscript label lookup; all Lean and documentation audits still run.
+⚠ [8475/8521] Built PaperFormalization.Core (43s)
+warning: PaperFormalization/Core.lean:45:4: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+✔ [8476/8521] Built PaperFormalization.Axioms (26s)
+⚠ [8477/8521] Built PaperFormalization.MaximalLotteryLimit (26s)
+warning: PaperFormalization/MaximalLotteryLimit.lean:30:11: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+warning: PaperFormalization/MaximalLotteryLimit.lean:32:11: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+warning: PaperFormalization/MaximalLotteryLimit.lean:57:11: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+warning: PaperFormalization/MaximalLotteryLimit.lean:59:11: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+warning: PaperFormalization/MaximalLotteryLimit.lean:107:9: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+✔ [8478/8521] Built PaperFormalization.DPO (27s)
+✔ [8479/8521] Built PaperFormalization.NLHFBasic (39s)
+✔ [8480/8521] Built PaperFormalization.NLHFMonotonicity (39s)
+✔ [8481/8521] Built PaperFormalization.Involvement (39s)
+✔ [8482/8521] Built PaperFormalization.Multiplicative (39s)
+✔ [8483/8521] Built PaperFormalization.NLHFCommutativity (40s)
+⚠ [8484/8521] Built PaperFormalization.FordZermelo (41s)
+warning: PaperFormalization/FordZermelo.lean:382:0: automatically included section variable(s) unused in theorem `PaperFormalization.sum_offDiag_swap`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperFormalization/FordZermelo.lean:1200:9: `continuousOn_finset_prod` has been deprecated: Use `continuousOn_finsetProd` instead
+warning: PaperFormalization/FordZermelo.lean:1202:9: `continuousOn_finset_prod` has been deprecated: Use `continuousOn_finsetProd` instead
+warning: PaperFormalization/FordZermelo.lean:2644:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+✔ [8485/8521] Built PaperFormalization.RTBT (36s)
+⚠ [8486/8521] Built PaperFormalization.ProportionalBorda (36s)
+warning: PaperFormalization/ProportionalBorda.lean:186:0: automatically included section variable(s) unused in theorem `PaperFormalization.proportionalBorda_eq_zero_of_ref_zero`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8487/8521] Built PaperFormalization.NLHFExistence (38s)
+✔ [8488/8521] Built PaperFormalization.NLHFMonotonicityThreshold (42s)
+✔ [8489/8521] Built PaperFormalization.Commutativity (49s)
+✔ [8490/8521] Built PaperFormalization.NLHFSelectedCommutativity (48s)
+✔ [8491/8521] Built PaperFormalization.SelectedMaxLottLimit (48s)
+✔ [8492/8521] Built PaperFormalization.NLHFGammaForm (48s)
+✔ [8493/8521] Built PaperFormalization.ProfileBorda (49s)
+⚠ [8494/8521] Built PaperFormalization.NLHFMonotonicityFinite (50s)
+warning: PaperFormalization/NLHFMonotonicityFinite.lean:403:14: `intervalIntegral.integral_finset_sum` has been deprecated: Use `intervalIntegral.integral_finsetSum` instead
+warning: PaperFormalization/NLHFMonotonicityFinite.lean:415:6: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+warning: PaperFormalization/NLHFMonotonicityFinite.lean:2906:8: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+warning: PaperFormalization/NLHFMonotonicityFinite.lean:2924:4: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+warning: PaperFormalization/NLHFMonotonicityFinite.lean:2999:9: `tendsto_finset_sum` has been deprecated: Use `tendsto_finsetSum` instead
+✔ [8495/8521] Built PaperFormalization.ProfileFord (25s)
+✔ [8496/8521] Built PaperFormalization.NLHFSelectedMonotonicity (23s)
+✔ [8497/8521] Built PaperFormalization.ProfileRTBT (30s)
+✔ [8498/8521] Built PaperFormalization.ProfileNLHF (26s)
+⚠ [8499/8521] Built PaperFormalization.WeakProfileBorda (31s)
+warning: PaperFormalization/WeakProfileBorda.lean:554:30: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFormalization/WeakProfileBorda.lean:654:37: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵p̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8500/8521] Built PaperFormalization.BordaIPO (84s)
+⚠ [8501/8521] Built PaperFormalization.CommutativityDomain (84s)
+warning: PaperFormalization/CommutativityDomain.lean:57:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: PaperFormalization/CommutativityDomain.lean:370:0: automatically included section variable(s) unused in theorem `PaperFormalization.satisfiesCommutativity_of_commutativityOn_of_preserves`:
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperFormalization/CommutativityDomain.lean:411:0: automatically included section variable(s) unused in theorem `PaperFormalization.proportionalBordaWeakProfile_commutative_lottery`:
+  [Nonempty α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperFormalization/CommutativityDomain.lean:425:0: automatically included section variable(s) unused in theorem `PaperFormalization.proportionalBordaWeakProfile_isLottery`:
+  [Nonempty α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8502/8521] Built PaperFormalization.ProfileNLHFCommutativity (85s)
+warning: PaperFormalization/ProfileNLHFCommutativity.lean:133:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFormalization/ProfileNLHFCommutativity.lean:133:4: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFormalization/ProfileNLHFCommutativity.lean:145:21: This simp argument is unused:
+  Fintype.card_fin
+
+Hint: Omit it from the simp argument list.
+  simp [linearProfile3, prefByRank3, rank3ABC, prefIndicator, l̵i̵n̵e̵a̵r̵M̵a̵r̵g̵i̵n̵3̵,̵ ̵F̵i̵n̵t̵y̵p̵e̵.̵c̵a̵r̵d̵_̵f̵i̵n̵]̵l̲i̲n̲e̲a̲r̲M̲a̲r̲g̲i̲n̲3̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFormalization/ProfileNLHFCommutativity.lean:146:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFormalization/ProfileNLHFCommutativity.lean:146:4: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [8503/8521] Built PaperFormalization.WeakProfileMargin (85s)
+warning: PaperFormalization/WeakProfileMargin.lean:102:31: This simp argument is unused:
+  hp
+
+Hint: Omit it from the simp argument list.
+  simp ̵[̵h̵p̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: PaperFormalization/WeakProfileMargin.lean:166:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFormalization/WeakProfileMargin.lean:166:19: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFormalization/WeakProfileMargin.lean:186:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFormalization/WeakProfileMargin.lean:186:19: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFormalization/WeakProfileMargin.lean:206:19: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFormalization/WeakProfileMargin.lean:206:19: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFormalization/WeakProfileMargin.lean:297:5: unused variable `h1`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8504/8521] Built PaperFormalization.RTBTPairMonotonicity (87s)
+✔ [8505/8521] Built PaperFormalization.NLHFInvolvement (90s)
+✔ [8506/8521] Built PaperFormalization.RTBTInvolvement (91s)
+✔ [8507/8521] Built PaperFormalization.WeakProfileNLHF (30s)
+⚠ [8508/8521] Built PaperFormalization.NLHFScoreImprovementChaining (31s)
+warning: PaperFormalization/NLHFScoreImprovementChaining.lean:327:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: PaperFormalization/NLHFScoreImprovementChaining.lean:508:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: PaperFormalization/NLHFScoreImprovementChaining.lean:643:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+✔ [8509/8521] Built PaperFormalization.NLHFSelectedInvolvement (26s)
+⚠ [8510/8521] Built PaperFormalization.RTBTCountMonotonicity (32s)
+warning: PaperFormalization/RTBTCountMonotonicity.lean:337:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: PaperFormalization/RTBTCountMonotonicity.lean:694:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: PaperFormalization/RTBTCountMonotonicity.lean:862:7: unused variable `y`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFormalization/RTBTCountMonotonicity.lean:863:8: unused variable `y`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFormalization/RTBTCountMonotonicity.lean:865:8: unused variable `y`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFormalization/RTBTCountMonotonicity.lean:865:10: unused variable `z`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8511/8521] Built PaperFormalization.NLHFWeakProfileMonotonicity (32s)
+⚠ [8512/8521] Built PaperFormalization.NLHFScoreImprovementProfiles (20s)
+warning: PaperFormalization/NLHFScoreImprovementProfiles.lean:110:40: unused variable `hj`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PaperFormalization/NLHFScoreImprovementProfiles.lean:202:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFormalization/NLHFScoreImprovementProfiles.lean:212:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: PaperFormalization/NLHFScoreImprovementProfiles.lean:222:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: PaperFormalization/NLHFScoreImprovementProfiles.lean:202:45: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFormalization/NLHFScoreImprovementProfiles.lean:212:45: 'norm_num' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8513/8521] Built PaperFormalization.WeakOrderScoreRepresentation (19s)
+✔ [8514/8521] Built PaperFormalization.AndersonRanking (25s)
+⚠ [8515/8521] Built PaperFormalization.RTBTExtension (25s)
+warning: PaperFormalization/RTBTExtension.lean:72:0: automatically included section variable(s) unused in theorem `PaperFormalization.fordTopComponent_no_incoming`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperFormalization/RTBTExtension.lean:79:0: automatically included section variable(s) unused in theorem `PaperFormalization.fordTopComponent_eq_scc`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperFormalization/RTBTExtension.lean:88:0: automatically included section variable(s) unused in theorem `PaperFormalization.fordTopCount_stronglyConnected`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: PaperFormalization/RTBTExtension.lean:339:0: automatically included section variable(s) unused in theorem `PaperFormalization.hasStrictComparisonEachPair_of_linearProfile`:
+  [Fintype α]
+  [DecidableEq α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8516/8521] Built PaperFormalization.OfflineIPO (26s)
+warning: PaperFormalization/OfflineIPO.lean:333:25: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFormalization/OfflineIPO.lean:351:23: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: PaperFormalization/OfflineIPO.lean:378:0: automatically included section variable(s) unused in theorem `PaperFormalization.pairPopulationIPOLoss_eq`:
+  [Fintype α]
+  [DecidableEq α]
+  [Nonempty α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype α] [DecidableEq α] [Nonempty α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [8517/8521] Built PaperFormalization.PaperStatements (22s)
+warning: PaperFormalization/PaperStatements.lean:1165:0: automatically included section variable(s) unused in theorem `PaperFormalization.PaperStatements.RTBT_extension_linear_domain`:
+  [Nonempty α]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty α] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+ℹ [8518/8521] Built PaperFormalization.AssumptionAudit (20s)
+info: PaperFormalization/AssumptionAudit.lean:15:0: 'PaperFormalization.PaperStatements.BTProp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:16:0: 'PaperFormalization.PaperStatements.BTProp_existence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:17:0: 'PaperFormalization.PaperStatements.BTProp_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:18:0: 'PaperFormalization.PaperStatements.DPOasRTBT' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:19:0: 'PaperFormalization.PaperStatements.DPOasRTBT_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:20:0: 'PaperFormalization.PaperStatements.DPOasRTBT_profile_selectedBT' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:21:0: 'PaperFormalization.PaperStatements.DPOasRTBT_profile_addVoter' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:22:0: 'PaperFormalization.PaperStatements.DPOasRTBT_profile_addVoter_selectedBT' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:23:0: 'PaperFormalization.PaperStatements.Anderson' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:24:0: 'PaperFormalization.PaperStatements.BIPOandPB' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:25:0: 'PaperFormalization.PaperStatements.IPOandPB' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:26:0: 'PaperFormalization.PaperStatements.IPOremark_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:27:0: 'PaperFormalization.PaperStatements.IPOremark_population_pair' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:28:0: 'PaperFormalization.PaperStatements.«nlhf-existence»' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:29:0: 'PaperFormalization.PaperStatements.«nlhf-existence-diagonal»' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:30:0: 'PaperFormalization.PaperStatements.«nlhf-existence-fixed-point»' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:31:0: 'PaperFormalization.PaperStatements.«nlhf-existence-cbar»' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:32:0: 'PaperFormalization.PaperStatements.«nlhf-existence-weak-profile»' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:33:0: 'PaperFormalization.PaperStatements.MaxLottProp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:34:0: 'PaperFormalization.PaperStatements.MaxLottProp_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:35:0: 'PaperFormalization.PaperStatements.PBPM' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:36:0: 'PaperFormalization.PaperStatements.PBPM_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:37:0: 'PaperFormalization.PaperStatements.RTBTPM' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:38:0: 'PaperFormalization.PaperStatements.RTBTPM_profile' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:39:0: 'PaperFormalization.PaperStatements.NLHFmono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:40:0: 'PaperFormalization.PaperStatements.NLHFmono_margin_score_bundle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:41:0: 'PaperFormalization.PaperStatements.NLHFmono_actual_profile_positive_clauses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:42:0: 'PaperFormalization.PaperStatements.NLHFmono_actual_linear_profile_converse_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:43:0: 'PaperFormalization.PaperStatements.NLHFmono_profile_all' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:44:0: 'PaperFormalization.PaperStatements.NLHFmono_actual_transitive_profile_converse_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:45:0: 'PaperFormalization.PaperStatements.NLHFmono_finite_weak_order_score_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:46:0: 'PaperFormalization.PaperStatements.NLHFmono_finite_linear_order_score_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:47:0: 'PaperFormalization.PaperStatements.NLHFmono_profile_improvements' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:48:0: 'PaperFormalization.PaperStatements.NLHFmono_actual_linear_profile_voterwise_converse_witness' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:49:0: 'PaperFormalization.PaperStatements.PBPPI_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:50:0: 'PaperFormalization.PaperStatements.PBPPI_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:51:0: 'PaperFormalization.PaperStatements.PBPPI' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:52:0: 'PaperFormalization.PaperStatements.PBPPI_positive_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:53:0: 'PaperFormalization.PaperStatements.PBPPI_negative_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:54:0: 'PaperFormalization.PaperStatements.InvolveViolNLHF_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:55:0: 'PaperFormalization.PaperStatements.InvolveViolNLHF_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:56:0: 'PaperFormalization.PaperStatements.InvolveViolNLHF' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:57:0: 'PaperFormalization.PaperStatements.InvolveViolRTBT_positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:58:0: 'PaperFormalization.PaperStatements.InvolveViolRTBT_negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:59:0: 'PaperFormalization.PaperStatements.InvolveViolRTBT' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:60:0: 'PaperFormalization.PaperStatements.RTBTorder' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:61:0: 'PaperFormalization.PaperStatements.RTBTorder_strict' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:62:0: 'PaperFormalization.PaperStatements.RTBTorder_domain_abstract' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:63:0: 'PaperFormalization.PaperStatements.RTBTorder_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:64:0: 'PaperFormalization.PaperStatements.NLHFcomm' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:65:0: 'PaperFormalization.PaperStatements.NLHFcomm_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:66:0: 'PaperFormalization.PaperStatements.NLHFcomm_profile_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:67:0: 'PaperFormalization.PaperStatements.«nlhf-variational»' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:68:0: 'PaperFormalization.PaperStatements.RTBT_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:69:0: 'PaperFormalization.PaperStatements.RTBT_extension_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:70:0: 'PaperFormalization.PaperStatements.RTBT_extension_linear_domain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PaperFormalization/AssumptionAudit.lean:71:0: 'PaperFormalization.PaperStatements.RTBT_extension_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8519/8521] Built PaperFormalization.PaperStatementShapeAudit (21s)
+✔ [8520/8521] Built PaperFormalization (17s)
+Build completed successfully (8521 jobs).
+Lean artifact check passed.

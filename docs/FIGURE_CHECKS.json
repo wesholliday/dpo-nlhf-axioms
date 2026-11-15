@@ -1,0 +1,176 @@
+{
+  "scope": "Included figure PDF hashes, embedded fonts, and DPO selection subtitles.",
+  "commands": [
+    "pdffonts <figure.pdf>",
+    "pdftotext <figure.pdf> -"
+  ],
+  "input_sha256": {
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen25.jsonl": "1ef44f65ffea1665dfa31ade42af88391caed38b48e1996a12cd39a5313f1f10",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/qwen3.jsonl": "ffb2d2f9a955af3cc9beb8b034c5f28fece537cf3cf819bf598a7183a857e31c",
+    "results/empirical/dpo_rtbt/filtered_profile_sweeps/nemo.jsonl": "2080486d833a5409dceb7f04633c3edd4cd52f25de8c69f4707524ea044eb059"
+  },
+  "render_source_sha256": {
+    "scripts/figures/plot_qwen25_bubble_agreement_panels.py": "719aab2f91c0e50a3918e8235d0a26b2a1c7af4a3e393cdb3367cb568f153676",
+    "scripts/figures/rebuild_camera_ready.py": "72f702b04e6895ae40ab7562906b826a376c5fda439c4272a7d6bb522b2d4183"
+  },
+  "figures": [
+    {
+      "figure": "commutativity_magnitude_tau0p01_min_effect_0p01_boxplot.pdf",
+      "sha256": "83c0dfa693b8e16f03b6f37c0f4d7bdd94bd32db2f71cf62cb42ec93285c9c0b",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     18  0"
+      ]
+    },
+    {
+      "figure": "effect_size_conditional_ge_0p01_and_theory_change_ge_0p01_boxplot.pdf",
+      "sha256": "4ca216afbf36c411c253c91f0b06496e8a7e06bbdbbba8c7ccbe0d619a2f3502",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     24  0"
+      ]
+    },
+    {
+      "figure": "filtered_nemo_dpo_bubble_agreement.pdf",
+      "sha256": "b30c0180ff9a431974b20c95c5bb7625a045e292ab33a103ccd465335b581bac",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "WWISSU+Helvetica                     Type 1C           WinAnsi          yes yes no       7  0"
+      ],
+      "selection_subtitle": "199 profiles selected for DPO training"
+    },
+    {
+      "figure": "filtered_nemo_nlhf_bubble_agreement.pdf",
+      "sha256": "fd000a260cb1e9932d039fb278c84064d99716462abbe1fd175736d8b8d418fe",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "SNJLIQ+Helvetica                     Type 1C           WinAnsi          yes yes no       7  0"
+      ]
+    },
+    {
+      "figure": "filtered_qwen25_dpo_bubble_agreement.pdf",
+      "sha256": "bc38a03c7c3c9bca00faf31d9e1c41cee8a7160710322d559c6c22e0def6abd3",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "JKYVHG+Helvetica                     Type 1C           WinAnsi          yes yes no       7  0"
+      ],
+      "selection_subtitle": "154 profiles selected for DPO training"
+    },
+    {
+      "figure": "filtered_qwen25_nlhf_bubble_agreement.pdf",
+      "sha256": "f99edb1660de5fb5118ce8100febfdb5ea4c6f031d5bd53869cbeaa2de1e911d",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "ZIIIKZ+Helvetica                     Type 1C           WinAnsi          yes yes no       7  0"
+      ]
+    },
+    {
+      "figure": "filtered_qwen3_dpo_bubble_agreement.pdf",
+      "sha256": "cc1d44a4ac24061851e09d84f3794ba5d6a3c7ecc8ec36322ab0006c6202d4f2",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "NQHTBH+Helvetica                     Type 1C           WinAnsi          yes yes no       7  0"
+      ],
+      "selection_subtitle": "167 profiles selected for DPO training"
+    },
+    {
+      "figure": "filtered_qwen3_nlhf_bubble_agreement.pdf",
+      "sha256": "6d6d5ccc7162402f290dc943f8a4fadc97b5b229374f32da55c66b0cb1fe3f35",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "RNVWEB+Helvetica                     Type 1C           WinAnsi          yes yes no       7  0"
+      ]
+    },
+    {
+      "figure": "joint_qwen25_dpo_bubble_agreement.pdf",
+      "sha256": "8023244c6b9fea186ae598e5504f965e395956ace5b402600fc074ac66deca9e",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "TKVYLF+Helvetica                     Type 1C           WinAnsi          yes yes no       7  0"
+      ]
+    },
+    {
+      "figure": "nlhf_commutativity_single_profile_nashmd_agreement.pdf",
+      "sha256": "9d71a7666091cd07255acf654f2958eb1678eb48dd7fd1d2d06d1391138315f9",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     15  0"
+      ]
+    },
+    {
+      "figure": "nontrivial_reference_update_frequency.pdf",
+      "sha256": "7bea0404fd95b6c529d4e2922c6377b27e0bea03189e8a43fac50d4941b41175",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "EVICAO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     21  0",
+        "GCWXDV+DejaVuSans-Oblique            CID TrueType      Identity-H       yes yes yes     28  0",
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     35  0"
+      ]
+    },
+    {
+      "figure": "rtbt_involvement_single_profile_dpo_agreement.pdf",
+      "sha256": "8b2886ebd5b5094fc3e9518f3302a59e8a6ebb6964faceb40de18ccd1efd86d8",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     15  0"
+      ]
+    },
+    {
+      "figure": "temperature_2_commutativity_magnitude_tau0p01_min_effect_0p01_boxplot.pdf",
+      "sha256": "380f0140c4cb2b29b23f45d85aa75dc2e30bac2185e33e6f341c28f72cbf487b",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     18  0"
+      ]
+    },
+    {
+      "figure": "temperature_2_effect_size_conditional_ge_0p01_and_theory_change_ge_0p01_boxplot.pdf",
+      "sha256": "8105e1cc0f166372b44e0bf6ae6b8d9404594bdb9d3763269c375ae3ba54f30d",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     24  0"
+      ]
+    },
+    {
+      "figure": "temperature_2_violation_frequency_four_panel_min_effect_0p01.pdf",
+      "sha256": "29fcb57c4e1d1dfc0943a9a2838a5f4ee57abb0fccc1fc7eb3c04dcf6b407ef4",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     27  0"
+      ]
+    },
+    {
+      "figure": "violation_frequency_four_panel_min_effect_0p01.pdf",
+      "sha256": "1b978d22aa6bdcae3038a5a0cd6dd202c0c918601823462940573043d37b00ed",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     27  0"
+      ]
+    },
+    {
+      "figure": "violation_frequency_unconditioned_three_panel_min_effect_0p01.pdf",
+      "sha256": "c7840b3a5207d3ace48047640c63a92029c273aa1ae56ce68b962cef0eb3a4aa",
+      "all_fonts_embedded": true,
+      "no_type3": true,
+      "fonts": [
+        "BMQQDV+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     24  0"
+      ]
+    }
+  ]
+}

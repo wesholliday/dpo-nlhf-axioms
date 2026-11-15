@@ -1,0 +1,23 @@
+\begin{table}[h!]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccccccc}
+\hline
+Axiom & Model & $\tau=.0005$ & $\tau=.001$ & $\tau=.002$ & $\tau=.005$ & $\tau=.01$ & $\tau=.02$ & $\tau=.05$ & $\tau=.1$ & $\tau=.2$ & $\tau=.5$ \\
+\hline
+Monotonicity & Nemo & 22/1399 (1.57) & 19/1399 (1.36) & 23/1399 (1.64) & 18/1399 (1.29) & 14/1399 (1.00) & 8/1399 (0.57) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) \\
+Monotonicity & Qwen2.5 & 17/1399 (1.22) & 15/1399 (1.07) & 16/1399 (1.14) & 9/1399 (0.64) & 8/1399 (0.57) & 3/1399 (0.21) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) \\
+Monotonicity & Qwen3 & 25/1399 (1.79) & 22/1399 (1.57) & 20/1399 (1.43) & 12/1399 (0.86) & 6/1399 (0.43) & 1/1399 (0.07) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) \\
+\hline
+Involvement & Nemo & 36/1399 (2.57) & 30/1399 (2.14) & 19/1399 (1.36) & 15/1399 (1.07) & 15/1399 (1.07) & 8/1399 (0.57) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) \\
+Involvement & Qwen2.5 & 29/1399 (2.07) & 28/1399 (2.00) & 19/1399 (1.36) & 6/1399 (0.43) & 6/1399 (0.43) & 3/1399 (0.21) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) \\
+Involvement & Qwen3 & 29/1399 (2.07) & 30/1399 (2.14) & 18/1399 (1.29) & 8/1399 (0.57) & 5/1399 (0.36) & 3/1399 (0.21) & 1/1399 (0.07) & 0/1399 (0.00) & 0/1399 (0.00) & 0/1399 (0.00) \\
+\hline
+\end{tabular}%
+}
+\vspace{0.5em}
+\caption{Unconditioned version of Table~\ref{nlhf-frequency-data}. Each entry has the form witnesses/1399 (percentage), where the denominator is all CoVal profiles. The minimum violation magnitude is $0.01$.}
+\label{nlhf-frequency-data-unconditioned}
+\end{table}

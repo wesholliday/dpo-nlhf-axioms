@@ -1,0 +1,19 @@
+\begin{table}[h!]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccccccc}
+\hline
+Axiom & Model & $\beta=.005$ & $\beta=.01$ & $\beta=.02$ & $\beta=.05$ & $\beta=.1$ & $\beta=.2$ & $\beta=.5$ & $\beta=1$ & $\beta=2$ & $\beta=5$ \\
+\hline
+Involvement & Nemo & 0/219 (0.00) & 1/198 (0.51) & 8/175 (4.57) & 16/160 (10.00) & 22/158 (13.92) & 26/133 (19.55) & 18/85 (21.18) & 8/68 (11.76) & 6/48 (12.50) & 2/26 (7.69) \\
+Involvement & Qwen2.5 & 1/206 (0.49) & 3/162 (1.85) & 6/160 (3.75) & 22/135 (16.30) & 16/105 (15.24) & 12/91 (13.19) & 15/68 (22.06) & 6/47 (12.77) & 2/31 (6.45) & 1/13 (7.69) \\
+Involvement & Qwen3 & 0/195 (0.00) & 1/176 (0.57) & 5/153 (3.27) & 12/117 (10.26) & 21/107 (19.63) & 15/94 (15.96) & 12/67 (17.91) & 7/53 (13.21) & 4/42 (9.52) & 1/30 (3.33) \\
+\hline
+\end{tabular}%
+}
+\vspace{0.5em}
+\caption{Data underlying the RTBT involvement panel of Figure~\ref{FreqFig}. Each entry has the form witnesses/denominator (percentage), where the denominator is the number of CoVal profiles $\mathbf{R}$ that are sensitive to a single voter as defined in Section~\ref{EmpiricEval}. The minimum violation magnitude is $0.01$.}
+\label{rtbt-frequency-data}
+\end{table}

@@ -1,0 +1,15 @@
+{
+  "dataset": "comparisons.jsonl",
+  "device": "mps",
+  "dtype": "float16",
+  "identity_mode": "strip_identity",
+  "model_alias": "qwen3_base_pytorch",
+  "model_name": "qwen3-8b-base",
+  "model_path": "/tmp/qwen3_8b_base",
+  "n_ctx": 4096,
+  "num_shards": 1,
+  "output_path": "model_reference_results_pytorch/qwen3_base_pytorch_fullprob_rho_strip_identity.jsonl",
+  "renderer": "qwen",
+  "shard_index": 0,
+  "total_prompts_selected": 1078
+}

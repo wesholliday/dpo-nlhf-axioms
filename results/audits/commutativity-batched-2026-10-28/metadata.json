@@ -1,0 +1,16 @@
+{
+  "hashes": {
+    "scripts/additional_checks/audit_commutativity.py": "d55742133dc9a1847318b2a952e51ef1b3b9cde33206b83de45ff7ac16b43859",
+    "data/coval_comparisons.jsonl": "e107b7d233baedbc8c1b9c3f9aef9739592b93f6f202b9e4503b9cd3ca00d759",
+    "results/reference_distributions/nemo_pytorch_rho_strip_identity_float32.jsonl": "87cd9ba2fe40b36c9c4d2b081779985cc53df72a0c2d716554f130ddd36fd733",
+    "results/reference_distributions/qwen25_pytorch_rho_strip_identity.jsonl": "aa13efa38db5ae83093e22de3b5f444c34cd9c489712bd1355f355da1987e9fa",
+    "results/reference_distributions/qwen3_pytorch_rho_strip_identity.jsonl": "f77dcc7ceadcb272786772a24e47cd3cccbc11ffb47a2dbb60c20c9327f0c78e",
+    "scripts/additional_checks/nlhf_batch_audit.py": "e009f2213b2fc12e22fffa51ebdfd3b957bb7a647e381a92b569a5b0a66d94d8",
+    "scripts/theory/nlhf_tie_normalization.py": "523235492f37cc49cafa58b920f0e36da23e0bef6fece27bc9378e2546347f79"
+  },
+  "max_unique": 12,
+  "models": "nemo,qwen25,qwen3",
+  "taus": ".01,.0005,.001,.002,.005,.02,.05,.1,.2,.5",
+  "temperatures": "1,2",
+  "threshold": 0.01
+}

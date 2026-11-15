@@ -1,0 +1,434 @@
+{
+  "checked_at_utc": "2026-11-04T05:21:59.471312+00:00",
+  "started_at_utc": "2026-11-04T05:13:04.352765+00:00",
+  "result": "passed",
+  "exit_code": 0,
+  "scope": "Lean library build, public statement-shape audit, axiom audit, proof-admission checks and public documentation checks.",
+  "container_command": [
+    "timeout",
+    "--signal=TERM",
+    "--kill-after=30s",
+    "1800s",
+    "bash",
+    "-lc",
+    "scripts/check_artifact.sh"
+  ],
+  "container_working_directory": "/work/formalization",
+  "docker_image_id": "sha256:2a5897777b8f62fc14e4569b99b4a44c89866f240ecb15a993831e926460dbeb",
+  "resource_limits": {
+    "cpus": 8,
+    "memory_gib": 32,
+    "timeout_seconds": 1800,
+    "termination_grace_seconds": 30,
+    "network": "none"
+  },
+  "host_lean_invoked": false,
+  "project_build_cache": "empty at start",
+  "dependency_cache": "copy of existing pinned mathlib cache",
+  "elapsed_seconds": 535.1156699999999,
+  "build_jobs": 8521,
+  "modules_rebuilt": [
+    "PaperFormalization.Core",
+    "PaperFormalization.Axioms",
+    "PaperFormalization.MaximalLotteryLimit",
+    "PaperFormalization.DPO",
+    "PaperFormalization.NLHFBasic",
+    "PaperFormalization.NLHFMonotonicity",
+    "PaperFormalization.Involvement",
+    "PaperFormalization.Multiplicative",
+    "PaperFormalization.NLHFCommutativity",
+    "PaperFormalization.FordZermelo",
+    "PaperFormalization.RTBT",
+    "PaperFormalization.ProportionalBorda",
+    "PaperFormalization.NLHFExistence",
+    "PaperFormalization.NLHFMonotonicityThreshold",
+    "PaperFormalization.Commutativity",
+    "PaperFormalization.NLHFSelectedCommutativity",
+    "PaperFormalization.SelectedMaxLottLimit",
+    "PaperFormalization.NLHFGammaForm",
+    "PaperFormalization.ProfileBorda",
+    "PaperFormalization.NLHFMonotonicityFinite",
+    "PaperFormalization.ProfileFord",
+    "PaperFormalization.NLHFSelectedMonotonicity",
+    "PaperFormalization.ProfileRTBT",
+    "PaperFormalization.ProfileNLHF",
+    "PaperFormalization.WeakProfileBorda",
+    "PaperFormalization.BordaIPO",
+    "PaperFormalization.CommutativityDomain",
+    "PaperFormalization.ProfileNLHFCommutativity",
+    "PaperFormalization.WeakProfileMargin",
+    "PaperFormalization.RTBTPairMonotonicity",
+    "PaperFormalization.NLHFInvolvement",
+    "PaperFormalization.RTBTInvolvement",
+    "PaperFormalization.WeakProfileNLHF",
+    "PaperFormalization.NLHFScoreImprovementChaining",
+    "PaperFormalization.NLHFSelectedInvolvement",
+    "PaperFormalization.RTBTCountMonotonicity",
+    "PaperFormalization.NLHFWeakProfileMonotonicity",
+    "PaperFormalization.NLHFScoreImprovementProfiles",
+    "PaperFormalization.WeakOrderScoreRepresentation",
+    "PaperFormalization.AndersonRanking",
+    "PaperFormalization.RTBTExtension",
+    "PaperFormalization.OfflineIPO",
+    "PaperFormalization.PaperStatements",
+    "PaperFormalization.AssumptionAudit",
+    "PaperFormalization.PaperStatementShapeAudit",
+    "PaperFormalization"
+  ],
+  "export_count": 57,
+  "all_exports_standard_axioms_only": true,
+  "axioms_by_export": {
+    "BTProp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "BTProp_existence": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "BTProp_profile": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DPOasRTBT": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DPOasRTBT_profile": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DPOasRTBT_profile_selectedBT": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DPOasRTBT_profile_addVoter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "DPOasRTBT_profile_addVoter_selectedBT": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Anderson": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "BIPOandPB": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IPOandPB": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IPOremark_population": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "IPOremark_population_pair": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "\u00abnlhf-existence\u00bb": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "\u00abnlhf-existence-diagonal\u00bb": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "\u00abnlhf-existence-fixed-point\u00bb": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "\u00abnlhf-existence-cbar\u00bb": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "\u00abnlhf-existence-weak-profile\u00bb": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MaxLottProp": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "MaxLottProp_limit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PBPM": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PBPM_strict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBTPM": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBTPM_profile": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_margin_score_bundle": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_actual_profile_positive_clauses": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_actual_linear_profile_converse_witness": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_profile_all": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_actual_transitive_profile_converse_witness": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_finite_weak_order_score_representation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_finite_linear_order_score_representation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_profile_improvements": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFmono_actual_linear_profile_voterwise_converse_witness": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PBPPI_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PBPPI_negative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PBPPI": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PBPPI_positive_strict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "PBPPI_negative_strict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "InvolveViolNLHF_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "InvolveViolNLHF_negative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "InvolveViolNLHF": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "InvolveViolRTBT_positive": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "InvolveViolRTBT_negative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "InvolveViolRTBT": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBTorder": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBTorder_strict": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBTorder_domain_abstract": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBTorder_domain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFcomm": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFcomm_domain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "NLHFcomm_profile_witness": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "\u00abnlhf-variational\u00bb": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBT_extension": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBT_extension_agrees": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBT_extension_linear_domain": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "RTBT_extension_singleton": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "manuscript_label_lookup": {
+    "status": "skipped",
+    "reason": "Manuscript source is distributed separately."
+  },
+  "checked_source_sha256": {
+    "formalization/PaperFormalization/AndersonRanking.lean": "3aa5b317a654bcc96cd17b71ff482104b6c3a596f02acf2f3512e3545c1c4af4",
+    "formalization/PaperFormalization/AssumptionAudit.lean": "1bb0722994739d9a815fe96abc4209503f2ee3ab5fbe0452572668b08ebeb79b",
+    "formalization/PaperFormalization/Axioms.lean": "f685178181146051794136dceaabadea4023f95e7e171e59d60d3ae34e9f8c68",
+    "formalization/PaperFormalization/BordaIPO.lean": "61ac1b03f093fc60597a46bb6bcfd24fba522e2960aea7566f039e6a33d59a15",
+    "formalization/PaperFormalization/Commutativity.lean": "07031c440cc6a49d26b7643d2d4eb2dc88590a1730fdac5b90e109c730ac87e9",
+    "formalization/PaperFormalization/CommutativityDomain.lean": "a6b684127bc1fc00c4df9da6f8599aa4b2d0289cceeb6f5422ea8f9f9421568a",
+    "formalization/PaperFormalization/Core.lean": "b7609a7e7ec8c2ead7cade684efc2c8471d10f86932c2f39ddacc5c6ab165051",
+    "formalization/PaperFormalization/DPO.lean": "70973a1a1b36795ac8b6977f8dae8a4758713a3197fd97a7c90ce982ea087d11",
+    "formalization/PaperFormalization/FordZermelo.lean": "0f72ab43f3381a74d89e681d714d35af789f3141e614c5cc748d2922b9b25a6c",
+    "formalization/PaperFormalization/Involvement.lean": "68fb76dfcfb632f13e5b302d821ffc69f80a4f4fd685614062a40b2c7582f80b",
+    "formalization/PaperFormalization/MaximalLotteryLimit.lean": "2b6b154cbd314730be2bf4d7fdb34fd507e9afac33927259e9c0bc5026e49678",
+    "formalization/PaperFormalization/Multiplicative.lean": "3b36bf0eece54c8d5041dd7c34c6343b928d75fbdd25ff300e03248c0f31110a",
+    "formalization/PaperFormalization/NLHFBasic.lean": "33df6697aa2a6a1947cb7eaa896428e945984b0e56a4ddaa27798381c02702de",
+    "formalization/PaperFormalization/NLHFCommutativity.lean": "c31a88c18c8f478c747cca03103ca94e4a3437b428bc3d50b006fa3fe45a2598",
+    "formalization/PaperFormalization/NLHFExistence.lean": "f96b66fe6886acec16231e609929dcf037af60e57681f85179235b43c62dc306",
+    "formalization/PaperFormalization/NLHFGammaForm.lean": "435e43110b7c06e1742616a16cb8f98e73ac27c222f739f24ed72300cd5631bf",
+    "formalization/PaperFormalization/NLHFInvolvement.lean": "9f9c97cd5d20c9f745689de54229fc1418de4ff44fa65592732e4af7f265a708",
+    "formalization/PaperFormalization/NLHFMonotonicity.lean": "248e9067646e0e435feade82ef666a21bd386483c2dc3479989e1010603db8f2",
+    "formalization/PaperFormalization/NLHFMonotonicityFinite.lean": "8d2fc623e049d0187f1e3c2ac6fbdea2acb63a97da1db70c88466dfc2749e592",
+    "formalization/PaperFormalization/NLHFMonotonicityThreshold.lean": "9715eacbcac1a2cf18ee14618f42ba33279c8d6d4235caeac7a078cef7d12828",
+    "formalization/PaperFormalization/NLHFScoreImprovementChaining.lean": "c4b11af83766b91f03b9700a2b3e855a3667e336d60b7efd1879f064e409f18d",
+    "formalization/PaperFormalization/NLHFScoreImprovementProfiles.lean": "86a49ea7e02b6752f5968ebae277f844db59045161d9562ce4b5a81de121cc11",
+    "formalization/PaperFormalization/NLHFSelectedCommutativity.lean": "c9375cc3ac4926f16bba41d553ffc53f831b834291914b2f106dd0f7e153d91d",
+    "formalization/PaperFormalization/NLHFSelectedInvolvement.lean": "4c52146124eaba924a14acaccae336068d7c80b7774b1afb7484e02a13928287",
+    "formalization/PaperFormalization/NLHFSelectedMonotonicity.lean": "460a7524d8d93ddb1d373c2c6f00a8ee1eda4866e8392fdef1a61bdd600e18f4",
+    "formalization/PaperFormalization/NLHFWeakProfileMonotonicity.lean": "607bbff1d53cac7ec4bed6e9c8f4e6047887afc4b7c02c7c9eccba9ae4fbd6b9",
+    "formalization/PaperFormalization/OfflineIPO.lean": "45f9b4ff32399037063dfbe598e7bfe058491f093543123a8dd48118b055787a",
+    "formalization/PaperFormalization/PaperStatementShapeAudit.lean": "f1678bfee280c360d50530ca008de135b91b78193c22a718372653f0d172e2c6",
+    "formalization/PaperFormalization/PaperStatements.lean": "6cc5cd43cbe9fe7b4584e520bc9cfec238c033d29f91f6caf40ea9d29c25d14b",
+    "formalization/PaperFormalization/ProfileBorda.lean": "928ed4396bb95a9cf5511a214152597f6f73d92cc654f994d3bd15110194017e",
+    "formalization/PaperFormalization/ProfileFord.lean": "6763852fe18994f0f6f6962ebfdb519dc91602aeb8d921e1efc2328e1e51296e",
+    "formalization/PaperFormalization/ProfileNLHF.lean": "761a5fe2962895772656d6f8d400c97f614bb969d807a04ce34e7bf7415da02e",
+    "formalization/PaperFormalization/ProfileNLHFCommutativity.lean": "7cc5e04a87a7da5f245e455c0b9b04b4d8ba739ee3dfcd31de9113d7acb5468a",
+    "formalization/PaperFormalization/ProfileRTBT.lean": "be39d829e0c0e492de032e18237ceeb7d21a11d8662b7c5bf8909c4c2e839fc3",
+    "formalization/PaperFormalization/ProportionalBorda.lean": "eb7d76a3c673c8b38d992bc05de2ae07fbe834abb07acdf34a7e2d28af2a7411",
+    "formalization/PaperFormalization/RTBT.lean": "5a2c3c26f1704faa54adeb93ce90def16f490827206e3978b187caf214cfc2c9",
+    "formalization/PaperFormalization/RTBTCountMonotonicity.lean": "f1dc9e2752f022baf20400637fc10411aee0866ac92b79369deadd21427a1db3",
+    "formalization/PaperFormalization/RTBTExtension.lean": "6ef0a4e08e9281d5f4a2d241e768609522444aa2b35ab5271fe924e41ed10366",
+    "formalization/PaperFormalization/RTBTInvolvement.lean": "23c40628f4b3becf28f1a992cce3cc6c797599f4b0e0bcb91c89626a7552d924",
+    "formalization/PaperFormalization/RTBTPairMonotonicity.lean": "3096b28f773ad0c7d8d6be122bfc17bf75dc07dd303db44ef8eb648fe5b8d9ad",
+    "formalization/PaperFormalization/SelectedMaxLottLimit.lean": "efd82f9ba59f81067951be418e9e820f5859ae51a5b1e0d79924d26a098923b2",
+    "formalization/PaperFormalization/WeakOrderScoreRepresentation.lean": "7a2ca3829a4aaa3ae9eeaeec8d9cf4a1a4fcbdfe8ba6f5011511d9140a6e3d83",
+    "formalization/PaperFormalization/WeakProfileBorda.lean": "6213a38c66084f04eeaeb2bf494459cd1de7cdd2378f11e13928464388c76b61",
+    "formalization/PaperFormalization/WeakProfileMargin.lean": "c16eec25d9fa793cee9c5ca47ee66f591e08dd2075b581e92db9b7e3c8f88040",
+    "formalization/PaperFormalization/WeakProfileNLHF.lean": "b5acc146e6c954768beb23437c6058dc67fe054213fb68a43c4ff21acb494f9a",
+    "formalization/PaperFormalization.lean": "3a3da440265e1de42213f0995d1e2283cb835c0e6b9b4e0b17602aab55fab525",
+    "formalization/lakefile.lean": "d4be5e6401e919087afa85ed3ead7d98092967b60fdb588783ea3f929e38fd04",
+    "formalization/lake-manifest.json": "4d4589d8ab377147bcd7c2a3eca0778f2b74b439986c7c8ba454338f90c99f6b",
+    "formalization/lean-toolchain": "54727eec5cba149c18842e6deb5c41b369d66455c93ce135d7d5347c782b2325",
+    "formalization/scripts/check_artifact.sh": "f065c6970355d534717182c4dd19135d4bb9004804db3a103eb604d9620158e9",
+    "formalization/docker/lean-check.Dockerfile": "d66d8111e2e3361a19d6e948f083051e18893f9c1e668c39107917480bf6280a"
+  },
+  "checked_document_sha256": {
+    "formalization/ASSUMPTION_SUMMARY.md": "84710228316a3a8785d33775a18a56995ad626ee571fc8ebe5a130d2cab9f3b1",
+    "formalization/CITATION_AND_PROVENANCE.md": "a13e32f28a69c1132e6df85c22ab732d59dea55d68247cea867e4e50f56f06b9",
+    "formalization/FORMALIZATION_COVERAGE.md": "075b43134c09fdff391a3ba61b3c50e4cb7c823f333ded4e58b7fac80db1197b",
+    "formalization/FORMALIZATION_INDEX.md": "cf0136123a506ed2387a11dcb13e8e7756923ed831d81aa3c03ccb4c980e3c19",
+    "formalization/FORMALIZATION_STATUS.md": "ab50c84a1530e5ceb760861150e2fcb3fdc1b4c24027369550d7359d8bd460d6",
+    "formalization/LEAN_DOCKER_NOTES.md": "ff347d1a78cbe6f8110d21d8e53a958fe1be52951181b35675c2f6d382c57d36",
+    "formalization/PROOF_FAITHFULNESS.md": "026726494f0c158eb779dafc461f514684d950bf75d65cbf49ea0c6eecb69130"
+  },
+  "verification_log_sha256": "76e3113a0bafce003a51d33c1243340a00e818eac7ce144d6b7bc95e16e731a2"
+}

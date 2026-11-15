@@ -1,0 +1,15 @@
+{
+  "dataset": "comparisons.jsonl",
+  "device": "mps",
+  "dtype": "float32",
+  "identity_mode": "strip_identity",
+  "model_alias": "nemo_base_pytorch_float32",
+  "model_name": "mistral-nemo-base-2407-float32",
+  "model_path": "/tmp/mistral_nemo_base_2407",
+  "n_ctx": 4096,
+  "num_shards": 1,
+  "output_path": "model_reference_results_pytorch/nemo_base_pytorch_fullprob_rho_strip_identity_float32.jsonl",
+  "renderer": "llama2",
+  "shard_index": 0,
+  "total_prompts_selected": 1078
+}

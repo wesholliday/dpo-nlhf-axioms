@@ -1,0 +1,58 @@
+{
+  "beta": 0.1,
+  "blocks": [
+    "world",
+    "personal"
+  ],
+  "case_keys_file": "results/case_keys/nemo_nlhf.case_keys.txt",
+  "device": "mixed_cuda_mps",
+  "dpo_batch_size": 4,
+  "dpo_full_batch": false,
+  "dpo_log_every": 0,
+  "dtype": "float32",
+  "grad_clip": 1.0,
+  "identity_mode": "strip_identity",
+  "lora": {
+    "alpha": 32,
+    "dropout": 0.0,
+    "r": 8,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "lr": 3e-06,
+  "model": "mistral_nemo_base_2407",
+  "nlhf_checkpoint_every": 0,
+  "nlhf_exploration_decay_steps": 0,
+  "nlhf_exploration_epsilon": 0.0001,
+  "nlhf_mixture_coef": 0.0,
+  "renderer": "llama2",
+  "reset_seed_per_case": false,
+  "results_path": "results/empirical/nlhf_nashmd/filtered_profile_sweeps/nemo.jsonl",
+  "rule": "nlhf",
+  "seed": 0,
+  "source_files": [],
+  "steps": 300,
+  "tau": 0.01,
+  "total_cases": 279,
+  "raw_source_files_included": false,
+  "raw_source_files_note": "Curated JSONL and summary CSV are included; raw per-machine training shards are omitted.",
+  "weight_decay": 0.0,
+  "camera_ready_cohort": {
+    "successful_profiles": 279,
+    "epsilon": 0.0001,
+    "source_sha256": "1ff8048b7925c1293181e545520178c9d370be92271b2b5e8aa5175e88eaee09",
+    "source_reference": "docs/CODE_AND_RESULT_PROVENANCE.md",
+    "historical_metadata_note": "Final cohort summary. Nemo combines 194 historical successes and 85 completions. Qwen3 includes one M3 completion. Batch settings and assignments are in completion_batches.json.",
+    "metadata_is_summary": true
+  },
+  "loaded_rows": 279,
+  "plottable_cases": 279,
+  "unique_cases": 279,
+  "tv_to_theory_mean": 0.07955404251640959,
+  "tv_to_theory_median": 3.434232394972348e-05,
+  "tv_to_theory_max": 0.9999996358180291,
+  "tv_to_theory_le_0_05": 245,
+  "tv_to_theory_ge_0_5": 20
+}

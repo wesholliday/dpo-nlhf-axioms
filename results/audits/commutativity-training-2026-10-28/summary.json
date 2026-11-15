@@ -1,0 +1,813 @@
+{
+  "recovered_orders": 394,
+  "matched_pairs": 181,
+  "missing": [
+    {
+      "model": "nemo",
+      "witness_index": 2,
+      "case_key": "5397e39f-4afd-5944-b192-a6b396295aad:personal",
+      "order": "12",
+      "best_tv": 0.9999999999912341
+    },
+    {
+      "model": "nemo",
+      "witness_index": 4,
+      "case_key": "60a3774f-b0d9-5474-a096-f5d412d78908:personal",
+      "order": "12",
+      "best_tv": 1.0000000000277764
+    },
+    {
+      "model": "nemo",
+      "witness_index": 5,
+      "case_key": "5397e39f-4afd-5944-b192-a6b396295aad:world",
+      "order": "12",
+      "best_tv": 1.0000000295185907
+    },
+    {
+      "model": "nemo",
+      "witness_index": 6,
+      "case_key": "3e2e5d04-eab7-5bea-bf12-25a78f23bef3:personal",
+      "order": "12",
+      "best_tv": 0.999999790999447
+    },
+    {
+      "model": "nemo",
+      "witness_index": 6,
+      "case_key": "3e2e5d04-eab7-5bea-bf12-25a78f23bef3:personal",
+      "order": "21",
+      "best_tv": 1.0000000028958165
+    },
+    {
+      "model": "nemo",
+      "witness_index": 7,
+      "case_key": "54d54be2-376f-5560-b9f5-7c5163de544a:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_1_22/54d54be2-376f-5560-b9f5-7c5163de544a__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_007_12/run.json",
+      "order": "21",
+      "best_tv": 1.0000000001309914
+    },
+    {
+      "model": "nemo",
+      "witness_index": 8,
+      "case_key": "2720d0fa-c8f8-598d-a849-e73e3ddccabb:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_1_22/2720d0fa-c8f8-598d-a849-e73e3ddccabb__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_008_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999326348866231
+    },
+    {
+      "model": "nemo",
+      "witness_index": 9,
+      "case_key": "15be0f86-cc93-57fc-8113-9571d23bf41f:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_1_22/15be0f86-cc93-57fc-8113-9571d23bf41f__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_009_12/run.json",
+      "order": "21",
+      "best_tv": 1.0000000001504707
+    },
+    {
+      "model": "nemo",
+      "witness_index": 11,
+      "case_key": "323d8b82-d93e-5b7b-b687-b8be2e1a9a0a:personal",
+      "order": "12",
+      "best_tv": 1.000000000000168
+    },
+    {
+      "model": "nemo",
+      "witness_index": 11,
+      "case_key": "323d8b82-d93e-5b7b-b687-b8be2e1a9a0a:personal",
+      "order": "21",
+      "best_tv": 6.606118427043839e-05
+    },
+    {
+      "model": "nemo",
+      "witness_index": 12,
+      "case_key": "60a3774f-b0d9-5474-a096-f5d412d78908:world",
+      "order": "12",
+      "best_tv": 0.999999999908868
+    },
+    {
+      "model": "nemo",
+      "witness_index": 12,
+      "case_key": "60a3774f-b0d9-5474-a096-f5d412d78908:world",
+      "order": "21",
+      "best_tv": 0.775041259724566
+    },
+    {
+      "model": "nemo",
+      "witness_index": 13,
+      "case_key": "e66c612c-18ed-58e7-a7dd-91884c8e5401:personal",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 13,
+      "case_key": "e66c612c-18ed-58e7-a7dd-91884c8e5401:personal",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 14,
+      "case_key": "b7f10cba-e991-58b2-941a-992883426893:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_1_22/b7f10cba-e991-58b2-941a-992883426893__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_014_12/run.json",
+      "order": "21",
+      "best_tv": 0.09068829138390266
+    },
+    {
+      "model": "nemo",
+      "witness_index": 15,
+      "case_key": "5f0dacfd-2c0c-56e2-bc1d-89728669fc26:world",
+      "order": "12",
+      "best_tv": 1.0000000063351608
+    },
+    {
+      "model": "nemo",
+      "witness_index": 15,
+      "case_key": "5f0dacfd-2c0c-56e2-bc1d-89728669fc26:world",
+      "order": "21",
+      "best_tv": 0.010124717376120584
+    },
+    {
+      "model": "nemo",
+      "witness_index": 16,
+      "case_key": "5f0dacfd-2c0c-56e2-bc1d-89728669fc26:personal",
+      "order": "12",
+      "best_tv": 1.0000000058750789
+    },
+    {
+      "model": "nemo",
+      "witness_index": 16,
+      "case_key": "5f0dacfd-2c0c-56e2-bc1d-89728669fc26:personal",
+      "order": "21",
+      "best_tv": 1.0000000126525077
+    },
+    {
+      "model": "nemo",
+      "witness_index": 17,
+      "case_key": "54d54be2-376f-5560-b9f5-7c5163de544a:personal",
+      "order": "12",
+      "best_tv": 0.9999999999975069
+    },
+    {
+      "model": "nemo",
+      "witness_index": 17,
+      "case_key": "54d54be2-376f-5560-b9f5-7c5163de544a:personal",
+      "order": "21",
+      "best_tv": 0.9998951850870905
+    },
+    {
+      "model": "nemo",
+      "witness_index": 18,
+      "case_key": "1f634a96-5fc1-55e2-945a-e4144fd75918:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 18,
+      "case_key": "1f634a96-5fc1-55e2-945a-e4144fd75918:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 19,
+      "case_key": "9422d8e2-0730-51ba-b6e5-b5deeac3ea59:personal",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 19,
+      "case_key": "9422d8e2-0730-51ba-b6e5-b5deeac3ea59:personal",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 20,
+      "case_key": "eca19c55-ede8-558f-a192-060347a348bd:personal",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 20,
+      "case_key": "eca19c55-ede8-558f-a192-060347a348bd:personal",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 21,
+      "case_key": "da6ec807-fb0a-5edc-81bd-687314d23296:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_1_22/da6ec807-fb0a-5edc-81bd-687314d23296__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_021_12/run.json",
+      "order": "21",
+      "best_tv": 0.0001932468715406411
+    },
+    {
+      "model": "nemo",
+      "witness_index": 22,
+      "case_key": "ffcc4f60-65fb-5b1b-9250-9bb15af7581e:world",
+      "order": "12",
+      "best_tv": 7.772144948896018e-05
+    },
+    {
+      "model": "nemo",
+      "witness_index": 23,
+      "case_key": "d9ad4c6a-b2c1-55a6-a1c0-dbb82d09ed6d:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_23_43/d9ad4c6a-b2c1-55a6-a1c0-dbb82d09ed6d__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_023_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999999748521656
+    },
+    {
+      "model": "nemo",
+      "witness_index": 24,
+      "case_key": "685681eb-3dca-5dea-b044-3ce80c0ba9bc:world",
+      "order": "12",
+      "best_tv": 0.9997935382743472
+    },
+    {
+      "model": "nemo",
+      "witness_index": 25,
+      "case_key": "02451869-4588-5b04-b704-9a6e82e88432:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_23_43/02451869-4588-5b04-b704-9a6e82e88432__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_025_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999999653676692
+    },
+    {
+      "model": "nemo",
+      "witness_index": 27,
+      "case_key": "bd06102d-50d9-5b9e-808e-40bffe28a343:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 27,
+      "case_key": "bd06102d-50d9-5b9e-808e-40bffe28a343:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 29,
+      "case_key": "097f1be1-3e62-5063-9cd4-01b2f44e15dd:personal",
+      "order": "12",
+      "best_tv": 0.9999999951077427
+    },
+    {
+      "model": "nemo",
+      "witness_index": 29,
+      "case_key": "097f1be1-3e62-5063-9cd4-01b2f44e15dd:personal",
+      "order": "21",
+      "best_tv": 0.8097465158705406
+    },
+    {
+      "model": "nemo",
+      "witness_index": 30,
+      "case_key": "5d680aa5-bc72-564c-97a2-f1b27c02fcbb:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 30,
+      "case_key": "5d680aa5-bc72-564c-97a2-f1b27c02fcbb:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 31,
+      "case_key": "9be67eba-db12-5b03-8269-ea0447ec342b:world",
+      "order": "12",
+      "best_tv": 0.9871816982544135
+    },
+    {
+      "model": "nemo",
+      "witness_index": 32,
+      "case_key": "ffcc4f60-65fb-5b1b-9250-9bb15af7581e:personal",
+      "order": "12",
+      "best_tv": 0.00039848713561336797
+    },
+    {
+      "model": "nemo",
+      "witness_index": 33,
+      "case_key": "3e2e5d04-eab7-5bea-bf12-25a78f23bef3:world",
+      "order": "12",
+      "best_tv": 0.999999996663655
+    },
+    {
+      "model": "nemo",
+      "witness_index": 33,
+      "case_key": "3e2e5d04-eab7-5bea-bf12-25a78f23bef3:world",
+      "order": "21",
+      "best_tv": 0.99999999077471
+    },
+    {
+      "model": "nemo",
+      "witness_index": 34,
+      "case_key": "9b6cdb3a-3d4a-576b-b51f-b0d057216962:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 34,
+      "case_key": "9b6cdb3a-3d4a-576b-b51f-b0d057216962:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 35,
+      "case_key": "5bb32024-28c5-5242-8190-d58b4576b580:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_32_43/5bb32024-28c5-5242-8190-d58b4576b580__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_035_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999423064843642
+    },
+    {
+      "model": "nemo",
+      "witness_index": 36,
+      "case_key": "67f49dba-e6d3-54db-a9c4-c134c8ef1c03:world",
+      "order": "12",
+      "best_tv": 0.040162549370115416
+    },
+    {
+      "model": "nemo",
+      "witness_index": 36,
+      "case_key": "67f49dba-e6d3-54db-a9c4-c134c8ef1c03:world",
+      "order": "21",
+      "best_tv": 1.9557158057893125e-06
+    },
+    {
+      "model": "nemo",
+      "witness_index": 37,
+      "case_key": "2898596f-461d-5553-8145-88675f8d7911:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 37,
+      "case_key": "2898596f-461d-5553-8145-88675f8d7911:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 38,
+      "case_key": "097f1be1-3e62-5063-9cd4-01b2f44e15dd:world",
+      "order": "12",
+      "best_tv": 0.9449440992261101
+    },
+    {
+      "model": "nemo",
+      "witness_index": 38,
+      "case_key": "097f1be1-3e62-5063-9cd4-01b2f44e15dd:world",
+      "order": "21",
+      "best_tv": 4.83644019665924e-06
+    },
+    {
+      "model": "nemo",
+      "witness_index": 39,
+      "case_key": "9363738e-6ffb-5119-be26-7626d59de5de:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_32_43/9363738e-6ffb-5119-be26-7626d59de5de__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_039_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999979642981203
+    },
+    {
+      "model": "nemo",
+      "witness_index": 40,
+      "case_key": "2507298e-b0e9-52be-8b15-391091db170f:world",
+      "order": "12",
+      "best_tv": 0.8105657328032042
+    },
+    {
+      "model": "nemo",
+      "witness_index": 40,
+      "case_key": "2507298e-b0e9-52be-8b15-391091db170f:world",
+      "order": "21",
+      "best_tv": 0.9999999877622209
+    },
+    {
+      "model": "nemo",
+      "witness_index": 41,
+      "case_key": "2aea0ebd-d064-5f36-adb1-8ee86b1fcae5:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_m3_32_43/2aea0ebd-d064-5f36-adb1-8ee86b1fcae5__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_041_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999999917052235
+    },
+    {
+      "model": "nemo",
+      "witness_index": 42,
+      "case_key": "7af256ee-2d29-5ae8-925b-fb1c8953e086:personal",
+      "order": "12",
+      "best_tv": 0.9999999999652015
+    },
+    {
+      "model": "nemo",
+      "witness_index": 42,
+      "case_key": "7af256ee-2d29-5ae8-925b-fb1c8953e086:personal",
+      "order": "21",
+      "best_tv": 0.9999805579165931
+    },
+    {
+      "model": "nemo",
+      "witness_index": 43,
+      "case_key": "7af256ee-2d29-5ae8-925b-fb1c8953e086:world",
+      "order": "12",
+      "best_tv": 0.999999998699493
+    },
+    {
+      "model": "nemo",
+      "witness_index": 43,
+      "case_key": "7af256ee-2d29-5ae8-925b-fb1c8953e086:world",
+      "order": "21",
+      "best_tv": 3.31123075505693e-06
+    },
+    {
+      "model": "nemo",
+      "witness_index": 45,
+      "case_key": "071acdd2-3849-5151-b754-347deb8caef9:world",
+      "order": "12",
+      "best_tv": 1.9818179438275496e-05
+    },
+    {
+      "model": "nemo",
+      "witness_index": 45,
+      "case_key": "071acdd2-3849-5151-b754-347deb8caef9:world",
+      "order": "21",
+      "best_tv": 0.9997002050980468
+    },
+    {
+      "model": "nemo",
+      "witness_index": 46,
+      "case_key": "b7c1c827-591e-5347-aea8-2dff511a1536:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/b7c1c827-591e-5347-aea8-2dff511a1536__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_046_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999997820968415
+    },
+    {
+      "model": "nemo",
+      "witness_index": 47,
+      "case_key": "a42825b6-5e3d-556e-8b5c-c8f7279cb8c6:world",
+      "order": "12",
+      "best_tv": 1.5610408101579543e-06
+    },
+    {
+      "model": "nemo",
+      "witness_index": 47,
+      "case_key": "a42825b6-5e3d-556e-8b5c-c8f7279cb8c6:world",
+      "order": "21",
+      "best_tv": 0.9999999997528112
+    },
+    {
+      "model": "nemo",
+      "witness_index": 48,
+      "case_key": "9363738e-6ffb-5119-be26-7626d59de5de:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/9363738e-6ffb-5119-be26-7626d59de5de__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_048_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999969977559172
+    },
+    {
+      "model": "nemo",
+      "witness_index": 49,
+      "case_key": "b7f10cba-e991-58b2-941a-992883426893:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/b7f10cba-e991-58b2-941a-992883426893__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_049_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999999559838975
+    },
+    {
+      "model": "nemo",
+      "witness_index": 50,
+      "case_key": "b2d74511-0a04-5532-8ba4-bc846ae4d92c:world",
+      "order": "12",
+      "best_tv": 0.9999999988700418
+    },
+    {
+      "model": "nemo",
+      "witness_index": 50,
+      "case_key": "b2d74511-0a04-5532-8ba4-bc846ae4d92c:world",
+      "order": "21",
+      "best_tv": 1.961493456544099e-06
+    },
+    {
+      "model": "nemo",
+      "witness_index": 51,
+      "case_key": "e5e79c1a-1c2f-59cc-a941-e131cca1f2ba:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/e5e79c1a-1c2f-59cc-a941-e131cca1f2ba__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_051_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999997853408772
+    },
+    {
+      "model": "nemo",
+      "witness_index": 53,
+      "case_key": "eca19c55-ede8-558f-a192-060347a348bd:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 53,
+      "case_key": "eca19c55-ede8-558f-a192-060347a348bd:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 55,
+      "case_key": "0fdc41eb-5dec-5743-9b18-44222bcde528:personal",
+      "order": "12",
+      "best_tv": 0.9999999751391564
+    },
+    {
+      "model": "nemo",
+      "witness_index": 55,
+      "case_key": "0fdc41eb-5dec-5743-9b18-44222bcde528:personal",
+      "order": "21",
+      "best_tv": 1.0000000247062102
+    },
+    {
+      "model": "nemo",
+      "witness_index": 56,
+      "case_key": "cc8b95cf-de0a-59b9-bdb3-32360787a8ec:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/cc8b95cf-de0a-59b9-bdb3-32360787a8ec__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_056_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999999999842044
+    },
+    {
+      "model": "nemo",
+      "witness_index": 57,
+      "case_key": "c99e99bc-866c-53da-8735-094402d46161:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 57,
+      "case_key": "c99e99bc-866c-53da-8735-094402d46161:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 58,
+      "case_key": "cc8b95cf-de0a-59b9-bdb3-32360787a8ec:personal",
+      "order": "12",
+      "best_tv": 0.999999999977459
+    },
+    {
+      "model": "nemo",
+      "witness_index": 59,
+      "case_key": "ac9a37a0-0995-50df-a05d-fb86756c0eab:world",
+      "order": "12",
+      "best_tv": 0.999839704507101
+    },
+    {
+      "model": "nemo",
+      "witness_index": 59,
+      "case_key": "ac9a37a0-0995-50df-a05d-fb86756c0eab:world",
+      "order": "21",
+      "best_tv": 1.0000000000004583
+    },
+    {
+      "model": "nemo",
+      "witness_index": 60,
+      "case_key": "abd7e1a1-072d-52bb-aa94-5caca842040b:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/abd7e1a1-072d-52bb-aa94-5caca842040b__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_060_12/run.json",
+      "order": "21",
+      "best_tv": 1.0000000028751503
+    },
+    {
+      "model": "nemo",
+      "witness_index": 61,
+      "case_key": "b7c1c827-591e-5347-aea8-2dff511a1536:world",
+      "order": "12",
+      "best_tv": 1.0000000377803602
+    },
+    {
+      "model": "nemo",
+      "witness_index": 63,
+      "case_key": "d9ad4c6a-b2c1-55a6-a1c0-dbb82d09ed6d:world",
+      "order": "12",
+      "best_tv": 0.9999999968341737
+    },
+    {
+      "model": "nemo",
+      "witness_index": 63,
+      "case_key": "d9ad4c6a-b2c1-55a6-a1c0-dbb82d09ed6d:world",
+      "order": "21",
+      "best_tv": 0.9999994494504696
+    },
+    {
+      "model": "nemo",
+      "witness_index": 64,
+      "case_key": "f7c752f4-bd18-5ec9-8c03-00db4cababc2:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/f7c752f4-bd18-5ec9-8c03-00db4cababc2__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_064_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999999999968313
+    },
+    {
+      "model": "nemo",
+      "witness_index": 65,
+      "case_key": "87fefd9a-3037-5eda-aa63-0e71e45ef6b8:personal",
+      "order": "12",
+      "best_tv": 1.0000000173328025
+    },
+    {
+      "model": "nemo",
+      "witness_index": 65,
+      "case_key": "87fefd9a-3037-5eda-aa63-0e71e45ef6b8:personal",
+      "order": "21",
+      "best_tv": 0.999999652577827
+    },
+    {
+      "model": "nemo",
+      "witness_index": 66,
+      "case_key": "8c44cfed-a54f-5599-962b-1350077b69d9:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 66,
+      "case_key": "8c44cfed-a54f-5599-962b-1350077b69d9:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 68,
+      "case_key": "5d85371c-2ec5-53bb-a661-7a9d3f3c99a4:world",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/5d85371c-2ec5-53bb-a661-7a9d3f3c99a4__world__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_068_12/run.json",
+      "order": "21",
+      "best_tv": 1.0000000498942385
+    },
+    {
+      "model": "nemo",
+      "witness_index": 69,
+      "case_key": "685c63d1-f2bb-5641-a31e-a988cb6d2145:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/685c63d1-f2bb-5641-a31e-a988cb6d2145__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_069_12/run.json",
+      "order": "21",
+      "best_tv": 1.0
+    },
+    {
+      "model": "nemo",
+      "witness_index": 70,
+      "case_key": "5d85371c-2ec5-53bb-a661-7a9d3f3c99a4:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/5d85371c-2ec5-53bb-a661-7a9d3f3c99a4__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_070_12/run.json",
+      "order": "21",
+      "best_tv": 0.9999999910147148
+    },
+    {
+      "model": "nemo",
+      "witness_index": 71,
+      "case_key": "b431e44a-9f01-5a96-9afb-643660bd02dd:world",
+      "order": "12",
+      "best_tv": 0.0002337304303315289
+    },
+    {
+      "model": "nemo",
+      "witness_index": 71,
+      "case_key": "b431e44a-9f01-5a96-9afb-643660bd02dd:world",
+      "order": "21",
+      "best_tv": 4.060929244770789e-06
+    },
+    {
+      "model": "nemo",
+      "witness_index": 72,
+      "case_key": "fafc9412-efee-57c2-bcd2-7d03cfbbbc5b:world",
+      "order": "12",
+      "best_tv": 0.0631754647876284
+    },
+    {
+      "model": "nemo",
+      "witness_index": 73,
+      "case_key": "39a6e6a2-9f49-5f9a-8830-ddba1d19b335:personal",
+      "order12_source": "working/nlhf_nashmd/runs/nemo_commutativity_latest_h100_44_85/39a6e6a2-9f49-5f9a-8830-ddba1d19b335__personal__12__tau0.01__mix0.0__seed0__nemo_latest_comm_witness_073_12/run.json",
+      "order": "21",
+      "best_tv": 1.6923824059045245e-05
+    },
+    {
+      "model": "nemo",
+      "witness_index": 75,
+      "case_key": "9dc1601e-0ad1-58b6-9243-b441ed7b4cdd:world",
+      "order": "12",
+      "best_tv": 2.64395752230803e-06
+    },
+    {
+      "model": "nemo",
+      "witness_index": 75,
+      "case_key": "9dc1601e-0ad1-58b6-9243-b441ed7b4cdd:world",
+      "order": "21",
+      "best_tv": 1.1068261265066681e-05
+    },
+    {
+      "model": "nemo",
+      "witness_index": 76,
+      "case_key": "57e7ada4-033b-5b5c-ba59-0bac9397d8bf:personal",
+      "order": "12",
+      "best_tv": 0.012763262771613881
+    },
+    {
+      "model": "nemo",
+      "witness_index": 78,
+      "case_key": "9422d8e2-0730-51ba-b6e5-b5deeac3ea59:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 78,
+      "case_key": "9422d8e2-0730-51ba-b6e5-b5deeac3ea59:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 80,
+      "case_key": "7c2c5774-cce8-5290-b626-c22723d7dd89:world",
+      "order": "12",
+      "best_tv": 1.0000000205803694
+    },
+    {
+      "model": "nemo",
+      "witness_index": 80,
+      "case_key": "7c2c5774-cce8-5290-b626-c22723d7dd89:world",
+      "order": "21",
+      "best_tv": 0.9999999999934754
+    },
+    {
+      "model": "nemo",
+      "witness_index": 81,
+      "case_key": "87fefd9a-3037-5eda-aa63-0e71e45ef6b8:world",
+      "order": "12",
+      "best_tv": 0.9974502385824735
+    },
+    {
+      "model": "nemo",
+      "witness_index": 81,
+      "case_key": "87fefd9a-3037-5eda-aa63-0e71e45ef6b8:world",
+      "order": "21",
+      "best_tv": 0.9999999987377635
+    },
+    {
+      "model": "nemo",
+      "witness_index": 83,
+      "case_key": "d6711a59-f75f-5fdf-8d41-95dc1e4aeffe:world",
+      "order": "12",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 83,
+      "case_key": "d6711a59-f75f-5fdf-8d41-95dc1e4aeffe:world",
+      "order": "21",
+      "best_tv": NaN
+    },
+    {
+      "model": "nemo",
+      "witness_index": 84,
+      "case_key": "2507298e-b0e9-52be-8b15-391091db170f:personal",
+      "order": "12",
+      "best_tv": 0.8108770627286279
+    },
+    {
+      "model": "nemo",
+      "witness_index": 84,
+      "case_key": "2507298e-b0e9-52be-8b15-391091db170f:personal",
+      "order": "21",
+      "best_tv": 0.8138733981714464
+    }
+  ],
+  "max_theory_magnitude_error": 0.922454199762792,
+  "max_empirical_magnitude_error": 3.295750457576891e-07,
+  "stages_with_float32_zero_reference": 100,
+  "max_saved_stage_theory_error": 0.9105343053524277,
+  "stage_metrics": {
+    "nemo_stage1": {
+      "empirical_vs_ideal_tv": 1.0570901837881007e-06,
+      "empirical_vs_actual_reference_tv": 1.0571075493945744e-06
+    },
+    "nemo_stage2": {
+      "empirical_vs_ideal_tv": 3.1574360025904854e-05,
+      "empirical_vs_actual_reference_tv": 1.9407982173764533e-07
+    },
+    "qwen25_stage1": {
+      "empirical_vs_ideal_tv": 5.286693219476649e-05,
+      "empirical_vs_actual_reference_tv": 5.286834470723581e-05
+    },
+    "qwen25_stage2": {
+      "empirical_vs_ideal_tv": 0.24454391607860493,
+      "empirical_vs_actual_reference_tv": 0.0009923624920491903
+    },
+    "qwen3_stage1": {
+      "empirical_vs_ideal_tv": 8.586013951520665e-05,
+      "empirical_vs_actual_reference_tv": 8.587286771312808e-05
+    },
+    "qwen3_stage2": {
+      "empirical_vs_ideal_tv": 0.10574028923405224,
+      "empirical_vs_actual_reference_tv": 0.0014680174595847022
+    }
+  }
+}

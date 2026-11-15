@@ -1,0 +1,121 @@
+panel,model,param_name,param_value,profiles_denominator,profiles_with_witness,percent_with_witness,condition
+NLHF Involvement Violation,Nemo,tau,0.0005,201,36,17.91044776119403,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.001,182,30,16.483516483516482,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.002,173,19,10.982658959537572,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.005,160,15,9.375,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.01,148,15,10.135135135135135,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.02,148,8,5.405405405405405,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.05,105,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.1,71,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.2,58,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Nemo,tau,0.5,36,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.0005,190,29,15.263157894736842,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.001,180,28,15.555555555555555,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.002,134,19,14.17910447761194,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.005,153,6,3.9215686274509802,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.01,110,6,5.454545454545454,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.02,102,3,2.9411764705882355,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.05,73,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.1,60,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.2,34,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen2.5,tau,0.5,21,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.0005,195,29,14.871794871794872,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.001,178,30,16.853932584269664,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.002,148,18,12.162162162162161,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.005,139,8,5.755395683453237,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.01,123,5,4.065040650406504,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.02,93,3,3.225806451612903,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.05,65,1,1.5384615384615385,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.1,61,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.2,46,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Involvement Violation,Qwen3,tau,0.5,31,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.0005,332,22,6.626506024096385,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.001,302,19,6.291390728476821,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.002,285,23,8.070175438596491,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.005,235,18,7.659574468085107,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.01,211,14,6.6350710900473935,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.02,172,8,4.651162790697675,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.05,126,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.1,91,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.2,75,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Nemo,tau,0.5,47,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.0005,322,17,5.279503105590062,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.001,284,15,5.28169014084507,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.002,255,16,6.2745098039215685,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.005,223,9,4.0358744394618835,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.01,171,8,4.678362573099415,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.02,131,3,2.2900763358778624,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.05,90,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.1,75,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.2,47,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen2.5,tau,0.5,31,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.0005,326,25,7.668711656441718,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.001,286,22,7.6923076923076925,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.002,261,20,7.662835249042145,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.005,205,12,5.853658536585366,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.01,172,6,3.488372093023256,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.02,120,1,0.8333333333333334,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.05,89,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.1,73,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.2,58,0,0.0,sensitive to a single voter at threshold 0.01
+NLHF Monotonicity Violation,Qwen3,tau,0.5,39,0,0.0,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,0.005,219,0,0.0,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,0.01,198,1,0.5050505050505051,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,0.02,175,8,4.571428571428571,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,0.05,160,16,10.0,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,0.1,158,22,13.924050632911392,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,0.2,133,26,19.548872180451127,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,0.5,85,18,21.176470588235293,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,1.0,68,8,11.764705882352942,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,2.0,48,6,12.5,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Nemo,beta,5.0,26,2,7.6923076923076925,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,0.005,206,1,0.4854368932038835,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,0.01,162,3,1.8518518518518519,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,0.02,160,6,3.75,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,0.05,135,22,16.296296296296298,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,0.1,105,16,15.238095238095237,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,0.2,91,12,13.186813186813186,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,0.5,68,15,22.058823529411764,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,1.0,47,6,12.76595744680851,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,2.0,31,2,6.451612903225806,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen2.5,beta,5.0,13,1,7.6923076923076925,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,0.005,195,0,0.0,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,0.01,176,1,0.5681818181818182,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,0.02,153,5,3.2679738562091503,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,0.05,117,12,10.256410256410257,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,0.1,107,21,19.626168224299064,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,0.2,94,15,15.957446808510639,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,0.5,67,12,17.91044776119403,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,1.0,53,7,13.20754716981132,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,2.0,42,4,9.523809523809524,sensitive to a single voter at threshold 0.01
+RTBT Involvement Violation,Qwen3,beta,5.0,30,1,3.3333333333333335,sensitive to a single voter at threshold 0.01
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.0005,1399,663,47.39099356683345,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.001,1399,648,46.31879914224446,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.002,1399,592,42.31593995711222,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.005,1399,452,32.30879199428163,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.01,1399,296,21.15796997855611,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.02,1399,157,11.22230164403145,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.05,1399,52,3.716940671908506,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.1,1399,15,1.072194424588992,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.2,1399,4,0.28591851322373124,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Nemo,tau,0.5,1399,2,0.14295925661186562,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.0005,1399,657,46.96211579699786,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.001,1399,634,45.3180843459614,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.002,1399,584,41.74410293066476,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.005,1399,414,29.592566118656183,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.01,1399,253,18.084345961401002,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.02,1399,119,8.506075768406005,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.05,1399,33,2.3588277340957826,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.1,1399,18,1.2866333095067906,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.2,1399,4,0.28591851322373124,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen2.5,tau,0.5,1399,0,0.0,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.0005,1399,653,46.67619728377412,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.001,1399,625,44.674767691208004,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.002,1399,575,41.10078627591137,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.005,1399,416,29.735525375268047,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.01,1399,258,18.441744102930663,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.02,1399,121,8.64903502501787,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.05,1399,43,3.073624017155111,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.1,1399,17,1.2151536812008576,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.2,1399,6,0.42887776983559683,unconditioned lower bound
+NLHF Commutativity Violation Lower Bound,Qwen3,tau,0.5,1399,3,0.21443888491779842,unconditioned lower bound

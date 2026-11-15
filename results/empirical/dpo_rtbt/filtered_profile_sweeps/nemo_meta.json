@@ -1,0 +1,25 @@
+{
+  "beta": 0.1,
+  "blocks": [
+    "world",
+    "personal"
+  ],
+  "case_keys_file": "theory_change_case_selection_pytorch/rtbt__tvgeq_0.01__nemo_rtbt_beta0.1_float32.case_keys.txt",
+  "chunk_new_cases": 1,
+  "device": "mps",
+  "dpo_log_every": 10,
+  "dtype": "float32",
+  "grad_clip": 1.0,
+  "identity_mode": "strip_identity",
+  "lr": 1e-05,
+  "model": "/tmp/mistral_nemo_base_2407",
+  "nlhf_exploration_epsilon": 0.0,
+  "output_root": "empirical_vs_theory_filtered_by_theory_change_nemo_dpo_m3_float32",
+  "python": ".venv_mps/bin/python",
+  "renderer": "llama2",
+  "results_path": "empirical_vs_theory_filtered_by_theory_change_nemo_dpo_m3_float32/mistral_nemo_base_2407/dpo/dpo__blocks-world-personal__steps100__lr1e-05__tau0.01__beta0.1__nemo_dpo_tvgeq0.01_chunk1_m3_float32_lr1e-5_clip1_steps100.jsonl",
+  "rule": "dpo",
+  "seed": 0,
+  "steps": 100,
+  "tau": 0.01
+}
